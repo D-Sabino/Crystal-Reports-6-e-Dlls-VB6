@@ -1,0 +1,24 @@
+' TrueGrid constant definitions (Standard Edition)
+' Updated: 17-Dec-93
+
+' MarqueeStyle Property values
+
+Global Const GMQ_FOCUSCELL = 0
+Global Const GMQ_SOLIDCELL = 1
+Global Const GMQ_HIGHCELL = 2
+Global Const GMQ_HIGHROW = 3
+Global Const GMQ_HIGHROWRCELL = 4
+Global Const GMQ_NONE = 5
+
+' FetchMode Property values
+
+Global Const GFM_BYCELL = 0
+Global Const GFM_BYROW = 1
+Global Const GFM_BYGRID = 2
+
+' ColumnStyle Property values
+
+Global Const GRS_LEFT = 0
+Global Const GRS_CENTER = 1
+Global Const GRS_RIGHT = 2
+Global Const GRS_READONLY = 8192

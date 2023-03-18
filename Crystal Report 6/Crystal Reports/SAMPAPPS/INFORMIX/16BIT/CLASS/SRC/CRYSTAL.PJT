@@ -1,0 +1,46 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ProjSetConfigFlags=0x00010140
+
+[State]
+SysSetCwd='C:\HOME\CLASSES\CRYSTAL\INCL'
+SrchSetFlags=0x20ba
+FileSortMode=0x0
+StateWindowFrame=28,19,1017,879,0x020935db
+_OutputWindowPosition=0,132,132,504,276,2,0
+_StateWindow=200,41,1000,625,0x00000000,'c:\home\classes\crystal\incl\crpegti.4gh',240,15,244,32,32,0,32,32,126,32,8,681,827,1,10,'',20,255,0,0,8,243,14,15,241,252,249,1,1,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=43,25,1000,625,0x00000020,'c:\home\classes\crystal\src\peplus.cpp',240,15,244,32,32,0,32,32,126,32,8,309,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,1198,55,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=1,1,1000,625,0x00000020,'c:\home\classes\crystal\incl\crpelogo.4gh',240,15,244,32,32,0,32,32,126,32,8,960,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,45,1,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=32,0,1028,575,0x00000020,'c:\home\classes\crystal\incl\crpejob.4gh',240,15,244,32,32,0,32,32,126,32,8,216,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,393,32,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=192,526,1028,575,0x00000020,'c:\home\classes\crystal\incl\crpe.h',240,15,244,32,32,0,32,32,126,32,8,774,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,485,1,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=13,4,1000,625,0x00000000,'c:\home\classes\crystal\src\crpejob.4gl',240,15,244,32,32,0,32,32,126,32,8,867,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,1303,27,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=239,138,1000,625,0x00000020,'c:\home\classes\crystal\incl\crystal.4gh',240,15,244,32,32,0,32,32,126,32,8,588,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,31,1,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=206,93,1000,625,0x00000020,'c:\home\classes\charts\src1\chartwin\ixbgchrt.4gl',240,15,244,32,32,0,32,32,126,32,8,495,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,67,39,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=32,40,1000,625,0x00000020,'c:\home\classes\crystal\src\crpengin.4gl',240,15,244,32,32,0,32,32,126,32,8,402,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,191,5,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=119,99,1000,625,0x00000020,'c:\home\classes\crystal\incl\crpengin.4gh',240,15,244,32,32,0,32,32,126,32,8,123,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,103,1,400,0,244,246,242,252,0,0,0,0,0
+_StateWindow=157,213,1000,625,0x00000020,'c:\home\classes\crystal\incl\crpejob.4gh',240,15,244,32,32,0,32,32,126,32,8,30,827,0,10,'',20,255,0,0,8,243,14,15,241,252,249,393,32,400,0,244,246,242,252,0,0,0,0,0
+_StateBuffer='c:\home\classes\crystal\src\crpejob.4gl',0x0400048e,1303,27,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\incl\crpe.h',0x0400048e,485,1,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\incl\crpelogo.4gh',0x0400048e,45,1,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\src\peplus.cpp',0x0400048e,1198,55,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\incl\crpejob.4gh',0x0400048e,393,32,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\incl\crpegti.4gh',0x0400048e,1,1,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\incl\crpengin.4gh',0x0400048e,103,1,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\src\crpengin.4gl',0x0400048e,191,5,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\charts\src1\chartwin\ixbgchrt.4gl',0x0400048e,67,39,0,'5 9','',0x0,''
+_StateBuffer='c:\home\classes\crystal\incl\crystal.4gh',0x0400048e,31,1,0,'5 9','',0x0,''
+WrapEnable=0
+_StateHistory=SEARCH,'PELogon','GetGraphData','Grpa','gh','ReportTitle','TableType','GetNthTableLog','GetNthTableLo','Logon','GetGraphData'
+_StateHistory=FILELIST,'c:\home\classes\crystal\incl\crpeexpo.4gh','c:\home\classes\crystal\incl\crpeprin.4gh','c:\home\classes\crystal\incl\crpesect.4gh','c:\home\classes\crystal\incl\crpegdi.4gh','c:\home\classes\crystal\incl\crpego.4gh','c:\home\classes\crystal\incl\crpetabl.4gh','c:\home\classes\crystal\incl\crpesess.4gh','c:\home\classes\crystal\incl\crpetloc.4gh','c:\home\classes\crystal\incl\crpelogo.4gh','c:\home\classes\crystal\incl\crpegti.4gh'
+
+[Editor]
+ClipboardSetTermStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableSepStr=1
+ScrapSetCount=37
+_RestoreSysFlags=0x020935da, 0xfffffffc
+
+[Compiler]
+TagSetFile=''
+BrowseSetFile=''

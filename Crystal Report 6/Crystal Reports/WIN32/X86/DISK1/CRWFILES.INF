@@ -1,0 +1,1823 @@
+[Source Media Descriptions]
+	"1", "Seagate Crystal Reports Disk 1", "mscuistf.dl_", "..\disk1"
+	"2", "Seagate Crystal Reports Disk 2", "developr.h1_", "..\disk2"
+	"30", "Seagate Crystal Reports Disk 30", "idapi32.dl_", "..\disk30"
+	"15", "Seagate Crystal Reports Disk 15", "svtrafic.rp_", "..\disk15"
+	"37", "Seagate Crystal Reports Disk 37", "msvbvm50.dl_", "..\disk37"
+	"8", "Seagate Crystal Reports Disk 8", "techrpdf.04_", "..\disk8"
+	"9", "Seagate Crystal Reports Disk 9", "techrpdf.02_", "..\disk9"
+	"25", "Seagate Crystal Reports Disk 25", "ccsdk32.dl_", "..\disk25"
+	"3", "Seagate Crystal Reports Disk 3", "techrpdf.03_", "..\disk3"
+	"33", "Seagate Crystal Reports Disk 33", "acroexe.00_", "..\disk33"
+	"28", "Seagate Crystal Reports Disk 28", "msjet35.dl_", "..\disk28"
+	"26", "Seagate Crystal Reports Disk 26", "crpedll.01_", "..\disk26"
+	"7", "Seagate Crystal Reports Disk 7", "techrpdf.00_", "..\disk7"
+	"36", "Seagate Crystal Reports Disk 36", "Xvb392._", "..\disk36"
+	"17", "Seagate Crystal Reports Disk 17", "crwhlp.02_", "..\disk17"
+	"14", "Seagate Crystal Reports Disk 14", "fcomstm1.rp_", "..\disk14"
+	"40", "Seagate Crystal Reports Disk 40", "corent23.dl_", "..\disk40"
+	"42", "Seagate Crystal Reports Disk 42", "msrdo20.dl_", "..\disk42"
+	"11", "Seagate Crystal Reports Disk 11", "techrpdf.01_", "..\disk11"
+	"41", "Seagate Crystal Reports Disk 41", "crd32.ex_", "..\disk41"
+	"39", "Seagate Crystal Reports Disk 39", "crystl32.oc_", "..\disk39"
+	"21", "Seagate Crystal Reports Disk 21", "mfc42.dl_", "..\disk21"
+	"12", "Seagate Crystal Reports Disk 12", "techrpdf.07_", "..\disk12"
+	"20", "Seagate Crystal Reports Disk 20", "MSXBSE35.DL_", "..\disk20"
+	"38", "Seagate Crystal Reports Disk 38", "dbgrid32.oc_", "..\disk38"
+	"34", "Seagate Crystal Reports Disk 34", "cqw32.ex_", "..\disk34"
+	"19", "Seagate Crystal Reports Disk 19", "crwhlp.04_", "..\disk19"
+	"24", "Seagate Crystal Reports Disk 24", "crwexe.00_", "..\disk24"
+	"27", "Seagate Crystal Reports Disk 27", "msxbse35.dl_", "..\disk27"
+	"22", "Seagate Crystal Reports Disk 22", "msjet35.dl_", "..\disk22"
+	"6", "Seagate Crystal Reports Disk 6", "techrpdf.06_", "..\disk6"
+	"10", "Seagate Crystal Reports Disk 10", "techrpdf.08_", "..\disk10"
+	"4", "Seagate Crystal Reports Disk 4", "techrpdf.09_", "..\disk4"
+	"29", "Seagate Crystal Reports Disk 29", "idodbc32.dl_", "..\disk29"
+	"32", "Seagate Crystal Reports Disk 32", "xtreme.md_", "..\disk32"
+	"5", "Seagate Crystal Reports Disk 5", "techrpdf.05_", "..\disk5"
+	"31", "Seagate Crystal Reports Disk 31", "ccchart.hl_", "..\disk31"
+	"13", "Seagate Crystal Reports Disk 13", "adconds.rp_", "..\disk13"
+	"18", "Seagate Crystal Reports Disk 18", "crwhlp.03_", "..\disk18"
+	"16", "Seagate Crystal Reports Disk 16", "crwhlp.01_", "..\disk16"
+	"35", "Seagate Crystal Reports Disk 35", "mfc30.dll", "..\disk35"
+	"23", "Seagate Crystal Reports Disk 23", "crwexe.03_", "..\disk23"
+	"43", "Seagate Crystal Reports Disk 43", "u2fxls.dl_", "..\disk43"
+
+[Default File Settings]
+"STF_BACKUP"     = ""
+"STF_COPY"       = "YES"
+"STF_DECOMPRESS" = "YES"
+"STF_OVERWRITE"  = "ALWAYS"
+"STF_READONLY"   = "YES"
+"STF_ROOT"       = ""
+"STF_SETTIME"    = "YES"
+"STF_TIME"       = "0"
+"STF_VITAL"      = "YES"
+
+[Seagate Crystal Reports Help\Technical Reference in Acrobat Format\@TargetDir]
+	4, techrpdf.11,,,, 1997-08-29,,,, !READONLY,,,,,, 222546,,,,, !VITAL
+	4, techrpdf.10,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	4, techrpdf.09,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	5, techrpdf.05,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	6, techrpdf.06,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	7, techrpdf.00,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	8, techrpdf.04,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	9, techrpdf.02,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	10, techrpdf.08,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	11, techrpdf.01,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	12, techrpdf.07,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	3, techrpdf.03,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+
+[Sample Files\Sample Reports\@TargetDir]
+	13, finance.ldb,,,, 1997-08-29,,,, !READONLY,,,,,, 128,,,,, !VITAL
+	13, crazeb.bmp,,,, 1997-08-29,,,, !READONLY,,,,,, 2974,,,,, !VITAL
+	13, craze.qry,,,, 1997-08-29,,,, !READONLY,,,,,, 6932,,,,, !VITAL
+	13, sgt01.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 11776,,,,, !VITAL
+	13, crazec.bmp,,,, 1997-08-29,,,, !READONLY,,,,,, 22554,,,,, !VITAL
+	13, crazeole.bmp,,,, 1997-08-29,,,, !READONLY,,,,,, 22554,,,,, !VITAL
+	13, sgt05.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 13824,,,,, !VITAL
+	13, sample_p.cnt,,,, 1997-08-29,,,, !READONLY,, sample.cnt,,,, 15082,,,,, !VITAL
+	13, sgt07.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 14848,,,,, !VITAL
+	13, sgt10.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 15360,,,,, !VITAL
+	13, trueabac.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 18432,,,,, !VITAL
+	13, services.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\sms\services.rpt,,,, 18170,,,,, !VITAL
+	13, sgt06.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 24576,,,,, !VITAL
+	13, ipnetwor.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\sms\ipnetwor.rpt,,,, 18101,,,,, !VITAL
+	13, tabdepnd.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\sqlsrv\tabdepnd.rpt,,,, 20095,,,,, !VITAL
+	13, sgt02.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 24576,,,,, !VITAL
+	13, sgt03.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 24576,,,,, !VITAL
+	13, sgt11.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 23552,,,,, !VITAL
+	13, subtotl.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 26112,,,,, !VITAL
+	13, sgt04.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 26112,,,,, !VITAL
+	13, sgt09.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 26624,,,,, !VITAL
+	13, adsubres.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adsubres.rpt,,,, 27648,,,,, !VITAL
+	13, webacces.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\internet\webacces.rpt,,,, 18595,,,,, !VITAL
+	13, adcostss.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adcostss.rpt,,,, 22016,,,,, !VITAL
+	13, diskuse.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\sms\diskuse.rpt,,,, 23133,,,,, !VITAL
+	13, folders.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\exchange\folders.rpt,,,, 21678,,,,, !VITAL
+	13, columns.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\sqlsrv\columns.rpt,,,, 21379,,,,, !VITAL
+	13, fbankcr8.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr8.rpt,,,, 29184,,,,, !VITAL
+	13, fcomdat1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fcomdat1.rpt,,,, 32256,,,,, !VITAL
+	13, market.dc5,,,, 1997-08-29,,,, !READONLY,, market.dc5,,,, 11444,,,,, !VITAL
+	13, adxtab2s.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adxtab2s.rpt,,,, 40448,,,,, !VITAL
+	13, hrcontsp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hrcontsp.rpt,,,, 33792,,,,, !VITAL
+	13, fbankcr6.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr6.rpt,,,, 30208,,,,, !VITAL
+	13, fbanktr1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbanktr1.rpt,,,, 33280,,,,, !VITAL
+	13, fbanktr2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbanktr2.rpt,,,, 32768,,,,, !VITAL
+	13, gonatagp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\gonatagp.rpt,,,, 38912,,,,, !VITAL
+	13, fbanknu2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbanknu2.rpt,,,, 26624,,,,, !VITAL
+	13, fbankcr2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr2.rpt,,,, 28160,,,,, !VITAL
+	13, fbanknu1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbanknu1.rpt,,,, 28160,,,,, !VITAL
+	13, mkpric2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\mkpric2p.rpt,,,, 47616,,,,, !VITAL
+	13, fbankfa2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankfa2.rpt,,,, 31744,,,,, !VITAL
+	13, fbankfa3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankfa3.rpt,,,, 31232,,,,, !VITAL
+	13, fbankrt5.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankrt5.rpt,,,, 30208,,,,, !VITAL
+	13, gomalabp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\gomalabp.rpt,,,, 47104,,,,, !VITAL
+	13, mkpcat2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\mkpcat2p.rpt,,,, 51200,,,,, !VITAL
+	13, mkpcat3p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\mkpcat3p.rpt,,,, 51200,,,,, !VITAL
+	13, mkpric1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\mkpric1p.rpt,,,, 50176,,,,, !VITAL
+	13, fbankrt4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankrt4.rpt,,,, 32256,,,,, !VITAL
+	13, hrdire1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hrdire1p.rpt,,,, 47104,,,,, !VITAL
+	13, insuplip.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\insuplip.rpt,,,, 50176,,,,, !VITAL
+	13, fbankcr5.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr5.rpt,,,, 30720,,,,, !VITAL
+	13, fbankcu2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcu2.rpt,,,, 34304,,,,, !VITAL
+	13, gocdir1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\gocdir1p.rpt,,,, 51712,,,,, !VITAL
+	13, gofaxcop.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\gofaxcop.rpt,,,, 43520,,,,, !VITAL
+	13, hrdire2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hrdire2p.rpt,,,, 49152,,,,, !VITAL
+	13, fbankin3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin3.rpt,,,, 38400,,,,, !VITAL
+	13, fbankrt3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankrt3.rpt,,,, 33792,,,,, !VITAL
+	13, inventop.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\inventop.rpt,,,, 53248,,,,, !VITAL
+	13, sprodxtp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodxtp.rpt,,,, 56320,,,,, !VITAL
+	13, sroutorp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sroutorp.rpt,,,, 53760,,,,, !VITAL
+	13, srrecorp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\srrecorp.rpt,,,, 54784,,,,, !VITAL
+	13, fbankcr7.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr7.rpt,,,, 35328,,,,, !VITAL
+	13, fbankcu1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcu1.rpt,,,, 34304,,,,, !VITAL
+	13, fbankin1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin1.rpt,,,, 38400,,,,, !VITAL
+	13, fbankin2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin2.rpt,,,, 38912,,,,, !VITAL
+	13, fbankin4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin4.rpt,,,, 39424,,,,, !VITAL
+	13, fbankin5.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin5.rpt,,,, 38400,,,,, !VITAL
+	13, fbankrt2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankrt2.rpt,,,, 33792,,,,, !VITAL
+	13, finport4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\finport4.rpt,,,, 40448,,,,, !VITAL
+	13, eventdtl.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\ntevent\eventdtl.rpt,,,, 26484,,,,, !VITAL
+	13, gocdir2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\gocdir2p.rpt,,,, 55296,,,,, !VITAL
+	13, sproddsp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sproddsp.rpt,,,, 57856,,,,, !VITAL
+	13, fbankcr1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr1.rpt,,,, 36864,,,,, !VITAL
+	13, fbankcr3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr3.rpt,,,, 37888,,,,, !VITAL
+	13, fbankcu4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcu4.rpt,,,, 34304,,,,, !VITAL
+	13, fbankrt1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankrt1.rpt,,,, 37376,,,,, !VITAL
+	13, int_rate.dc5,,,, 1997-08-29,,,, !READONLY,, int_rate.dc5,,,, 15982,,,,, !VITAL
+	13, stk_info.dc5,,,, 1997-08-29,,,, !READONLY,, stk_info.dc5,,,, 15243,,,,, !VITAL
+	13, inrest1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\inrest1p.rpt,,,, 56832,,,,, !VITAL
+	13, insupprp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\insupprp.rpt,,,, 58368,,,,, !VITAL
+	13, scusli1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scusli1p.rpt,,,, 55296,,,,, !VITAL
+	13, fbankcr4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcr4.rpt,,,, 39936,,,,, !VITAL
+	13, fcomdat2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fcomdat2.rpt,,,, 38912,,,,, !VITAL
+	13, fincstm3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincstm3.rpt,,,, 56320,,,,, !VITAL
+	13, finport3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\finport3.rpt,,,, 39936,,,,, !VITAL
+	13, invent.dc5,,,, 1997-08-29,,,, !READONLY,, invent.dc5,,,, 16277,,,,, !VITAL
+	13, receive.dc5,,,, 1997-08-29,,,, !READONLY,, receive.dc5,,,, 16231,,,,, !VITAL
+	13, craze5.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\craze5.rpt,,,, 56832,,,,, !VITAL
+	13, inonor1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\inonor1p.rpt,,,, 60928,,,,, !VITAL
+	13, scussa1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scussa1p.rpt,,,, 56832,,,,, !VITAL
+	13, scussa3p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scussa3p.rpt,,,, 57344,,,,, !VITAL
+	13, sprodcap.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodcap.rpt,,,, 51712,,,,, !VITAL
+	13, fbankid1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankid1.rpt,,,, 37888,,,,, !VITAL
+	13, ffinra3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\ffinra3.rpt,,,, 55296,,,,, !VITAL
+	13, fincash2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincash2.rpt,,,, 52736,,,,, !VITAL
+	13, fincstm2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincstm2.rpt,,,, 61952,,,,, !VITAL
+	13, acctap.dc5,,,, 1997-08-29,,,, !READONLY,, acctap.dc5,,,, 17551,,,,, !VITAL
+	13, adcont1s.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adcont1s.rpt,,,, 57344,,,,, !VITAL
+	13, inonor2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\inonor2p.rpt,,,, 60928,,,,, !VITAL
+	13, inrest2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\inrest2p.rpt,,,, 61440,,,,, !VITAL
+	13, scusli2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scusli2p.rpt,,,, 57856,,,,, !VITAL
+	13, scuspr2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scuspr2p.rpt,,,, 57856,,,,, !VITAL
+	13, sempmo3p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sempmo3p.rpt,,,, 55808,,,,, !VITAL
+	13, sprodptp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodptp.rpt,,,, 53760,,,,, !VITAL
+	13, sprodtnp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodtnp.rpt,,,, 52224,,,,, !VITAL
+	13, fbankfa1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankfa1.rpt,,,, 43520,,,,, !VITAL
+	13, fincash3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincash3.rpt,,,, 54784,,,,, !VITAL
+	13, finport1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\finport1.rpt,,,, 43520,,,,, !VITAL
+	13, apclpo1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\apclpo1p.rpt,,,, 61952,,,,, !VITAL
+	13, apclpo2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\apclpo2p.rpt,,,, 63488,,,,, !VITAL
+	13, sprodt1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodt1p.rpt,,,, 55808,,,,, !VITAL
+	13, sprodt2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodt2p.rpt,,,, 55808,,,,, !VITAL
+	13, sprodt3p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodt3p.rpt,,,, 54784,,,,, !VITAL
+	13, sprodt4p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodt4p.rpt,,,, 54784,,,,, !VITAL
+	13, srordf1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\srordf1p.rpt,,,, 60928,,,,, !VITAL
+	13, fincstm4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincstm4.rpt,,,, 49664,,,,, !VITAL
+	13, finport2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\finport2.rpt,,,, 46592,,,,, !VITAL
+	13, adconds.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adconds.rpt,,,, 70656,,,,, !VITAL
+	13, apoppo1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\apoppo1p.rpt,,,, 62464,,,,, !VITAL
+	14, apoppo2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\apoppo2p.rpt,,,, 64512,,,,, !VITAL
+	14, craze3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\craze3.rpt,,,, 64512,,,,, !VITAL
+	14, wwsales.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\wwsales.rpt,,,, 51200,,,,, !VITAL
+	14, fbankcu3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankcu3.rpt,,,, 39936,,,,, !VITAL
+	14, arordfmp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arordfmp.rpt,,,, 64000,,,,, !VITAL
+	14, scuspr1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scuspr1p.rpt,,,, 64000,,,,, !VITAL
+	14, sempmo2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sempmo2p.rpt,,,, 54272,,,,, !VITAL
+	14, sprodwsp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodwsp.rpt,,,, 72704,,,,, !VITAL
+	14, srordf2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\srordf2p.rpt,,,, 63488,,,,, !VITAL
+	14, srordf3p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\srordf3p.rpt,,,, 61952,,,,, !VITAL
+	14, fbankid2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankid2.rpt,,,, 37376,,,,, !VITAL
+	14, fincash1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincash1.rpt,,,, 63488,,,,, !VITAL
+	14, appurorp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\appurorp.rpt,,,, 70656,,,,, !VITAL
+	14, semprevp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\semprevp.rpt,,,, 66048,,,,, !VITAL
+	14, sropackp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sropackp.rpt,,,, 67584,,,,, !VITAL
+	14, fbanktr3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbanktr3.rpt,,,, 80384,,,,, !VITAL
+	14, portfoli.dc5,,,, 1997-08-29,,,, !READONLY,, portfoli.dc5,,,, 18955,,,,, !VITAL
+	14, banking.dc5,,,, 1997-08-29,,,, !READONLY,, banking.dc5,,,, 19893,,,,, !VITAL
+	14, adforms.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adforms.rpt,,,, 79872,,,,, !VITAL
+	14, sempmo1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sempmo1p.rpt,,,, 58368,,,,, !VITAL
+	14, accountg.dc5,,,, 1997-08-29,,,, !READONLY,, accountg.dc5,,,, 19415,,,,, !VITAL
+	14, arcord3p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arcord3p.rpt,,,, 69120,,,,, !VITAL
+	14, arcordpp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arcordpp.rpt,,,, 69120,,,,, !VITAL
+	14, arstatep.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arstatep.rpt,,,, 69632,,,,, !VITAL
+	14, scussa2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\scussa2p.rpt,,,, 63488,,,,, !VITAL
+	14, sempxtbp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sempxtbp.rpt,,,, 64000,,,,, !VITAL
+	14, sprodsup.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\sprodsup.rpt,,,, 77312,,,,, !VITAL
+	14, hr.dc5,,,, 1997-08-29,,,, !READONLY,, hr.dc5,,,, 19973,,,,, !VITAL
+	14, fbalsht3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbalsht3.rpt,,,, 88576,,,,, !VITAL
+	14, fincstm1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fincstm1.rpt,,,, 72704,,,,, !VITAL
+	14, adcont2s.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adcont2s.rpt,,,, 71680,,,,, !VITAL
+	14, adincogs.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adincogs.rpt,,,, 70144,,,,, !VITAL
+	14, sub_info.dc5,,,, 1997-08-29,,,, !READONLY,, sub_info.dc5,,,, 21670,,,,, !VITAL
+	14, arcord2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arcord2p.rpt,,,, 81408,,,,, !VITAL
+	14, arinvcep.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arinvcep.rpt,,,, 80896,,,,, !VITAL
+	14, fbalsht2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbalsht2.rpt,,,, 96256,,,,, !VITAL
+	14, fbalsht4.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbalsht4.rpt,,,, 80896,,,,, !VITAL
+	14, arcord1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\arcord1p.rpt,,,, 86016,,,,, !VITAL
+	14, addrbook.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\exchange\addrbook.rpt,,,, 77672,,,,, !VITAL
+	14, salesp.dc5,,,, 1997-08-29,,,, !READONLY,, salesp.dc5,,,, 35635,,,,, !VITAL
+	14, fsprsht3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fsprsht3.rpt,,,, 99840,,,,, !VITAL
+	14, genoffic.dc5,,,, 1997-08-29,,,, !READONLY,, genoffic.dc5,,,, 25038,,,,, !VITAL
+	14, ffinra1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\ffinra1.rpt,,,, 116736,,,,, !VITAL
+	14, purchase.mdb,,,, 1997-08-29,,,, !READONLY,,,,,, 98304,,,,, !VITAL
+	14, fbalsht1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbalsht1.rpt,,,, 120320,,,,, !VITAL
+	14, fbankin6.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin6.rpt,,,, 69632,,,,, !VITAL
+	14, fbankin7.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fbankin7.rpt,,,, 68096,,,,, !VITAL
+	14, fininfo1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fininfo1.rpt,,,, 61440,,,,, !VITAL
+	14, rt01.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 40448,,,,, !VITAL
+	14, rt02.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 47104,,,,, !VITAL
+	14, fcomstm2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fcomstm2.rpt,,,, 105472,,,,, !VITAL
+	14, eventsum.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\ntevent\eventsum.rpt,,,, 47669,,,,, !VITAL
+	14, mkpcat1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\mkpcat1p.rpt,,,, 66048,,,,, !VITAL
+	14, invwpicp.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\invwpicp.rpt,,,, 69120,,,,, !VITAL
+	14, hrdirp1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hrdirp1p.rpt,,,, 67072,,,,, !VITAL
+	14, ordrcr.mdb,,,, 1997-08-29,,,, !READONLY,,,,,, 98304,,,,, !VITAL
+	14, hr.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hr.rpt,,,, 73216,,,,, !VITAL
+	14, hrdirp2p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hrdirp2p.rpt,,,, 68608,,,,, !VITAL
+	14, fsprsht1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fsprsht1.rpt,,,, 157696,,,,, !VITAL
+	14, sgt12.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 64000,,,,, !VITAL
+	14, ffinra2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\ffinra2.rpt,,,, 131584,,,,, !VITAL
+	14, hrprof1p.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\hrprof1p.rpt,,,, 72704,,,,, !VITAL
+	14, fcomstm1.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fcomstm1.rpt,,,, 172544,,,,, !VITAL
+	15, fsprsht2.rpt,,,, 1997-08-29,,,, !READONLY,, reports\finance\fsprsht2.rpt,,,, 173056,,,,, !VITAL
+	15, adxtab1s.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\adxtab1s.rpt,,,, 115200,,,,, !VITAL
+	15, ship.dc5,,,, 1997-08-29,,,, !READONLY,, ship.dc5,,,, 59708,,,,, !VITAL
+	15, costs.mdb,,,, 1997-08-29,,,, !READONLY,,,,,, 98304,,,,, !VITAL
+	15, salese.dc5,,,, 1997-08-29,,,, !READONLY,, salese.dc5,,,, 69531,,,,, !VITAL
+	15, salesc.dc5,,,, 1997-08-29,,,, !READONLY,, salesc.dc5,,,, 74024,,,,, !VITAL
+	15, acctar.dc5,,,, 1997-08-29,,,, !READONLY,, acctar.dc5,,,, 82891,,,,, !VITAL
+	15, sgt08.rpt,,,, 1997-08-29,,,, !READONLY,,,,,, 86016,,,,, !VITAL
+	15, activity.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\internet\activity.rpt,,,, 87824,,,,, !VITAL
+	15, golethep.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\golethep.rpt,,,, 453632,,,,, !VITAL
+	15, sample_p.hlp,,,, 1997-08-29,,,, !READONLY,, sample.hlp,,,, 199993,,,,, !VITAL
+	15, finance.mdb,,,, 1997-08-29,,,, !READONLY,,,,,, 294912,,,,, !VITAL
+	15, admultis.rpt,,,, 1997-08-29,,,, !READONLY,, reports\craze\admultis.rpt,,,, 511488,,,,, !VITAL
+	15, svtrafic.rpt,,,, 1997-08-29,,,, !READONLY,, reports\101\exchange\svtrafic.rpt,,,, 157208,,,,, !VITAL
+	6, craze.mdb,,,, 1997-08-29,,,, !READONLY,,,,,, 1572864,,,,, !VITAL
+
+[Seagate Crystal Reports Help\Seagate Crystal Reports Programs Help\@TargetDir]
+	16, crwhlp.05,,,, 1997-08-29,,,, !READONLY,,,,,, 0,,,,, !VITAL
+	16, dictnry.cnt,,,, 1997-08-29,,,, !READONLY,,,,,, 3171,,,,, !VITAL
+	16, query.cnt,,,, 1997-08-29,,,, !READONLY,,,,,, 3923,,,,, !VITAL
+	16, crw.cnt,,,, 1997-08-29,,,, !READONLY,,,,,, 4638,,,,, !VITAL
+	16, dictnry.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 271018,,,,, !VITAL
+	16, query.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 322121,,,,, !VITAL
+	16, crwhlp.00,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	16, crwhlp.01,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	17, crwhlp.02,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	18, crwhlp.03,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	19, crwhlp.04,,,, 1997-08-29,,,, !READONLY,,,,,, 1075727,,,,, !VITAL
+
+[Database Access\Microsoft Access\@Winsys]
+	20, vbajet32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 18192,,,, 5.0.0.7122, !VITAL
+	20, msjter35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 24336,,,, 3.50.3602.0, !VITAL
+	20, msjint35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 37136,,,, 3.50.3602.5, !VITAL
+	20, p2ctdao.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 54272,,,, 6.0.0.25, !VITAL
+	20, p2irdao.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 64000,,,, 6.0.0.26, !VITAL
+	20, p2bdao.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 105984,,,, 6.0.0.31, !VITAL
+	20, MSTEXT35.DLL,,,,,,, OLDER, !READONLY,,,,, SHARED, 166912,,,, 3.50.3428.0, !VITAL
+	20, msrd2x35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 251664,,,, 3.50.3602.0, !VITAL
+	20, MSEXCL35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 254976,,,, 3.50.3428.0, !VITAL
+	20, msvcrt.dll,,,,,,, OLDER, !READONLY,,,,,, 267536, SYSTEM,,, 4.20.0.6201, !VITAL
+	20, MSPDOX35.DLL,,,,,,, OLDER, !READONLY,,,,, SHARED, 253952,,,, 3.50.3428.0, !VITAL
+	20, msvcrt40.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 326656,,,, 4.10.0.6038, !VITAL
+	20, MSXBSE35.DLL,,,,,,, OLDER, !READONLY,,,,, SHARED, 290816,,,, 3.50.3428.0, !VITAL
+	21, mfc30.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 322832,,,,, !VITAL
+	21, vbar332.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 368912,,,, 3.0.0.6908, !VITAL
+	21, mfc42.dll,,,,,,, OLDER, !READONLY,,,,,, 1011472, SYSTEM,,, 4.2.0.6068, !VITAL
+	22, msjet35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 1039360,,,, 3.50.3602.4, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Report Designer\@TargetDir]
+	23, crw.net,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 50,,,,, !VITAL
+	23, labels.txt,,,,,,,, !READONLY,,,,,, 5750,,,,, !VITAL
+	23, c2rstub.exe,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 14336,,,, 6.0.0.1, !VITAL
+	23, crwexe.05,,,, 1997-08-29,,,, !READONLY,,,,,, 533504,,,,, !VITAL
+	23, crwexe.04,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	23, crwexe.03,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	24, crwexe.01,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+"CRW.EXE" = 24, crwexe.00,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,, 6.0.1.135, !VITAL
+	12, crwexe.02,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+
+[BasicDLLs\@Winsys]
+	25, crpe32.dep,, CRE32DEP.OLD,, 1997-08-29,,,, !READONLY,,,,, SHARED, 4431,,,,, !VITAL
+	25, implode.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 17920,,,,, !VITAL
+	25, ltfil60n.dll,,,,,,,, !READONLY,,,,, SHARED, 43008,,,,, !VITAL
+	25, p2sodbc.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 144384,,,,, !VITAL
+	25, lfcmp60n.dll,,,,,,,, !READONLY,,,,, SHARED, 141824,,,,, !VITAL
+	25, ltkrn60n.dll,,,,,,,, !READONLY,,,,, SHARED, 192512,,,,, !VITAL
+	25, crpaig32.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 183296,,,, 5.0.0.1, !VITAL
+	25, crpedll.03,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 328192,,,,, !VITAL
+	25, ccsdk32.dll,,,,,,,, !READONLY,,,,,, 860160,,,,, !VITAL
+	26, crpedll.02,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 1081344,,,,, !VITAL
+	26, crpedll.01,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 1081344,,,,, !VITAL
+	11, crpedll.00,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 1081344,,,,, !VITAL
+
+[Database Access\ODBC\@ODBCDriver]
+	27, odbcinst.cnt,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 244,,,,, !VITAL
+	27, odexl32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 5120,,,, 3.50.3602.0, !VITAL
+	27, odbcjtnw.cnt,,,,,,, OLDER, !READONLY,,,,,, 3367,,,,, !VITAL
+	27, odpdx32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 5120,,,, 3.50.3602.0, !VITAL
+	27, oddbse32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 5120,,,, 3.50.3602.0, !VITAL
+	27, odfox32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 5120,,,, 3.50.3428.0, !VITAL
+	27, odbcjet.cnt,,,,,,, OLDER, !READONLY,,,,,, 6870,,,,, !VITAL
+	27, vbajet32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 18192,,,, 5.0.0.7122, !VITAL
+	27, odbc32gt.dll,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 10752,,,, 3.0.28.22, !VITAL
+	27, odbccp32.cpl,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 11536,,,, 3.0.28.22, !VITAL
+	27, odbcji32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 37888,,,, 3.50.3602.0, !VITAL
+	27, msjter35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 24336,,,, 3.50.3602.0, !VITAL
+	27, odbcint.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 67072,,,, 3.0.28.22, !VITAL
+	27, msjint35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 37136,,,, 3.50.3602.5, !VITAL
+	27, odbc16gt.dll,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 26224,,,, 3.0.28.22, !VITAL
+	27, odbcinst.hlp,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 26340,,,,, !VITAL
+	27, odbctl32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 77824,,,, 3.50.3602.0, !VITAL
+	27, odbcjtnw.hlp,,,,,,, OLDER, !READONLY,,,,,, 62863,,,,, !VITAL
+	27, odbctrac.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 141312,,,, 3.0.28.22, !VITAL
+	1, odbccp32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 87824,,,, 3.0.28.22, !VITAL
+	27, odbccr32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 184832,,,, 3.0.28.22, !VITAL
+	27, odbcjet.hlp,,,,,,, OLDER, !READONLY,,,,,, 162850,,,,, !VITAL
+	27, odbcjt32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 241664,,,, 3.50.3602.0, !VITAL
+	27, msrd2x35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 251664,,,, 3.50.3602.0, !VITAL
+	27, msexcl35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 254976,,,, 3.50.3428.0, !VITAL
+	27, mspdox35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 253952,,,, 3.50.3428.0, !VITAL
+	27, msxbse35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 290816,,,, 3.50.3428.0, !VITAL
+	28, odbc32.dll,,,,,,, OLDER, !READONLY,, odbc32.dll,,, SHARED, 230672,,,, 3.0.28.22, !VITAL
+	28, msjet35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 1039360,,,, 3.50.3602.4, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@IDAPI]
+	29, idapi32.cfg,, idapi32.cfx,,,,, NEVER, !READONLY,,,,,, 81,,,,, !VITAL
+	29, bdecfg32.cnt,, bdecfg32.cnx,,,,, OLDER, !READONLY,,,,,, 1025,,,,, !VITAL
+	29, charset.bll,, charset.blx,,,,, OLDER, !READONLY,,,,,, 10806,,,,, !VITAL
+	29, other.bll,, other.blx,,,,, OLDER, !READONLY,,,,,, 95726,,,,, !VITAL
+	29, usa.bll,, usa.blx,,,,, OLDER, !READONLY,,,,,, 101837,,,,, !VITAL
+	29, bdecfg32.hlp,,,,,,, OLDER, !READONLY,,,,,, 99109,,,,, !VITAL
+	29, ceeurope.bll,, ceeurope.blx,,,,, OLDER, !READONLY,,,,,, 160650,,,,, !VITAL
+	29, idr20009.dll,, idr20009.dlx,,,,, OLDER, !READONLY,,,,,, 103936,,,, 3.0.0.165, !VITAL
+	29, idapinst.dll,, idapinst.dlx,,,,, OLDER, !READONLY,,,,,, 123904,,,, 3.0.0.165, !VITAL
+	29, idasci32.dll,, idasci32.dlx,,,,, OLDER, !READONLY,,,,,, 94720,,,, 3.0.0.165, !VITAL
+	29, idbat32.dll,, iddbat32.dlx,,,,, OLDER, !READONLY,,,,,, 110080,,,, 3.0.0.165, !VITAL
+	29, iddr32.dll,, iddr32.dlx,,,,, OLDER, !READONLY,,,,,, 137728,,,, 3.0.0.165, !VITAL
+	29, europe.bll,, europe.blx,,,,, OLDER, !READONLY,,,,,, 361170,,,,, !VITAL
+	29, idpdx32.dll,, idpdx32.dlx,,,,, OLDER, !READONLY,,,,,, 243200,,,, 3.0.0.165, !VITAL
+	29, blw32.dll,, blw32.dlx,,,,, OLDER, !READONLY,,,,,, 333856,,,, 1.7.0.0, !VITAL
+	29, iddbas32.dll,, iddbas32.dlx,,,,, OLDER, !READONLY,,,,,, 310784,,,, 3.0.0.165, !VITAL
+	29, idodbc32.dll,, idodbc32.dlx,,,,, OLDER, !READONLY,,,,,, 366592,,,, 3.0.0.165, !VITAL
+	30, idsql32.dll,, idsql32.dlx,,,,, OLDER, !READONLY,,,,,, 391680,,,, 3.0.0.165, !VITAL
+	30, bdecfg32.exe,, bdecfg32.exx,,,,, OLDER, !READONLY,,,,,, 411136,,,, 3.0.0.166, !VITAL
+	30, idqbe32.dll,, idqbe32.dlx,,,,, OLDER, !READONLY,,,,,, 388096,,,, 3.0.0.165, !VITAL
+	30, idapi32.dll,, idapi32.dlx,,,,, OLDER, !READONLY,,,,,, 484864,,,, 3.0.0.165, !VITAL
+
+[PG Editor\@TargetDir]
+	1, ccsdk32.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	31, virginp.3fx,,,,,,,, !READONLY,, effects\virginp.3fx,,,, 1046,,,,, !VITAL
+	31, barrel.wmf,,,,,,,, !READONLY,, vector\barrel.wmf,,,, 3158,,,,, !VITAL
+	31, barrel_b.wmf,,,,,,,, !READONLY,, vector\barrel-b.wmf,,,, 3158,,,,, !VITAL
+	31, barrel_g.wmf,,,,,,,, !READONLY,, vector\barrel-g.wmf,,,, 3158,,,,, !VITAL
+	31, barrel_r.wmf,,,,,,,, !READONLY,, vector\barrel-r.wmf,,,, 3158,,,,, !VITAL
+	31, refrig.wmf,,,,,,,, !READONLY,, vector\refrig.wmf,,,, 4812,,,,, !VITAL
+	31, 4pond.bmp,,,,,,,, !READONLY,, pictures\4pond.bmp,,,, 5318,,,,, !VITAL
+	31, waterhtr.wmf,,,,,,,, !READONLY,, vector\waterhtr.wmf,,,, 5246,,,,, !VITAL
+	31, washes.3fx,,,,,,,, !READONLY,, effects\washes.3fx,,,, 13574,,,,, !VITAL
+	31, gismo.tlb,,,,,,,, !READONLY,,,,,, 3635,,,,,
+	31, aircond.wmf,,,,,,,, !READONLY,, vector\aircond.wmf,,,, 9340,,,,, !VITAL
+	31, ovenstov.wmf,,,,,,,, !READONLY,, vector\ovenstov.wmf,,,, 9512,,,,, !VITAL
+	31, 4runoff.bmp,,,,,,,, !READONLY,, pictures\4runoff.bmp,,,, 8310,,,,, !VITAL
+	31, 4twister.bmp,,,,,,,, !READONLY,, pictures\4twister.bmp,,,, 5318,,,,, !VITAL
+	31, pictures.3fx,,,,,,,, !READONLY,, effects\pictures.3fx,,,, 20882,,,,, !VITAL
+	31, 4snow.bmp,,,,,,,, !READONLY,, pictures\4snow.bmp,,,, 8310,,,,, !VITAL
+	31, 4ltblue.bmp,,,,,,,, !READONLY,, pictures\4ltblue.bmp,,,, 5318,,,,, !VITAL
+	31, televisn.wmf,,,,,,,, !READONLY,, vector\televisn.wmf,,,, 15680,,,,, !VITAL
+	31, area.3df,,,,,,,, !READONLY,, gallery\area\area.3df,,,, 15406,,,,, !VITAL
+	31, varaabs.3df,,,,,,,, !READONLY,, gallery\area\varaabs.3df,,,, 17710,,,,, !VITAL
+	31, 25bar.3df,,,,,,,, !READONLY,, gallery\bar\25bar.3df,,,, 15402,,,,, !VITAL
+	31, 2dbar.3df,,,,,,,, !READONLY,, gallery\bar\2dbar.3df,,,, 15390,,,,, !VITAL
+	31, 2dbar2.3df,,,,,,,, !READONLY,, gallery\bar\2dbar2.3df,,,, 15412,,,,, !VITAL
+	31, vbarsid.3df,,,,,,,, !READONLY,, gallery\bar\vbarsid.3df,,,, 17582,,,,, !VITAL
+	31, hilo.3df,,,,,,,, !READONLY,, gallery\hilo\hilo.3df,,,, 17274,,,,, !VITAL
+	31, hilo1.3df,,,,,,,, !READONLY,, gallery\hilo\hilo1.3df,,,, 15390,,,,, !VITAL
+	31, hilooc.3df,,,,,,,, !READONLY,, gallery\hilo\hilooc.3df,,,, 17418,,,,, !VITAL
+	31, hist1.3df,,,,,,,, !READONLY,, gallery\hist\hist1.3df,,,, 15390,,,,, !VITAL
+	31, histh.3df,,,,,,,, !READONLY,, gallery\hist\histh.3df,,,, 18112,,,,, !VITAL
+	31, histv.3df,,,,,,,, !READONLY,, gallery\hist\histv.3df,,,, 18122,,,,, !VITAL
+	31, line.3df,,,,,,,, !READONLY,, gallery\line\line.3df,,,, 15408,,,,, !VITAL
+	31, vlinabs.3df,,,,,,,, !READONLY,, gallery\line\vlinabs.3df,,,, 17604,,,,, !VITAL
+	31, pict_h.3df,,,,,,,, !READONLY,, gallery\picto\pict-h.3df,,,, 18278,,,,, !VITAL
+	31, pict_v.3df,,,,,,,, !READONLY,, gallery\picto\pict-v.3df,,,, 18276,,,,, !VITAL
+	31, pie.3df,,,,,,,, !READONLY,, gallery\pie\pie.3df,,,, 17366,,,,, !VITAL
+	31, pie25.3df,,,,,,,, !READONLY,, gallery\pie\pie25.3df,,,, 15572,,,,, !VITAL
+	31, piering.3df,,,,,,,, !READONLY,, gallery\pie\piering.3df,,,, 17366,,,,, !VITAL
+	31, radar02.3df,,,,,,,, !READONLY,, gallery\radar\radar02.3df,,,, 17070,,,,, !VITAL
+	31, scat.3df,,,,,,,, !READONLY,, gallery\scatter\scat.3df,,,, 17492,,,,, !VITAL
+	31, scatter.3df,,,,,,,, !READONLY,, gallery\scatter\scatter.3df,,,, 15574,,,,, !VITAL
+	31, spec1.3df,,,,,,,, !READONLY,, gallery\spectral\spec1.3df,,,, 15594,,,,, !VITAL
+	31, table1.3df,,,,,,,, !READONLY,, gallery\table\table1.3df,,,, 15150,,,,, !VITAL
+	31, 3dblack.3df,,,,,,,, !READONLY,, gallery\3driser\3dblack.3df,,,, 15594,,,,, !VITAL
+	31, 3dcngar2.3df,,,,,,,, !READONLY,, gallery\3driser\3dcngar2.3df,,,, 18150,,,,, !VITAL
+	31, 3dcngrib.3df,,,,,,,, !READONLY,, gallery\3driser\3dcngrib.3df,,,, 17626,,,,, !VITAL
+	31, 3dcnsar2.3df,,,,,,,, !READONLY,, gallery\3driser\3dcnsar2.3df,,,, 17628,,,,, !VITAL
+	31, 3dcnsst2.3df,,,,,,,, !READONLY,, gallery\3driser\3dcnsst2.3df,,,, 18132,,,,, !VITAL
+	31, 3dcolor.3df,,,,,,,, !READONLY,, gallery\3driser\3dcolor.3df,,,, 15602,,,,, !VITAL
+	31, 3dfltcub.3df,,,,,,,, !READONLY,, gallery\3driser\3dfltcub.3df,,,, 18112,,,,, !VITAL
+	31, 3dline.3df,,,,,,,, !READONLY,, gallery\3driser\3dline.3df,,,, 15396,,,,, !VITAL
+	31, 3drisbar.3df,,,,,,,, !READONLY,, gallery\3driser\3drisbar.3df,,,, 17992,,,,, !VITAL
+	31, 3drispyr.3df,,,,,,,, !READONLY,, gallery\3driser\3drispyr.3df,,,, 17996,,,,, !VITAL
+	31, 3dsurfs2.3df,,,,,,,, !READONLY,, gallery\3driser\3dsurfs2.3df,,,, 17706,,,,, !VITAL
+	31, 3dscat.3df,,,,,,,, !READONLY,, gallery\3driser\3dscat.3df,,,, 17370,,,,, !VITAL
+	31, varastk.3df,,,,,,,, !READONLY,, gallery\area\varastk.3df,,,, 18002,,,,, !VITAL
+	31, 2dhorz.3df,,,,,,,, !READONLY,, gallery\bar\2dhorz.3df,,,, 15586,,,,, !VITAL
+	31, hbarper.3df,,,,,,,, !READONLY,, gallery\bar\hbarper.3df,,,, 17672,,,,, !VITAL
+	31, hbarsid.3df,,,,,,,, !READONLY,, gallery\bar\hbarsid.3df,,,, 17628,,,,, !VITAL
+	31, hbarstk.3df,,,,,,,, !READONLY,, gallery\bar\hbarstk.3df,,,, 18368,,,,, !VITAL
+	31, mixed.3df,,,,,,,, !READONLY,, gallery\bar\mixed.3df,,,, 15582,,,,, !VITAL
+	31, vbarbsid.3df,,,,,,,, !READONLY,, gallery\bar\vbarbsid.3df,,,, 17522,,,,, !VITAL
+	31, vbarbstk.3df,,,,,,,, !READONLY,, gallery\bar\vbarbstk.3df,,,, 18034,,,,, !VITAL
+	31, vbardsid.3df,,,,,,,, !READONLY,, gallery\bar\vbardsid.3df,,,, 17606,,,,, !VITAL
+	31, vbarper.3df,,,,,,,, !READONLY,, gallery\bar\vbarper.3df,,,, 17670,,,,, !VITAL
+	31, vbarstk.3df,,,,,,,, !READONLY,, gallery\bar\vbarstk.3df,,,, 18550,,,,, !VITAL
+	31, bubble.3df,,,,,,,, !READONLY,, gallery\bubble\bubble.3df,,,, 18570,,,,, !VITAL
+	31, bubble_d.3df,,,,,,,, !READONLY,, gallery\bubble\bubble-d.3df,,,, 17782,,,,, !VITAL
+	31, bubble1.3df,,,,,,,, !READONLY,, gallery\bubble\bubble1.3df,,,, 15578,,,,, !VITAL
+	31, vlinstk.3df,,,,,,,, !READONLY,, gallery\line\vlinstk.3df,,,, 17992,,,,, !VITAL
+	31, polar.3df,,,,,,,, !READONLY,, gallery\polar\polar.3df,,,, 17830,,,,, !VITAL
+	31, polar_d.3df,,,,,,,, !READONLY,, gallery\polar\polar-d.3df,,,, 18328,,,,, !VITAL
+	31, radar.3df,,,,,,,, !READONLY,, gallery\radar\radar.3df,,,, 17602,,,,, !VITAL
+	31, spec01.3df,,,,,,,, !READONLY,, gallery\spectral\spec01.3df,,,, 18658,,,,, !VITAL
+	31, table01.3df,,,,,,,, !READONLY,, gallery\table\table01.3df,,,, 17314,,,,, !VITAL
+	31, table02.3df,,,,,,,, !READONLY,, gallery\table\table02.3df,,,, 17702,,,,, !VITAL
+	31, 4pool.bmp,,,,,,,, !READONLY,, pictures\4pool.bmp,,,, 8310,,,,, !VITAL
+	31, 4snails.bmp,,,,,,,, !READONLY,, pictures\4snails.bmp,,,, 8310,,,,, !VITAL
+	31, 3dpyrmid.3df,,,,,,,, !READONLY,, gallery\3driser\3dpyrmid.3df,,,, 15582,,,,, !VITAL
+	31, 3dscatlb.3df,,,,,,,, !READONLY,, gallery\3driser\3dscatlb.3df,,,, 17418,,,,, !VITAL
+	31, hbarbsid.3df,,,,,,,, !READONLY,, gallery\bar\hbarbsid.3df,,,, 18212,,,,, !VITAL
+	31, hbarbstk.3df,,,,,,,, !READONLY,, gallery\bar\hbarbstk.3df,,,, 18036,,,,, !VITAL
+	31, hbardsid.3df,,,,,,,, !READONLY,, gallery\bar\hbardsid.3df,,,, 17708,,,,, !VITAL
+	31, hbardstk.3df,,,,,,,, !READONLY,, gallery\bar\hbardstk.3df,,,, 18138,,,,, !VITAL
+	31, vbardstk.3df,,,,,,,, !READONLY,, gallery\bar\vbardstk.3df,,,, 18136,,,,, !VITAL
+	31, spec02.3df,,,,,,,, !READONLY,, gallery\spectral\spec02.3df,,,, 19482,,,,, !VITAL
+	31, 4dunes.bmp,,,,,,,, !READONLY,, pictures\4dunes.bmp,,,, 8310,,,,, !VITAL
+	31, 4redder.bmp,,,,,,,, !READONLY,, pictures\4redder.bmp,,,, 32886,,,,, !VITAL
+	31, 4redsky.bmp,,,,,,,, !READONLY,, pictures\4redsky.bmp,,,, 32886,,,,, !VITAL
+	31, 3dsurfhc.3df,,,,,,,, !READONLY,, gallery\3driser\3dsurfhc.3df,,,, 20848,,,,, !VITAL
+	31, 4lines2.bmp,,,,,,,, !READONLY,, pictures\4lines2.bmp,,,, 32886,,,,, !VITAL
+	31, 3dsurf4.3df,,,,,,,, !READONLY,, gallery\3driser\3dsurf4.3df,,,, 29476,,,,, !VITAL
+	31, crowd.wmf,,,,,,,, !READONLY,, vector\crowd.wmf,,,, 10038,,,,, !VITAL
+	31, 4cryst.bmp,,,,,,,, !READONLY,, pictures\4cryst.bmp,,,, 32886,,,,, !VITAL
+	31, 4lines.bmp,,,,,,,, !READONLY,, pictures\4lines.bmp,,,, 32886,,,,, !VITAL
+	31, 4rufblu.bmp,,,,,,,, !READONLY,, pictures\4rufblu.bmp,,,, 32886,,,,, !VITAL
+	31, 4hewn.bmp,,,,,,,, !READONLY,, pictures\4hewn.bmp,,,, 32886,,,,, !VITAL
+	31, 4sky.bmp,,,,,,,, !READONLY,, pictures\4sky.bmp,,,, 32886,,,,, !VITAL
+	31, 4lake.bmp,,,,,,,, !READONLY,, pictures\4lake.bmp,,,, 32886,,,,, !VITAL
+	31, 4blue.bmp,,,,,,,, !READONLY,, pictures\4blue.bmp,,,, 32886,,,,, !VITAL
+	31, 4magnt.bmp,,,,,,,, !READONLY,, pictures\4magnt.bmp,,,, 32886,,,,, !VITAL
+	31, 4pea.bmp,,,,,,,, !READONLY,, pictures\4pea.bmp,,,, 32886,,,,, !VITAL
+	31, 4murex.bmp,,,,,,,, !READONLY,, pictures\4murex.bmp,,,, 32886,,,,, !VITAL
+	31, 4foam.bmp,,,,,,,, !READONLY,, pictures\4foam.bmp,,,, 32886,,,,, !VITAL
+	31, 4red.bmp,,,,,,,, !READONLY,, pictures\4red.bmp,,,, 32886,,,,, !VITAL
+	31, 4sand.bmp,,,,,,,, !READONLY,, pictures\4sand.bmp,,,, 32886,,,,, !VITAL
+	31, 4violet.bmp,,,,,,,, !READONLY,, pictures\4violet.bmp,,,, 32886,,,,, !VITAL
+	31, 4coral.bmp,,,,,,,, !READONLY,, pictures\4coral.bmp,,,, 32886,,,,, !VITAL
+	31, 4turq.bmp,,,,,,,, !READONLY,, pictures\4turq.bmp,,,, 32886,,,,, !VITAL
+	31, ccdlg.dll,,,,,,,, !READONLY,,,,,, 158208,,,,, !VITAL
+	31, ccres.dll,,,,,,,, !READONLY,,,,,, 1020416,,,,, !VITAL
+	31, ccchart.hlp,,,,,,,, !READONLY,,,,,, 602770,,,,, !VITAL
+	21, ccchart.exe,,,,,,,, !READONLY,,,,,, 766976,,,,, !VITAL
+
+[Seagate Crystal Reports Help\@TargetDir]
+	1, cuecard.hlp,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, about.hlp,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	32, acroexe.01,,,, 1997-08-29,,,, !READONLY,,,,,, 447216,,,,, !VITAL
+	33, acroexe.00,,,, 1997-08-29,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Query Designer\@TargetDir]
+	34, grdkrn32.dll,,,,,,,, !READONLY,,,,,, 136704,,,,, !VITAL
+	34, cqw32.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 3718144,,,,,
+
+[Database Access\ODBC\@Winsys]
+	35, qecr.lic,,,, 1997-08-29,,,, !READONLY,,,,,, 796,,,,, !VITAL
+	35, odbccp32.cpl,,,,,,, OLDER, !READONLY,,,,, SHARED, 11536,,,, 3.0.28.22,
+	35, ds16gt.dll,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 4656,,,, 3.0.28.22, !VITAL
+	35, ds32gt.dll,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 8704,,,, 3.0.28.22, !VITAL
+	35, odbcdr32.hlp,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,, SHARED, 9520,,,,, !VITAL
+	35, crsyb11.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 23295,,,,, !VITAL
+	35, odbcint.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 67072,,,, 3.0.28.22, !VITAL
+	35, odbccp32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 87824,,,, 3.0.28.22, !VITAL
+	35, msvcrt10.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 210944,,,,, !VITAL
+	35, odbc32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 230672,,,, 3.0.28.22, !VITAL
+	35, crutl11.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 269312,,,,, !VITAL
+	35, crbas11.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 284160,,,,, !VITAL
+	1, msvcrt20.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 253952,,,, 2.11.0.0, !VITAL
+	35, crflt11.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 320000,,,,, !VITAL
+	35, msvcrt40.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 326656,,,, 4.10.0.6038, !VITAL
+	35, mfc30.dll,,,,,,, OLDER, !READONLY,, mfc30.dll,,, SHARED, 322832,,,, 3.2.0.0, !VITAL
+
+[Sample Files\Xtreme Mountain Bike\Visual Basic Samples\@TargetDir]
+	36, Xvb227,,,,,,,, !READONLY,, sample\Xtreme\browser\Browser.vbw,,,, 237,,,,, !VITAL
+	36, Xvb230,,,,,,,, !READONLY,, sample\Xtreme\browser\main.bas,,,, 673,,,,, !VITAL
+	36, Xvb233,,,,,,,, !READONLY,, sample\Xtreme\browser\modClassIDGenerator.bas,,,, 281,,,,, !VITAL
+	36, Xvb235,,,,,,,, !READONLY,, sample\Xtreme\browser\mssccprj.scc,,,, 147,,,,, !VITAL
+	36, Xvb365,,,,,,,, !READONLY,, sample\Xtreme\Invntory\About.frx,,,, 778,,,,, !VITAL
+	36, Xvb374,,,,,,,, !READONLY,, sample\Xtreme\Invntory\mssccprj.scc,,,, 151,,,,, !VITAL
+	36, Xvb376,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Options.frx,,,, 112,,,,, !VITAL
+	36, Xvb384,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source.frx,,,, 281,,,,, !VITAL
+	36, Xvb385,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Splash.frm,,,, 740,,,,, !VITAL
+	36, Xvb387,,,,,,,, !READONLY,, sample\Xtreme\Invntory\XtremeDemo.bas,,,, 186,,,,, !VITAL
+	36, Xvb391,,,,,,,, !READONLY,, sample\Xtreme\Invntory\XtremeDemo.vbw,,,, 901,,,,, !VITAL
+	36, Xvb399,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\crw.ico,,,, 766,,,,, !VITAL
+	36, Xvb421,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rpt.ico,,,, 766,,,,, !VITAL
+	36, Xvb226,,,,,,,, !READONLY,, sample\Xtreme\browser\Browser.vbp,,,, 1390,,,,, !VITAL
+	36, Xvb234,,,,,,,, !READONLY,, sample\Xtreme\browser\modErrorHandling.bas,,,, 1494,,,,, !VITAL
+	36, Xvb427,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\Formula.rtf,,,, 1031,,,,, !VITAL
+	36, Xvb428,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\Graph.rtf,,,, 1116,,,,, !VITAL
+	36, Xvb429,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\GroupSortDirection.rtf,,,, 1212,,,,, !VITAL
+	36, Xvb430,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\Output.rtf,,,, 828,,,,, !VITAL
+	36, Xvb431,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\RecordSelect.rtf,,,, 1055,,,,, !VITAL
+	36, Xvb432,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\Tables.rtf,,,, 1176,,,,, !VITAL
+	36, Xvb434,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\Window.rtf,,,, 1286,,,,, !VITAL
+	36, Xvb256,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0FieldValue.rtf,,,, 2934,,,,, !VITAL
+	36, Xvb297,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1CanCloseApplication.rtf,,,, 3167,,,,, !VITAL
+	36, Xvb298,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1CheckFormulaFieldDefinition.rtf,,,, 2812,,,,, !VITAL
+	36, Xvb299,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ClearErrorApplication.rtf,,,, 2485,,,,, !VITAL
+	36, Xvb302,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1CloseWindow.rtf,,,, 2410,,,,, !VITAL
+	36, Xvb304,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1DeleteSortFields.rtf,,,, 2701,,,,, !VITAL
+	36, Xvb305,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1DiscardSavedDataReport.rtf,,,, 2308,,,,, !VITAL
+	36, Xvb306,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1DrillOnGraphPageGenerator.rtf,,,, 2992,,,,, !VITAL
+	36, Xvb318,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1PrintOutView.rtf,,,, 2513,,,,, !VITAL
+	36, Xvb319,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1PromptForExportOptionsExportOptions.rtf,,,, 2496,,,,, !VITAL
+	36, Xvb325,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ResetExportOptions.rtf,,,, 2391,,,,, !VITAL
+	36, Xvb333,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ShowFirstPageView.rtf,,,, 2497,,,,, !VITAL
+	36, Xvb334,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ShowLastPageView.rtf,,,, 2493,,,,, !VITAL
+	36, Xvb335,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ShowNextPageView.rtf,,,, 2493,,,,, !VITAL
+	36, Xvb336,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ShowNthPageView.rtf,,,, 2775,,,,, !VITAL
+	36, Xvb337,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ShowPreviousPageView.rtf,,,, 2509,,,,, !VITAL
+	36, Xvb338,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1TestConnectivityDatabaseTable.rtf,,,, 2788,,,,, !VITAL
+	36, Xvb339,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1VerifyDatabase.rtf,,,, 2609,,,,, !VITAL
+	36, Xvb340,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ZoomPreviewWindowView.rtf,,,, 2890,,,,, !VITAL
+	36, Xvb341,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2ActivatePrintWindowWindow.rtf,,,, 2869,,,,, !VITAL
+	36, Xvb345,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2DeactivatePrintWindowWindow.rtf,,,, 2902,,,,, !VITAL
+	36, Xvb368,,,,,,,, !READONLY,, sample\Xtreme\Invntory\DataGrid.frx,,,, 2692,,,,, !VITAL
+	36, Xvb379,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Page.frm,,,, 2906,,,,, !VITAL
+	36, Xvb383,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source.frm,,,, 2897,,,,, !VITAL
+	36, Xvb390,,,,,,,, !READONLY,, sample\Xtreme\Invntory\XtremeDemo.vbp,,,, 2063,,,,, !VITAL
+	36, Xvb404,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\dn_warehouse.gif,,,, 1619,,,,, !VITAL
+	36, Xvb433,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Source\Template.rtf,,,, 1973,,,,, !VITAL
+	36, Xvb260,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0GlobalOptions.rtf,,,, 5028,,,,, !VITAL
+	36, Xvb277,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0ReportObjects.rtf,,,, 3664,,,,, !VITAL
+	36, Xvb295,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1AddSortFields.rtf,,,, 5215,,,,, !VITAL
+	36, Xvb309,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1GetPageNumberForGroupPageGenerator.rtf,,,, 5042,,,,, !VITAL
+	36, Xvb321,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1RenderEPFPage.rtf,,,, 4978,,,,, !VITAL
+	36, Xvb330,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SetLogOnInfoDatabaseTable.rtf,,,, 5145,,,,, !VITAL
+	36, Xvb331,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SetPrivateDataDatabaseTable.rtf,,,, 3554,,,,, !VITAL
+	36, Xvb332,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SetSessionInfoDatabaseTable.rtf,,,, 4281,,,,, !VITAL
+	36, Xvb342,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2CancelButtonClickedWindow.rtf,,,, 3479,,,,, !VITAL
+	36, Xvb343,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2CloseButtonClickedWindow.rtf,,,, 3606,,,,, !VITAL
+	36, Xvb344,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2ClosePrintWindowWindow.rtf,,,, 3330,,,,, !VITAL
+	36, Xvb346,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2DrillOnDetailWindow.rtf,,,, 3874,,,,, !VITAL
+	36, Xvb348,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2ExportButtonClickedWindow.rtf,,,, 3435,,,,, !VITAL
+	36, Xvb349,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2FirstPageButtonClickedWindow.rtf,,,, 3369,,,,, !VITAL
+	36, Xvb350,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2GroupTreeButtonClickedWindow.rtf,,,, 3391,,,,, !VITAL
+	36, Xvb356,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2ReadingRecordsReport.rtf,,,, 3683,,,,, !VITAL
+	36, Xvb357,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2RefreshButtonClickedWindow.rtf,,,, 3457,,,,, !VITAL
+	36, Xvb358,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2SearchButtonClickedWindow.rtf,,,, 3589,,,,, !VITAL
+	36, Xvb359,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2ShowGroupWindow.rtf,,,, 3712,,,,, !VITAL
+	36, Xvb420,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_wwsales.gif,,,, 1906,,,,, !VITAL
+	36, Xvb228,,,,,,,, !READONLY,, sample\Xtreme\browser\clsServer.cls,,,, 7728,,,,, !VITAL
+	36, Xvb239,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Area.rtf,,,, 6282,,,,, !VITAL
+	36, Xvb241,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Areas.rtf,,,, 5417,,,,, !VITAL
+	36, Xvb242,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0BlobFieldObject.rtf,,,, 5306,,,,, !VITAL
+	36, Xvb243,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0BoxObject.rtf,,,, 5210,,,,, !VITAL
+	36, Xvb244,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0CrossTabObject.rtf,,,, 5353,,,,, !VITAL
+	36, Xvb245,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Database.rtf,,,, 5184,,,,, !VITAL
+	36, Xvb246,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0DatabaseFieldDefinition.rtf,,,, 6656,,,,, !VITAL
+	36, Xvb247,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0DatabaseFieldDefinitions.rtf,,,, 5798,,,,, !VITAL
+	36, Xvb248,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0DatabaseParameter.rtf,,,, 6047,,,,, !VITAL
+	36, Xvb249,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0DatabaseParameters.rtf,,,, 5554,,,,, !VITAL
+	36, Xvb251,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0DatabaseTables.rtf,,,, 5557,,,,, !VITAL
+	36, Xvb252,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0EventInfo.rtf,,,, 5627,,,,, !VITAL
+	36, Xvb254,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0FieldDefinitions.rtf,,,, 5631,,,,, !VITAL
+	36, Xvb255,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0FieldObject.rtf,,,, 6011,,,,, !VITAL
+	36, Xvb259,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0FormulaFieldDefinitions.rtf,,,, 5528,,,,, !VITAL
+	36, Xvb263,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0GroupNameFieldDefinition.rtf,,,, 6517,,,,, !VITAL
+	36, Xvb264,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0LineObject.rtf,,,, 5212,,,,, !VITAL
+	36, Xvb265,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0OLEObject.rtf,,,, 5268,,,,, !VITAL
+	36, Xvb266,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Page.rtf,,,, 5810,,,,, !VITAL
+	36, Xvb267,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0PageEngine.rtf,,,, 5425,,,,, !VITAL
+	36, Xvb268,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0PageGenerator.rtf,,,, 5887,,,,, !VITAL
+	36, Xvb269,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Pages.rtf,,,, 6114,,,,, !VITAL
+	36, Xvb272,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0ParameterFieldDefinitions.rtf,,,, 6038,,,,, !VITAL
+	36, Xvb273,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0PrinterInfo.rtf,,,, 5277,,,,, !VITAL
+	36, Xvb279,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0ReportSummaryInfo.rtf,,,, 5457,,,,, !VITAL
+	36, Xvb280,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Section.rtf,,,, 5318,,,,, !VITAL
+	36, Xvb282,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Sections.rtf,,,, 6116,,,,, !VITAL
+	36, Xvb283,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SortField.rtf,,,, 5297,,,,, !VITAL
+	36, Xvb284,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SortFields.rtf,,,, 5411,,,,, !VITAL
+	36, Xvb286,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SubreportObject.rtf,,,, 5344,,,,, !VITAL
+	36, Xvb288,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SummaryFieldDefinitions.rtf,,,, 5521,,,,, !VITAL
+	36, Xvb289,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0TextObject.rtf,,,, 5203,,,,, !VITAL
+	36, Xvb292,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Views.rtf,,,, 6129,,,,, !VITAL
+	36, Xvb294,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1AddGroupReport.rtf,,,, 6111,,,,, !VITAL
+	36, Xvb296,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1CancelPrintingReport.rtf,,,, 6464,,,,, !VITAL
+	36, Xvb300,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ClearErrorReport.rtf,,,, 6488,,,,, !VITAL
+	36, Xvb301,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1CloseView.rtf,,,, 6550,,,,, !VITAL
+	36, Xvb308,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ExportView.rtf,,,, 6583,,,,, !VITAL
+	36, Xvb310,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1GetPrivateDataDatabaseTable.rtf,,,, 5384,,,,, !VITAL
+	36, Xvb312,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1LogOnServerApplication.rtf,,,, 6005,,,,, !VITAL
+	36, Xvb313,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1NextMagnificationView.rtf,,,, 6626,,,,, !VITAL
+	36, Xvb314,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1OpenReportApplication.rtf,,,, 5305,,,,, !VITAL
+	36, Xvb320,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ReadRecordsReport.rtf,,,, 6464,,,,, !VITAL
+	36, Xvb322,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1RenderHTMLPage.rtf,,,, 5968,,,,, !VITAL
+	36, Xvb323,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1RenderTotallerETFPageEngine.rtf,,,, 5627,,,,, !VITAL
+	36, Xvb324,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1RenderTotallerHTMLPageEngine.rtf,,,, 6003,,,,, !VITAL
+	36, Xvb326,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SearchForTextPageGenerator.rtf,,,, 5400,,,,, !VITAL
+	36, Xvb328,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SetCurrentValueParameterFieldDefinition.rtf,,,, 6087,,,,, !VITAL
+	36, Xvb329,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SetDefaultValueParameterFieldDefinition.rtf,,,, 6011,,,,, !VITAL
+	36, Xvb347,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2DrillOnGroupWindow.rtf,,,, 5851,,,,, !VITAL
+	36, Xvb360,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2StartReport.rtf,,,, 5612,,,,, !VITAL
+	36, Xvb361,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2StopReport.rtf,,,, 5827,,,,, !VITAL
+	36, Xvb362,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2ZoomLevelChangingWindow.rtf,,,, 5272,,,,, !VITAL
+	36, Xvb363,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\CRPEAuto.rtf,,,, 5133,,,,, !VITAL
+	36, Xvb378,,,,,,,, !READONLY,, sample\Xtreme\Invntory\OrdersDetail.frm,,,, 7848,,,,, !VITAL
+	36, Xvb400,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\dn_company.gif,,,, 2099,,,,, !VITAL
+	36, Xvb401,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\dn_home.gif,,,, 2284,,,,, !VITAL
+	36, Xvb403,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\dn_sales.gif,,,, 1977,,,,, !VITAL
+	36, Xvb423,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\up_home.gif,,,, 2284,,,,, !VITAL
+	36, Xvb425,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\up_sales.gif,,,, 2350,,,,, !VITAL
+	36, Xvb236,,,,,,,, !READONLY,, sample\Xtreme\browser\Richtext.bas,,,, 7871,,,,, !VITAL
+	36, Xvb258,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0FormulaFieldDefinition.rtf,,,, 6886,,,,, !VITAL
+	36, Xvb262,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0GroupAreaOptions.rtf,,,, 7237,,,,, !VITAL
+	36, Xvb274,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0PrintingStatus.rtf,,,, 6641,,,,, !VITAL
+	36, Xvb275,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0PrintWindowOptions.rtf,,,, 6891,,,,, !VITAL
+	36, Xvb278,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0ReportOptions.rtf,,,, 6954,,,,, !VITAL
+	36, Xvb285,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SpecialVarFieldDefinition.rtf,,,, 7110,,,,, !VITAL
+	36, Xvb287,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SummaryFieldDefinition.rtf,,,, 7719,,,,, !VITAL
+	36, Xvb290,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0TrackCursorInfo.rtf,,,, 7330,,,,, !VITAL
+	36, Xvb293,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Window.rtf,,,, 7258,,,,, !VITAL
+	36, Xvb303,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1CreatePageGeneratorPageEngine.rtf,,,, 7443,,,,, !VITAL
+	36, Xvb307,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1ExportReport.rtf,,,, 7013,,,,, !VITAL
+	36, Xvb311,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1LogOffServerApplication.rtf,,,, 6407,,,,, !VITAL
+	36, Xvb315,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1OpenSubreportReport.rtf,,,, 7092,,,,, !VITAL
+	36, Xvb316,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1PreviewReport.rtf,,,, 8209,,,,, !VITAL
+	36, Xvb317,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1PrintOutReport.rtf,,,, 7418,,,,, !VITAL
+	36, Xvb327,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\1SelectPrinterReport.rtf,,,, 7171,,,,, !VITAL
+	36, Xvb351,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2LastPageButtonClickedWindow.rtf,,,, 7424,,,,, !VITAL
+	36, Xvb352,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2NextPageButtonClickedWindow.rtf,,,, 7422,,,,, !VITAL
+	36, Xvb353,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2PrevPageButtonClickedWindow.rtf,,,, 7430,,,,, !VITAL
+	36, Xvb354,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2PrintButtonClickedWindow.rtf,,,, 7324,,,,, !VITAL
+	36, Xvb355,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\2PrintSetupButtonClickedWindow.rtf,,,, 7403,,,,, !VITAL
+	36, Xvb367,,,,,,,, !READONLY,, sample\Xtreme\Invntory\DataGrid.frm,,,, 7779,,,,, !VITAL
+	36, Xvb370,,,,,,,, !READONLY,, sample\Xtreme\Invntory\EmployeeAddresses.frm,,,, 9838,,,,, !VITAL
+	36, Xvb380,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Product.frm,,,, 10988,,,,, !VITAL
+	36, Xvb381,,,,,,,, !READONLY,, sample\Xtreme\Invntory\ProductType.frm,,,, 8255,,,,, !VITAL
+	36, Xvb382,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Purchases.frm,,,, 10895,,,,, !VITAL
+	36, Xvb388,,,,,,,, !READONLY,, sample\Xtreme\Invntory\XtremeDemo.cls,,,, 6963,,,,, !VITAL
+	36, Xvb415,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_mission.gif,,,, 2403,,,,, !VITAL
+	36, Xvb422,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\up_company.gif,,,, 2406,,,,, !VITAL
+	36, Xvb426,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\up_warehouse.gif,,,, 2365,,,,, !VITAL
+	36, Xvb238,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Application.rtf,,,, 9789,,,,, !VITAL
+	36, Xvb240,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0AreaOptions.rtf,,,, 8377,,,,, !VITAL
+	36, Xvb250,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0DatabaseTable.rtf,,,, 8970,,,,, !VITAL
+	36, Xvb257,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Font.rtf,,,, 9048,,,,, !VITAL
+	36, Xvb291,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0View.rtf,,,, 7938,,,,, !VITAL
+	36, Xvb364,,,,,,,, !READONLY,, sample\Xtreme\Invntory\About.frm,,,, 9543,,,,, !VITAL
+	36, Xvb369,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Employee.frm,,,, 11926,,,,, !VITAL
+	36, Xvb377,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Orders.frm,,,, 12127,,,,, !VITAL
+	36, Xvb402,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\dn_management.gif,,,, 2976,,,,, !VITAL
+	36, Xvb413,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_invent_w.gif,,,, 3075,,,,, !VITAL
+	36, Xvb414,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_maillabl.gif,,,, 3015,,,,, !VITAL
+	36, Xvb419,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_statemnt.gif,,,, 3120,,,,, !VITAL
+	36, Xvb424,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\up_management.gif,,,, 2866,,,,, !VITAL
+	36, Xvb271,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0ParameterFieldDefinition.rtf,,,, 10460,,,,, !VITAL
+	36, Xvb276,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0Report.rtf,,,, 10879,,,,, !VITAL
+	36, Xvb281,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0SectionOptions.rtf,,,, 9775,,,,, !VITAL
+	36, Xvb366,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Customer.frm,,,, 15576,,,,, !VITAL
+	36, Xvb416,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_ordpack.gif,,,, 3329,,,,, !VITAL
+	36, Xvb237,,,,,,,, !READONLY,, sample\Xtreme\browser\STRINGFUNCTIONS.BAS,,,, 13894,,,,, !VITAL
+	36, Xvb253,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0ExportOptions.rtf,,,, 12533,,,,, !VITAL
+	36, Xvb261,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0GraphObject.rtf,,,, 12779,,,,, !VITAL
+	36, Xvb410,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_history.gif,,,, 3771,,,,, !VITAL
+	36, Xvb412,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_invent_s.gif,,,, 4067,,,,, !VITAL
+	36, Xvb417,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_partners.gif,,,, 3757,,,,, !VITAL
+	36, Xvb418,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_prodcat.gif,,,, 3847,,,,, !VITAL
+	36, Xvb371,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Financials.frm,,,, 21579,,,,, !VITAL
+	36, Xvb407,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_empprof.gif,,,, 4127,,,,, !VITAL
+	36, Xvb408,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_empsales.gif,,,, 4146,,,,, !VITAL
+	36, Xvb411,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_income.gif,,,, 4319,,,,, !VITAL
+	36, Xvb372,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Main.frm,,,, 19821,,,,, !VITAL
+	36, Xvb373,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Main.frx,,,, 9481,,,,, !VITAL
+	36, Xvb375,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Options.frm,,,, 22039,,,,, !VITAL
+	36, Xvb409,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_finstate.gif,,,, 4591,,,,, !VITAL
+	36, Xvb232,,,,,,,, !READONLY,, sample\Xtreme\browser\Main.frx,,,, 24837,,,,, !VITAL
+	36, Xvb405,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_balance.gif,,,, 5335,,,,, !VITAL
+	36, Xvb406,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\rp_customer.gif,,,, 5072,,,,, !VITAL
+	36, Xvb225,,,,,,,, !READONLY,, sample\Xtreme\browser\Browser.ini,,,, 30605,,,,, !VITAL
+	36, Xvb386,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Splash.frx,,,, 6412,,,,, !VITAL
+	36, Xvb397,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_splash.gif,,,, 6400,,,,, !VITAL
+	36, Xvb270,,,,,,,, !READONLY,, sample\Xtreme\browser\Source\0PageSetup.rtf,,,, 30360,,,,, !VITAL
+	36, Xvb231,,,,,,,, !READONLY,, sample\Xtreme\browser\Main.frm,,,, 34920,,,,, !VITAL
+	36, Xvb393,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_home.gif,,,, 11726,,,,, !VITAL
+	36, Xvb229,,,,,,,, !READONLY,, sample\Xtreme\browser\CrystalExplorer.exe,,,, 100352,,,,, !VITAL
+	36, Xvb394,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_login.gif,,,, 80295,,,,, !VITAL
+	36, Xvb395,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_management.gif,,,, 92980,,,,, !VITAL
+	36, Xvb389,,,,,,,, !READONLY,, sample\Xtreme\Invntory\XtremeDemo.exe,,,, 249344,,,,, !VITAL
+	36, Xvb398,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_warehouse.gif,,,, 105115,,,,, !VITAL
+	36, Xvb396,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_sales.gif,,,, 105468,,,,, !VITAL
+	36, Xvb392,,,,,,,, !READONLY,, sample\Xtreme\Invntory\Images\bg_company.gif,,,, 133900,,,,, !VITAL
+
+[BASICVB5DLLS\@WinSys]
+	37, comcat.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 21504,,,, 4.71.1454.1, !VITAL
+	37, comdlg32.ocx,,,,,,, OLDER, !READONLY,,,,, SHARED, 128784,,,, 5.0.37.14, !VITAL
+	37, comctl32.ocx,,,,,,, OLDER, !READONLY,,,,, SHARED, 579856,,,, 5.0.37.14, !VITAL
+	37, msvbvm50.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 1334032,,,, 5.0.37.24, !VITAL
+
+[Sample Files\Xtreme Mountain Bike\Visual Basic Samples\@WinSys]
+	38, stdole2.tlb,,,,,,, OLDER, !READONLY,,,,, SHARED, 16896,,,, 2.20.4054.1, !VITAL
+	38, olepro32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 32528,,,, 5.0.4055.1, !VITAL
+	38, vb5db.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 78608,,,, 5.0.37.24, !VITAL
+	38, asycfilt.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 120592,,,, 2.20.4056.1, !VITAL
+	38, comct232.ocx,,,,,,, OLDER, !READONLY,,,,, SHARED, 154896,,,, 5.0.37.14, !VITAL
+	38, richtx32.ocx,,,,,,, OLDER, !READONLY,,,,, SHARED, 195856,,,, 5.0.37.14, !VITAL
+	38, tabctl32.ocx,,,,,,, OLDER, !READONLY,,,,, SHARED, 191248,,,, 5.0.37.14, !VITAL
+	38, riched32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 174352,,,, 4.0.993.4, !VITAL
+	38, shdocvw.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 478992,,,, 4.70.0.1300, !VITAL
+	38, dbgrid32.ocx,,,,,,, OLDER, !READONLY,,,,, SHARED, 519680,,,, 5.0.37.14, !VITAL
+
+[Developer's Files\Microsoft Visual Basic\@Winsys]
+"Ole Control" = 39, crystl32.dep,, cry32dep.old,, 1997-08-29,,,, !READONLY,,,,,, 559,,,,, !VITAL
+"Ole Control" = 39, crystl19.tlb,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 19194,,,,, !VITAL
+"Ole Control" = 39, crystl49.tlb,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 19194,,,,, !VITAL
+	39, olepro32.dll,,,,,,, OLDER, !READONLY,,,,,, 32528,,,, 5.0.4055.1, !VITAL
+	39, crwrap32.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 58368,,,,, !VITAL
+	39, mfcans32.dll,,,,,,, OLDER, !READONLY,,,,,, 133904,,,, 3.2.1.0, !VITAL
+	39, oc30.dll,,,,,,, OLDER, !READONLY,,,,,, 638464,,,, 3.10.0.0, !VITAL
+"Ole Control" = 39, crystl32.ocx,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 991476,,,, 6.0.0.607, !VITAL
+
+[Sample Files\Xtreme Mountain Bike\@TargetDir]
+	32, xtreme.mdb,,,, 1997-08-29,,,, !READONLY,,,,,, 5144576,,,,, !VITAL
+
+[Database Access\ODBC\Oracle 7.x/8.x\Seagate Software Q+E ODBC Drivers\@Winsys]
+	40, cror711.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 21319,,,,, !VITAL
+	40, cror711.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 116736,,,,, !VITAL
+	40, ora7nt.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 237568,,,,, !VITAL
+	40, orant71.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 251904,,,,, !VITAL
+	40, corent.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 613376,,,,, !VITAL
+	40, corent23.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 775168,,,,, !VITAL
+
+[Database Access\ODBC\Visual FoxPro\@Winsys]
+	41, drvvfp.cnt,,,,,,, OLDER, !READONLY,,,,,, 5446,,,,, !VITAL
+	41, foxpro.int,,,,,,, OLDER, !READONLY,,,,, SHARED, 47759,,,,, !VITAL
+	41, drvvfp.hlp,,,,,,, OLDER, !READONLY,,,,,, 198797,,,,, !VITAL
+	41, vfpodbc.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 850432,,,, 1.0.0.83, !VITAL
+
+[Developer's Files\Microsoft Visual InterDev\@WinSys]
+	42, dtctrace.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 7168,,,, 1.0.0.2, !VITAL
+	42, xolehlp.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 22016,,,, 1997.1.8.205, !VITAL
+	42, regsvrdc.exe,,,,,,, OLDER, !READONLY,,,,, SHARED, 30208,,,,, !VITAL
+	42, emfgen.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 31232,,,,, !VITAL
+	42, dtcutil.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 48128,,,, 1997.1.8.205, !VITAL
+	42, adme.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 57856,,,, 1997.1.8.205, !VITAL
+	42, msstkprp.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 49664,,,, 5.0.37.14, !VITAL
+	42, vbiserv.dll,,,,,,, NEVER, !READONLY,,,,, SHARED, 56832,,,,, !VITAL
+	42, rdocurs.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 97552,,,, 1.0.0.256, !VITAL
+	42, msdtcprx.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 171008,,,, 1997.1.8.205, !VITAL
+	42, dtccm.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 194048,,,, 1997.1.8.205, !VITAL
+	42, crysdtc.ocx,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 519168,,,, 6.0.0.245, !VITAL
+	42, msrdo20.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 376080,,,, 5.0.38.17, !VITAL
+
+[Web Report Servers\@TargetDir]
+	1, aactxerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\actxasp.htm,,, SHARED, 586,,,,, !VITAL
+	1, afhtmerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\fhtmasp.htm,,, SHARED, 586,,,,, !VITAL
+	1, ajavaerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\javaasp.htm,,, SHARED, 586,,,,, !VITAL
+	1, aphtmerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\phtmasp.htm,,, SHARED, 586,,,,, !VITAL
+	22, java0,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\AlbumStatus.class,,,, 226,,,,, !VITAL
+	22, java2,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ClickObserver.class,,,, 248,,,,, !VITAL
+	22, java3,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Close.gif,,,, 179,,,,, !VITAL
+	22, java4,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CloseCurTabCommand.class,,,, 491,,,,, !VITAL
+	22, java5,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Command.class,,,, 386,,,,, !VITAL
+	22, java16,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\DocumentStatus.class,,,, 216,,,,, !VITAL
+	22, java21,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EEndOfFile.class,,,, 268,,,,, !VITAL
+	22, java44,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPBlobFieldBitmapInstance.class,,,, 302,,,,, !VITAL
+	22, java45,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPBlobFieldOleInstance.class,,,, 296,,,,, !VITAL
+	22, java56,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTabRCLabelEnd.class,,,, 285,,,,, !VITAL
+	22, java64,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPFieldFormatEnd.class,,,, 277,,,,, !VITAL
+	22, java67,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPFieldInstance.class,,,, 282,,,,, !VITAL
+	22, java69,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPGlobalInformationEnd.class,,,, 289,,,,, !VITAL
+	22, java70,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPGlobalInformationStart.class,,,, 293,,,,, !VITAL
+	22, java71,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPGraphic.class,,,, 269,,,,, !VITAL
+	22, java72,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPGraphicInstance.class,,,, 293,,,,, !VITAL
+	22, java73,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPImageBlockEnd.class,,,, 492,,,,, !VITAL
+	22, java78,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPLineEndElement.class,,,, 287,,,,, !VITAL
+	22, java81,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPMainReportEnd.class,,,, 275,,,,, !VITAL
+	22, java82,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPMainReportStart.class,,,, 284,,,,, !VITAL
+	22, java85,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPOle.class,,,, 255,,,,, !VITAL
+	22, java86,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPOleInstance.class,,,, 278,,,,, !VITAL
+	22, java87,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPPageEnd.class,,,, 264,,,,, !VITAL
+	22, java89,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPParagraphEnd.class,,,, 273,,,,, !VITAL
+	22, java91,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPReportObjectsEnd.class,,,, 281,,,,, !VITAL
+	22, java92,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPReportObjectsStart.class,,,, 285,,,,, !VITAL
+	22, java93,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSectionEnd.class,,,, 503,,,,, !VITAL
+	22, java95,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPStaticTextEnd.class,,,, 511,,,,, !VITAL
+	22, java97,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPStaticTextInstance.class,,,, 297,,,,, !VITAL
+	22, java101,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSubreportEnd.class,,,, 273,,,,, !VITAL
+	22, java103,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSubreportPageEnd.class,,,, 282,,,,, !VITAL
+	22, java105,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSubreportStart.class,,,, 282,,,,, !VITAL
+	22, java106,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTabElement.class,,,, 279,,,,, !VITAL
+	22, java108,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPText.class,,,, 263,,,,, !VITAL
+	22, java110,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTextInCTInstanceEnd.class,,,, 296,,,,, !VITAL
+	22, java112,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTextInstanceEnd.class,,,, 288,,,,, !VITAL
+	22, java113,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTextInstanceStart.class,,,, 294,,,,, !VITAL
+	22, java116,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTotallerNodeIdsEnd.class,,,, 285,,,,, !VITAL
+	22, java117,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTotallerNodeIdsStart.class,,,, 289,,,,, !VITAL
+	22, java122,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ETTotallerLevelEnd.class,,,, 508,,,,, !VITAL
+	22, java123,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ETTotallerLevelStart.class,,,, 287,,,,, !VITAL
+	22, java124,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\FirstPage.gif,,,, 200,,,,, !VITAL
+	22, java130,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupStatus.class,,,, 212,,,,, !VITAL
+	22, java131,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupTree.gif,,,, 237,,,,, !VITAL
+	22, java134,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupView.class,,,, 325,,,,, !VITAL
+	22, java137,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\JobObserver.class,,,, 232,,,,, !VITAL
+	22, java138,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\LastPage.gif,,,, 198,,,,, !VITAL
+	22, java139,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\NextPage.gif,,,, 169,,,,, !VITAL
+	22, java142,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PageStatus.class,,,, 204,,,,, !VITAL
+	22, java143,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PageView.class,,,, 468,,,,, !VITAL
+	22, java145,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PrevPage.gif,,,, 168,,,,, !VITAL
+	22, java148,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\RecordObserver.class,,,, 229,,,,, !VITAL
+	22, java149,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Refresh.gif,,,, 241,,,,, !VITAL
+	22, java150,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\RefreshCommand.class,,,, 479,,,,, !VITAL
+	22, java158,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ResetCommand.class,,,, 473,,,,, !VITAL
+	22, java159,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\RestartCommand.class,,,, 479,,,,, !VITAL
+	22, java161,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Search.gif,,,, 284,,,,, !VITAL
+	22, java164,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowFirstPageCommand.class,,,, 497,,,,, !VITAL
+	22, java166,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowLastPageCommand.class,,,, 494,,,,, !VITAL
+	22, java167,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowNextPageCommand.class,,,, 494,,,,, !VITAL
+	22, java169,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowPrevPageCommand.class,,,, 494,,,,, !VITAL
+	22, java171,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShutDownCommand.class,,,, 482,,,,, !VITAL
+	22, java173,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Stop.gif,,,, 152,,,,, !VITAL
+	22, java174,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Stoppable.class,,,, 195,,,,, !VITAL
+	22, java176,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\TabObserver.class,,,, 207,,,,, !VITAL
+	1, wactxerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\actxsamp.htm,,, SHARED, 484,,,,, !VITAL
+	1, wfhtmerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\fhtmsamp.htm,,, SHARED, 484,,,,, !VITAL
+	1, wjavaerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\javasamp.htm,,, SHARED, 484,,,,, !VITAL
+	1, wphtmerr.htm,,,, 1997-08-29,,,, !READONLY,, reports\phtmsamp.htm,,, SHARED, 484,,,,, !VITAL
+	22, cdrillu.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\cdrillu.gif,,,, 223,,,,, !VITAL
+	22, pdrilld.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\pdrilld.gif,,,, 248,,,,, !VITAL
+	22, pviewd.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\pviewd.gif,,,, 227,,,,, !VITAL
+	22, pviewu.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\pviewu.gif,,,, 229,,,,, !VITAL
+	22, emptybox.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\tree\emptybox.gif,,,, 47,,,,, !VITAL
+	22, magnify.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\tree\magnify.gif,,,, 96,,,,, !VITAL
+	22, minubox.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\tree\minubox.gif,,,, 65,,,,, !VITAL
+	22, plusbox.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\tree\plusbox.gif,,,, 68,,,,, !VITAL
+	22, ballred.gif,,,, 1997-08-29,,,, !READONLY,, reports\ballred.gif,,,, 988,,,,, !VITAL
+	22, default.htm,,,, 1997-08-29,,,, !READONLY,, reports\default.htm,,, SHARED, 1086,,,,, !VITAL
+	22, java1,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\AlbumView.class,,,, 660,,,,, !VITAL
+	22, java9,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSNodeContent.class,,,, 555,,,,, !VITAL
+	22, java17,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\DrillDown.gif,,,, 855,,,,, !VITAL
+	22, java18,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\DrillDownCommand.class,,,, 610,,,,, !VITAL
+	22, java19,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\DrillDownOnChartCommand.class,,,, 700,,,,, !VITAL
+	22, java20,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\E_Object.class,,,, 689,,,,, !VITAL
+	22, java22,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EM_Object.class,,,, 828,,,,, !VITAL
+	22, java23,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EMGroupPath.class,,,, 982,,,,, !VITAL
+	22, java24,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EMPageNumber.class,,,, 669,,,,, !VITAL
+	22, java27,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_Image.class,,,, 934,,,,, !VITAL
+	22, java31,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_PageEnd.class,,,, 602,,,,, !VITAL
+	22, java39,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_TextInstanceEnd.class,,,, 517,,,,, !VITAL
+	22, java43,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPBlobField.class,,,, 684,,,,, !VITAL
+	22, java46,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPBooleanFormat.class,,,, 595,,,,, !VITAL
+	22, java47,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPBox.class,,,, 593,,,,, !VITAL
+	22, java49,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPChart.class,,,, 858,,,,, !VITAL
+	22, java50,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPChartInstance.class,,,, 637,,,,, !VITAL
+	22, java51,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCommonFieldFormat.class,,,, 611,,,,, !VITAL
+	22, java53,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTabColumn.class,,,, 650,,,,, !VITAL
+	22, java54,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTabInstanceEnd.class,,,, 545,,,,, !VITAL
+	22, java57,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTabRCLabelStart.class,,,, 789,,,,, !VITAL
+	22, java58,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTabRow.class,,,, 644,,,,, !VITAL
+	22, java59,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCurrencyFormat.class,,,, 599,,,,, !VITAL
+	22, java60,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPDateFormat.class,,,, 583,,,,, !VITAL
+	22, java61,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPDateTimeFormat.class,,,, 599,,,,, !VITAL
+	22, java66,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPFieldInCTInstance.class,,,, 694,,,,, !VITAL
+	22, java74,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPImageBlockStart.class,,,, 629,,,,, !VITAL
+	22, java75,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPJPEG.class,,,, 998,,,,, !VITAL
+	22, java76,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPLine.class,,,, 595,,,,, !VITAL
+	22, java77,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPLineEnd.class,,,, 676,,,,, !VITAL
+	22, java79,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPLineInstance.class,,,, 870,,,,, !VITAL
+	22, java83,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPNumericFormat.class,,,, 595,,,,, !VITAL
+	22, java96,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPStaticTextInCTInstance.class,,,, 709,,,,, !VITAL
+	22, java98,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPStaticTextStart.class,,,, 734,,,,, !VITAL
+	22, java100,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSubreport.class,,,, 669,,,,, !VITAL
+	22, java104,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSubreportPageStart.class,,,, 669,,,,, !VITAL
+	22, java111,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTextInCTInstanceStart.class,,,, 706,,,,, !VITAL
+	22, java114,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTimeFormat.class,,,, 583,,,,, !VITAL
+	22, java119,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ET_Object.class,,,, 894,,,,, !VITAL
+	22, java125,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\FrameUtil.class,,,, 584,,,,, !VITAL
+	22, java128,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupResizeTracker.class,,,, 991,,,,, !VITAL
+	22, java135,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\HexString.class,,,, 956,,,,, !VITAL
+	22, java156,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportViewerFrame.class,,,, 687,,,,, !VITAL
+	22, java163,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\SetCurDocumentCommand.class,,,, 640,,,,, !VITAL
+	22, java165,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowGroupCommand.class,,,, 610,,,,, !VITAL
+	22, java168,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowPageCommand.class,,,, 571,,,,, !VITAL
+	22, java170,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ShowSearchCommand.class,,,, 642,,,,, !VITAL
+	22, java175,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\StringUtil.class,,,, 856,,,,, !VITAL
+	22, java179,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Tracker.class,,,, 601,,,,, !VITAL
+	22, java184,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ViewerStrings.class,,,, 867,,,,, !VITAL
+	22, first.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\first.gif,,,, 930,,,,, !VITAL
+	22, firstd.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\firstd.gif,,,, 935,,,,, !VITAL
+	22, last.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\last.gif,,,, 927,,,,, !VITAL
+	22, lastd.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\lastd.gif,,,, 934,,,,, !VITAL
+	22, next.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\next.gif,,,, 921,,,,, !VITAL
+	22, nextd.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\nextd.gif,,,, 918,,,,, !VITAL
+	22, prev.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\prev.gif,,,, 920,,,,, !VITAL
+	22, prevd.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\prevd.gif,,,, 922,,,,, !VITAL
+	22, refresh.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\refresh.gif,,,, 938,,,,, !VITAL
+	22, search.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\search.gif,,,, 947,,,,, !VITAL
+	22, toolbg.gif,,,, 1997-08-29,,,, !READONLY,, crweb\images\toolbar\toolbg.gif,,,, 924,,,,, !VITAL
+	22, esspin.gif,,,, 1997-08-29,,,, !READONLY,, reports\esspin.gif,,,, 1534,,,,, !VITAL
+	22, java33,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_ParagraphElement.class,,,, 1207,,,,, !VITAL
+	22, java34,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_ReportObject.class,,,, 1505,,,,, !VITAL
+	22, java38,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_TabUnit.class,,,, 1224,,,,, !VITAL
+	22, java48,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPBoxInstance.class,,,, 1316,,,,, !VITAL
+	22, java52,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTab.class,,,, 1123,,,,, !VITAL
+	22, java84,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPObjectFormat.class,,,, 1187,,,,, !VITAL
+	22, java99,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPStringFormat.class,,,, 1143,,,,, !VITAL
+	22, java107,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTabStop.class,,,, 1203,,,,, !VITAL
+	22, java109,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTextElement.class,,,, 1169,,,,, !VITAL
+	22, java115,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPTotallerNodeId.class,,,, 1158,,,,, !VITAL
+	22, java118,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EServerError.class,,,, 1453,,,,, !VITAL
+	22, java120,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ETTotaller.class,,,, 1209,,,,, !VITAL
+	22, java121,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ETTotallerGroupNode.class,,,, 1094,,,,, !VITAL
+	22, java132,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupTreeControl.class,,,, 1214,,,,, !VITAL
+	22, java133,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupTreeNode.class,,,, 1051,,,,, !VITAL
+	22, java172,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\StatusCanvas.class,,,, 1177,,,,, !VITAL
+	22, java178,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\Tracer.class,,,, 1425,,,,, !VITAL
+	22, java180,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\TSLVInputStream.class,,,, 1157,,,,, !VITAL
+	22, java6,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSClickManager.class,,,, 1599,,,,, !VITAL
+	22, java25,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_CrossTabArea.class,,,, 1772,,,,, !VITAL
+	22, java37,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_StaticTextInstance.class,,,, 1799,,,,, !VITAL
+	22, java40,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_TextInstanceStart.class,,,, 1835,,,,, !VITAL
+	22, java55,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPCrossTabInstanceStart.class,,,, 1904,,,,, !VITAL
+	22, java80,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPLineStart.class,,,, 1608,,,,, !VITAL
+	22, java136,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\JobActivityCanvas.class,,,, 1897,,,,, !VITAL
+	22, java140,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PageNumberCanvas.class,,,, 1821,,,,, !VITAL
+	22, java185,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\com\roguewave\widgets\v21\ManageImage.class,,,, 1739,,,,, !VITAL
+	22, java7,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSIconAndTextContent.class,,,, 2467,,,,, !VITAL
+	22, java13,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSTextContent.class,,,, 2429,,,,, !VITAL
+	22, java28,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_ImageInstance.class,,,, 2060,,,,, !VITAL
+	22, java29,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_LineBoxInstance.class,,,, 2052,,,,, !VITAL
+	22, java36,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_ReportStart.class,,,, 2173,,,,, !VITAL
+	22, java63,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPField.class,,,, 2266,,,,, !VITAL
+	22, java68,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPFontColour.class,,,, 2304,,,,, !VITAL
+	22, java102,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSubreportInstance.class,,,, 2160,,,,, !VITAL
+	22, java127,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupResizer.class,,,, 2470,,,,, !VITAL
+	22, java129,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupScroller.class,,,, 2124,,,,, !VITAL
+	22, java162,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ServerMessage.class,,,, 2136,,,,, !VITAL
+	22, java186,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\com\roguewave\widgets\v21\ManageResourceImage.class,,,, 2427,,,,, !VITAL
+	22, viewaut.gif,,,, 1997-08-29,,,, !READONLY,, reports\viewaut.gif,,, SHARED, 2474,,,,, !VITAL
+	22, java10,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSRectTopTabBar.class,,,, 2679,,,,, !VITAL
+	22, java65,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPFieldFormatStart.class,,,, 2841,,,,, !VITAL
+	22, java181,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\TSLVReader.class,,,, 2609,,,,, !VITAL
+	22, viewweb.gif,,,, 1997-08-29,,,, !READONLY,, reports\viewweb.gif,,, SHARED, 2720,,,,, !VITAL
+	22, java30,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_Object.class,,,, 3508,,,,, !VITAL
+	22, java32,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_PageStart.class,,,, 3440,,,,, !VITAL
+	22, java153,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportGroup.class,,,, 3462,,,,, !VITAL
+	22, java35,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_ReportObjectInstance.class,,,, 3637,,,,, !VITAL
+	22, java90,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPParagraphStart.class,,,, 3890,,,,, !VITAL
+	22, java160,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ScrollablePanel.class,,,, 3797,,,,, !VITAL
+	22, java41,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_TextObject.class,,,, 4557,,,,, !VITAL
+	22, java62,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPDIB.class,,,, 4531,,,,, !VITAL
+	22, java126,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\GroupPanel.class,,,, 4259,,,,, !VITAL
+	22, java182,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\TSLVRecord.class,,,, 4142,,,,, !VITAL
+	22, java14,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSTreeControl.class,,,, 5083,,,,, !VITAL
+	22, java94,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPSectionStart.class,,,, 5092,,,,, !VITAL
+	22, java144,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PanelScroller.class,,,, 4747,,,,, !VITAL
+	22, java147,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\RecordConsumer.class,,,, 4668,,,,, !VITAL
+	22, java177,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\TotallerTree.class,,,, 4772,,,,, !VITAL
+	22, java183,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\TSLVSource.class,,,, 4819,,,,, !VITAL
+	22, java42,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPAdornment.class,,,, 5472,,,,, !VITAL
+	22, java88,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EPPageStart.class,,,, 5507,,,,, !VITAL
+	22, java15,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSTreeNode.class,,,, 5661,,,,, !VITAL
+	22, java26,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\EP_FieldInstance.class,,,, 6092,,,,, !VITAL
+	22, java157,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportViewHolder.class,,,, 5899,,,,, !VITAL
+	22, logo.gif,,,, 1997-08-29,,,, !READONLY,, reports\logo.gif,,,, 5738,,,,, !VITAL
+	22, java12,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSTabBar.class,,,, 6937,,,,, !VITAL
+	22, java11,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSTab.class,,,, 7437,,,,, !VITAL
+	22, java141,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PagePanel.class,,,, 7750,,,,, !VITAL
+	22, java155,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportViewer.class,,,, 8202,,,,, !VITAL
+	22, java146,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\PrintControlsPanel.class,,,, 8717,,,,, !VITAL
+	22, java154,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportPage.class,,,, 8854,,,,, !VITAL
+	22, java152,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportDocument.class,,,, 9886,,,,, !VITAL
+	22, java8,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\CSImageButton.class,,,, 10252,,,,, !VITAL
+	22, java151,,,,, !DECOMPRESS,,, !READONLY,, crweb\JavaViewer\ReportAlbum.class,,,, 12192,,,,, !VITAL
+	22, crimage.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 126464,,,,, !VITAL
+	22, crviewer.dll,,,, 1997-08-29,,,, !READONLY,, CRWEB\ActiveXViewer\crviewer.dll,,,, 201800,,,,, !VITAL
+	22, webconf.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 220672,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\@TargetDir]
+	5, library.crr,,,, 1997-08-29,,, NEVER, !READONLY,,,,,, 908,,,,, !VITAL
+	5, rptglanc.cnt,,,, 1997-08-29,,,, !READONLY,,,,,, 243,,,,,
+	5, crwchk32.ini,,,, 1997-08-29,,,, !READONLY,,,,,, 17954,,,,,
+	5, c2supreg.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 20992,,,,, !VITAL
+	5, chek32en.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 23552,,,,, !VITAL
+	5, rptglanc.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 23738,,,,,
+	5, pctree32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 140288,,,, 2.2.5.151, !VITAL
+	5, crwchk32.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 173056,,,,, !VITAL
+	5, rptglanc.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 230400,,,,,
+	5, c2supprt.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 293888,,,,, !VITAL
+	5, dsx32.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 309248,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Dictionaries\@TargetDir]
+	41, crd32.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 1586176,,,,, !VITAL
+
+[Database Access\Arbor Essbase\Arbor Client Files\@Essbasebin]
+	10, essotln.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 22016,,,,, !VITAL
+	10, sh22w32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 27648,,,,, !VITAL
+	10, essnet.np,,,,,,, OLDER, !READONLY,,,,, SHARED, 62464,,,,, !VITAL
+	10, essnet.tcp,,,,,,, OLDER, !READONLY,,,,, SHARED, 65024,,,,, !VITAL
+	10, essnet.npp,,,,,,, OLDER, !READONLY,,,,, SHARED, 56832,,,,, !VITAL
+	10, essutl.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 53248,,,,, !VITAL
+	10, essnet.lsp,,,,,,, OLDER, !READONLY,,,,, SHARED, 58880,,,,, !VITAL
+	10, essnet.wsk,,,,,,, OLDER, !READONLY,,,,, SHARED, 58880,,,,, !VITAL
+	10, essbase.mdb,,,,,,, NEVER, !READONLY,,,,, SHARED, 88108,,,,, !VITAL
+	10, essotls.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 59904,,,,, !VITAL
+	10, essshr.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 113152,,,,, !VITAL
+	10, essapin.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 132096,,,,, !VITAL
+	10, essapiw.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 209920,,,,, !VITAL
+	10, msvcrt40.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 326656,,,, 4.10.0.6038, !VITAL
+
+[Seagate Crystal Reports Programs\@Winsys]
+	17, lfmac60n.dll,,,,,,,, !READONLY,,,,, SHARED, 17920,,,,, !VITAL
+	17, lfmsp60n.dll,,,,,,,, !READONLY,,,,, SHARED, 18432,,,,, !VITAL
+	17, lfwmf60n.dll,,,,,,,, !READONLY,,,,, SHARED, 19456,,,,, !VITAL
+	17, lfwpg60n.dll,,,,,,,, !READONLY,,,,, SHARED, 19456,,,,, !VITAL
+	17, lfpsd60n.dll,,,,,,,, !READONLY,,,,, SHARED, 20480,,,,, !VITAL
+	17, lftga60n.dll,,,,,,,, !READONLY,,,,, SHARED, 19968,,,,, !VITAL
+	17, lfbmp60n.dll,,,,,,,, !READONLY,,,,, SHARED, 22016,,,,, !VITAL
+	17, lfeps60n.dll,,,,,,,, !READONLY,,,,, SHARED, 22528,,,,, !VITAL
+	17, lfpct60n.dll,,,,,,,, !READONLY,,,,, SHARED, 22528,,,,, !VITAL
+	17, lfpcx60n.dll,,,,,,,, !READONLY,,,,, SHARED, 23552,,,,, !VITAL
+	17, lftif60n.dll,,,,,,,, !READONLY,,,,, SHARED, 46080,,,,, !VITAL
+	17, lffax60n.dll,,,,,,,, !READONLY,,,,, SHARED, 176128,,,,, !VITAL
+	17, lfpng60n.dll,,,,,,,, !READONLY,,,,, SHARED, 110080,,,,, !VITAL
+	17, msvcrt20.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 253952,,,, 2.11.0.0, !VITAL
+	17, msvcrt40.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 326656,,,, 4.10.0.6038, !VITAL
+
+[Sample Files\Xtreme Mountain Bike\Sample Web Site (ASP version)\@TargetDir]
+	9, Xasp10,,,,,,,, !READONLY,, sample\Xtreme\aspweb\fr_company.asp,,,, 309,,,,, !VITAL
+	9, Xasp11,,,,,,,, !READONLY,, sample\Xtreme\aspweb\fr_eis.asp,,,, 280,,,,, !VITAL
+	9, Xasp12,,,,,,,, !READONLY,, sample\Xtreme\aspweb\fr_sales.asp,,,, 286,,,,, !VITAL
+	9, Xasp13,,,,,,,, !READONLY,, sample\Xtreme\aspweb\fr_warehouse.asp,,,, 293,,,,, !VITAL
+	9, Xasp14,,,,,,,, !READONLY,, sample\Xtreme\aspweb\framepage.asp,,,, 473,,,,, !VITAL
+	9, Xasp16,,,,,,,, !READONLY,, sample\Xtreme\aspweb\htmstart.asp,,,, 524,,,,, !VITAL
+	9, Xasp22,,,,,,,, !READONLY,, sample\Xtreme\aspweb\prefsub.asp,,,, 558,,,,, !VITAL
+	9, Xasp28,,,,,,,, !READONLY,, sample\Xtreme\aspweb\warehouse.asp,,,, 578,,,,, !VITAL
+	9, Xasp38,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\coinfo_on.gif,,,, 261,,,,, !VITAL
+	9, Xasp62,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_coinfo_on.gif,,,, 255,,,,, !VITAL
+	9, Xasp65,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_disclaim_on.gif,,,, 210,,,,, !VITAL
+	9, Xasp69,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_pref_on.gif,,,, 218,,,,, !VITAL
+	9, Xasp72,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_reports_on.gif,,,, 355,,,,, !VITAL
+	9, Xasp76,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_sales_on.gif,,,, 225,,,,, !VITAL
+	9, Xasp79,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_scource_on.gif,,,, 236,,,,, !VITAL
+	9, Xasp83,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_warehouse_on.gif,,,, 238,,,,, !VITAL
+	9, Xasp90,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\reports_on.gif,,,, 333,,,,, !VITAL
+	9, Xasp92,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\sales_on.gif,,,, 228,,,,, !VITAL
+	9, Xasp99,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\warehouse_on.gif,,,, 232,,,,, !VITAL
+	9, Xasp0,,,,,,,, !READONLY,, sample\Xtreme\aspweb\addcust.asp,,,, 2422,,,,, !VITAL
+	9, Xasp4,,,,,,,, !READONLY,, sample\Xtreme\aspweb\company_side.asp,,,, 2152,,,,, !VITAL
+	9, Xasp6,,,,,,,, !READONLY,, sample\Xtreme\aspweb\default.htm,,,, 1376,,,,, !VITAL
+	9, Xasp7,,,,,,,, !READONLY,, sample\Xtreme\aspweb\eis.asp,,,, 597,,,,, !VITAL
+	9, Xasp15,,,,,,,, !READONLY,, sample\Xtreme\aspweb\global.asa,,,, 946,,,,, !VITAL
+	9, Xasp19,,,,,,,, !READONLY,, sample\Xtreme\aspweb\mission.htm,,,, 700,,,,, !VITAL
+	9, Xasp21,,,,,,,, !READONLY,, sample\Xtreme\aspweb\preferences.asp,,,, 1161,,,,, !VITAL
+	9, Xasp25,,,,,,,, !READONLY,, sample\Xtreme\aspweb\sales.asp,,,, 620,,,,, !VITAL
+	9, Xasp29,,,,,,,, !READONLY,, sample\Xtreme\aspweb\warehouse_side.asp,,,, 2052,,,,, !VITAL
+	9, Xasp43,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\eisbut.GIF,,,, 751,,,,, !VITAL
+	9, Xasp57,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\mission.GIF,,,, 789,,,,, !VITAL
+	9, Xasp97,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\source.GIF,,,, 878,,,,, !VITAL
+	9, Xasp1,,,,,,,, !READONLY,, sample\Xtreme\aspweb\addcustsub.asp,,,, 3344,,,,, !VITAL
+	9, Xasp5,,,,,,,, !READONLY,, sample\Xtreme\aspweb\corp.htm,,,, 1683,,,,, !VITAL
+	9, Xasp8,,,,,,,, !READONLY,, sample\Xtreme\aspweb\eis_side.asp,,,, 2427,,,,, !VITAL
+	9, Xasp9,,,,,,,, !READONLY,, sample\Xtreme\aspweb\found.htm,,,, 2041,,,,, !VITAL
+	9, Xasp18,,,,,,,, !READONLY,, sample\Xtreme\aspweb\mainframe.asp,,,, 2440,,,,, !VITAL
+	9, Xasp20,,,,,,,, !READONLY,, sample\Xtreme\aspweb\navbar.asp,,,, 3317,,,,, !VITAL
+	9, Xasp26,,,,,,,, !READONLY,, sample\Xtreme\aspweb\sales_side.asp,,,, 3010,,,,, !VITAL
+	9, Xasp27,,,,,,,, !READONLY,, sample\Xtreme\aspweb\toolbar.asp,,,, 4194,,,,, !VITAL
+	9, Xasp30,,,,,,,, !READONLY,, sample\Xtreme\aspweb\xtreme.htm,,,, 1680,,,,, !VITAL
+	9, Xasp31,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\addcust.GIF,,,, 990,,,,, !VITAL
+	9, Xasp44,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\financial.gif,,,, 1127,,,,, !VITAL
+	9, Xasp46,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\history.GIF,,,, 1220,,,,, !VITAL
+	9, Xasp48,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\income.gif,,,, 1589,,,,, !VITAL
+	9, Xasp49,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\inventory.gif,,,, 1521,,,,, !VITAL
+	9, Xasp61,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_coinfo.jpg,,,, 1633,,,,, !VITAL
+	9, Xasp63,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_coinfo_on.jpg,,,, 1580,,,,, !VITAL
+	9, Xasp64,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_disclaim.jpg,,,, 1533,,,,, !VITAL
+	9, Xasp67,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_login.jpg,,,, 1567,,,,, !VITAL
+	9, Xasp68,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_pref.jpg,,,, 1571,,,,, !VITAL
+	9, Xasp75,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_sales.jpg,,,, 1581,,,,, !VITAL
+	9, Xasp77,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_sales_on.jpg,,,, 1534,,,,, !VITAL
+	9, Xasp78,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_scource.jpg,,,, 1587,,,,, !VITAL
+	9, Xasp82,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_warehouse.jpg,,,, 1519,,,,, !VITAL
+	9, Xasp84,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\order.gif,,,, 1468,,,,, !VITAL
+	9, Xasp85,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\orderpak.gif,,,, 1576,,,,, !VITAL
+	9, Xasp87,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\prodcat.gif,,,, 1066,,,,, !VITAL
+	9, Xasp89,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\ratios.gif,,,, 1495,,,,, !VITAL
+	9, Xasp91,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\sales.gif,,,, 1594,,,,, !VITAL
+	9, Xasp95,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\shipping.gif,,,, 1067,,,,, !VITAL
+	9, Xasp102,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\winventory.gif,,,, 1540,,,,, !VITAL
+	9, Xasp2,,,,,,,, !READONLY,, sample\Xtreme\aspweb\code.asp,,,, 3986,,,,, !VITAL
+	9, Xasp41,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\consolidated.gif,,,, 1986,,,,, !VITAL
+	9, Xasp71,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_reports.jpg,,,, 1848,,,,, !VITAL
+	9, Xasp86,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\partners.GIF,,,, 1533,,,,, !VITAL
+	9, Xasp88,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\profile.gif,,,, 1858,,,,, !VITAL
+	9, Xasp94,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\salestoolsbut.GIF,,,, 1783,,,,, !VITAL
+	9, Xasp101,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\whowhos.GIF,,,, 1761,,,,, !VITAL
+	9, Xasp103,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\world.gif,,,, 1906,,,,, !VITAL
+	9, Xasp104,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\Xteamtech.GIF,,,, 1396,,,,, !VITAL
+	9, Xasp17,,,,,,,, !READONLY,, sample\Xtreme\aspweb\logon.asp,,,, 4056,,,,, !VITAL
+	9, Xasp23,,,,,,,, !READONLY,, sample\Xtreme\aspweb\report.asp,,,, 5710,,,,, !VITAL
+	9, Xasp40,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\companyinfobut.GIF,,,, 2297,,,,, !VITAL
+	9, Xasp100,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\warehousebut.GIF,,,, 2091,,,,, !VITAL
+	9, Xasp3,,,,,,,, !READONLY,, sample\Xtreme\aspweb\company.asp,,,, 5771,,,,, !VITAL
+	9, Xasp66,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_login.gif,,,, 2676,,,,, !VITAL
+	9, Xasp80,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_ware.gif,,,, 2715,,,,, !VITAL
+	9, Xasp58,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_coin.gif,,,, 3007,,,,, !VITAL
+	9, Xasp60,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_coinfo.gif,,,, 3007,,,,, !VITAL
+	9, Xasp73,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_sale.gif,,,, 2731,,,,, !VITAL
+	9, Xasp70,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_reports.gif,,,, 3551,,,,, !VITAL
+	9, Xasp96,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\smlogo.gif,,,, 3528,,,,, !VITAL
+	9, Xasp24,,,,,,,, !READONLY,, sample\Xtreme\aspweb\rptserver.asp,,,, 14551,,,,, !VITAL
+	9, Xasp74,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_sale.jpg,,,, 7168,,,,, !VITAL
+	9, Xasp81,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_ware.jpg,,,, 7168,,,,, !VITAL
+	9, Xasp93,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\salestools.gif,,,, 5039,,,,, !VITAL
+	9, Xasp47,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\Imglogo8.gif,,,, 5907,,,,, !VITAL
+	9, Xasp59,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\nav_coin.jpg,,,, 7808,,,,, !VITAL
+	9, Xasp98,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\warehouse.gif,,,, 5692,,,,, !VITAL
+	9, Xasp39,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\companyinfo.gif,,,, 6220,,,,, !VITAL
+	9, Xasp42,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\eis.gif,,,, 6074,,,,, !VITAL
+	9, Xasp36,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\biglogo.gif,,,, 6400,,,,, !VITAL
+	9, Xasp106,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\xtreme_logo_sm_00.gif,,,, 6493,,,,, !VITAL
+	9, Xasp45,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\greg.jpg,,,, 8621,,,,, !VITAL
+	9, Xasp33,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\bg_manrepor.jpg,,,, 16234,,,,, !VITAL
+	9, Xasp55,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\manrepor.jpe,,,, 16234,,,,, !VITAL
+	9, Xasp56,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\mark.jpg,,,, 11706,,,,, !VITAL
+	9, Xasp105,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\Xtreme_logo_lg0.gif,,,, 12206,,,,, !VITAL
+	9, Xasp37,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\coinfo.jpg,,,, 19232,,,,, !VITAL
+	9, Xasp108,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\xtremebanner2.gif,,,, 13948,,,,, !VITAL
+	9, Xasp107,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\xtremebanner.gif,,,, 16468,,,,, !VITAL
+	9, Xasp54,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\logon.jpg,,,, 21714,,,,, !VITAL
+	9, Xasp52,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\legal.jpg,,,, 24177,,,,, !VITAL
+	9, Xasp34,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\bg_sales.gif,,,, 24707,,,,, !VITAL
+	9, Xasp53,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\logon.jpe,,,, 29184,,,,, !VITAL
+	9, Xasp35,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\bg_warehous.gif,,,, 26249,,,,, !VITAL
+	9, Xasp51,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\legal.jpe,,,, 33408,,,,, !VITAL
+	9, Xasp32,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\bg_logon.jpg,,,, 51349,,,,, !VITAL
+	9, Xasp50,,,,,,,, !READONLY,, sample\Xtreme\aspweb\images\lbg_egal.jpg,,,, 57858,,,,, !VITAL
+
+[Sample Files\Xtreme Mountain Bike\Sample Web Site (HTML version)\@TargetDir]
+	8, Xhtm109,,,,,,,, !READONLY,, sample\Xtreme\htmweb\clear.htm,,,, 470,,,,, !VITAL
+	8, Xhtm111,,,,,,,, !READONLY,, sample\Xtreme\htmweb\company_side.htm,,,, 785,,,,, !VITAL
+	8, Xhtm115,,,,,,,, !READONLY,, sample\Xtreme\htmweb\eis.htm,,,, 487,,,,, !VITAL
+	8, Xhtm116,,,,,,,, !READONLY,, sample\Xtreme\htmweb\eis_side.htm,,,, 784,,,,, !VITAL
+	8, Xhtm118,,,,,,,, !READONLY,, sample\Xtreme\htmweb\fr_company.htm,,,, 165,,,,, !VITAL
+	8, Xhtm119,,,,,,,, !READONLY,, sample\Xtreme\htmweb\fr_eis.htm,,,, 140,,,,, !VITAL
+	8, Xhtm120,,,,,,,, !READONLY,, sample\Xtreme\htmweb\fr_sales.htm,,,, 144,,,,, !VITAL
+	8, Xhtm121,,,,,,,, !READONLY,, sample\Xtreme\htmweb\fr_warehouse.htm,,,, 152,,,,, !VITAL
+	8, Xhtm122,,,,,,,, !READONLY,, sample\Xtreme\htmweb\framepage.htm,,,, 558,,,,, !VITAL
+	8, Xhtm124,,,,,,,, !READONLY,, sample\Xtreme\htmweb\htmstart.htm,,,, 614,,,,, !VITAL
+	8, Xhtm138,,,,,,,, !READONLY,, sample\Xtreme\htmweb\order.htm,,,, 282,,,,, !VITAL
+	8, Xhtm140,,,,,,,, !READONLY,, sample\Xtreme\htmweb\prefsub.htm,,,, 265,,,,, !VITAL
+	8, Xhtm142,,,,,,,, !READONLY,, sample\Xtreme\htmweb\sales.htm,,,, 482,,,,, !VITAL
+	8, Xhtm143,,,,,,,, !READONLY,, sample\Xtreme\htmweb\sales_side.htm,,,, 912,,,,, !VITAL
+	8, Xhtm145,,,,,,,, !READONLY,, sample\Xtreme\htmweb\warehouse.htm,,,, 468,,,,, !VITAL
+	8, Xhtm146,,,,,,,, !READONLY,, sample\Xtreme\htmweb\warehouse_side.htm,,,, 647,,,,, !VITAL
+	8, Xhtm155,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\coinfo_on.gif,,,, 261,,,,, !VITAL
+	8, Xhtm178,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_coinfo_on.gif,,,, 255,,,,, !VITAL
+	8, Xhtm181,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_disclaim_on.gif,,,, 210,,,,, !VITAL
+	8, Xhtm185,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_pref_on.gif,,,, 218,,,,, !VITAL
+	8, Xhtm188,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_reports_on.gif,,,, 355,,,,, !VITAL
+	8, Xhtm192,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_sales_on.gif,,,, 225,,,,, !VITAL
+	8, Xhtm195,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_scource_on.gif,,,, 236,,,,, !VITAL
+	8, Xhtm199,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_warehouse_on.gif,,,, 238,,,,, !VITAL
+	8, Xhtm206,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\reports_on.gif,,,, 333,,,,, !VITAL
+	8, Xhtm208,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\sales_on.gif,,,, 228,,,,, !VITAL
+	8, Xhtm215,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\warehouse_on.gif,,,, 232,,,,, !VITAL
+	8, Xhtm114,,,,,,,, !READONLY,, sample\Xtreme\htmweb\default.htm,,,, 1446,,,,, !VITAL
+	8, Xhtm123,,,,,,,, !READONLY,, sample\Xtreme\htmweb\home.htm,,,, 794,,,,, !VITAL
+	8, Xhtm125,,,,,,,, !READONLY,, sample\Xtreme\htmweb\legal.htm,,,, 1017,,,,, !VITAL
+	8, Xhtm127,,,,,,,, !READONLY,, sample\Xtreme\htmweb\mainframe.htm,,,, 1093,,,,, !VITAL
+	8, Xhtm128,,,,,,,, !READONLY,, sample\Xtreme\htmweb\mainframe_m.htm,,,, 1091,,,,, !VITAL
+	8, Xhtm129,,,,,,,, !READONLY,, sample\Xtreme\htmweb\mainframe_p.htm,,,, 1096,,,,, !VITAL
+	8, Xhtm130,,,,,,,, !READONLY,, sample\Xtreme\htmweb\mainframe_s.htm,,,, 1093,,,,, !VITAL
+	8, Xhtm131,,,,,,,, !READONLY,, sample\Xtreme\htmweb\mainframe_w.htm,,,, 1097,,,,, !VITAL
+	8, Xhtm132,,,,,,,, !READONLY,, sample\Xtreme\htmweb\mission.htm,,,, 700,,,,, !VITAL
+	8, Xhtm134,,,,,,,, !READONLY,, sample\Xtreme\htmweb\navbar_m.htm,,,, 1213,,,,, !VITAL
+	8, Xhtm141,,,,,,,, !READONLY,, sample\Xtreme\htmweb\report.htm,,,, 1345,,,,, !VITAL
+	8, Xhtm160,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\eisbut.GIF,,,, 751,,,,, !VITAL
+	8, Xhtm173,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\mission.GIF,,,, 789,,,,, !VITAL
+	8, Xhtm213,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\source.GIF,,,, 878,,,,, !VITAL
+	8, Xhtm112,,,,,,,, !READONLY,, sample\Xtreme\htmweb\corp.htm,,,, 1683,,,,, !VITAL
+	8, Xhtm117,,,,,,,, !READONLY,, sample\Xtreme\htmweb\found.htm,,,, 2041,,,,, !VITAL
+	8, Xhtm133,,,,,,,, !READONLY,, sample\Xtreme\htmweb\navbar.htm,,,, 4141,,,,, !VITAL
+	8, Xhtm135,,,,,,,, !READONLY,, sample\Xtreme\htmweb\navbar_p.htm,,,, 4137,,,,, !VITAL
+	8, Xhtm136,,,,,,,, !READONLY,, sample\Xtreme\htmweb\navbar_s.htm,,,, 2584,,,,, !VITAL
+	8, Xhtm137,,,,,,,, !READONLY,, sample\Xtreme\htmweb\navbar_w.htm,,,, 2580,,,,, !VITAL
+	8, Xhtm139,,,,,,,, !READONLY,, sample\Xtreme\htmweb\preferences.htm,,,, 2306,,,,, !VITAL
+	8, Xhtm144,,,,,,,, !READONLY,, sample\Xtreme\htmweb\toolbar.htm,,,, 4672,,,,, !VITAL
+	8, Xhtm147,,,,,,,, !READONLY,, sample\Xtreme\htmweb\xtreme.htm,,,, 1680,,,,, !VITAL
+	8, Xhtm148,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\addcust.GIF,,,, 990,,,,, !VITAL
+	8, Xhtm161,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\financial.gif,,,, 1127,,,,, !VITAL
+	8, Xhtm163,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\history.GIF,,,, 1220,,,,, !VITAL
+	8, Xhtm164,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\income.gif,,,, 1589,,,,, !VITAL
+	8, Xhtm165,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\inventory.gif,,,, 1521,,,,, !VITAL
+	8, Xhtm177,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_coinfo.jpg,,,, 1633,,,,, !VITAL
+	8, Xhtm179,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_coinfo_on.jpg,,,, 1580,,,,, !VITAL
+	8, Xhtm180,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_disclaim.jpg,,,, 1533,,,,, !VITAL
+	8, Xhtm183,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_login.jpg,,,, 1567,,,,, !VITAL
+	8, Xhtm184,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_pref.jpg,,,, 1571,,,,, !VITAL
+	8, Xhtm191,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_sales.jpg,,,, 1581,,,,, !VITAL
+	8, Xhtm193,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_sales_on.jpg,,,, 1534,,,,, !VITAL
+	8, Xhtm194,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_scource.jpg,,,, 1587,,,,, !VITAL
+	8, Xhtm198,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_warehouse.jpg,,,, 1519,,,,, !VITAL
+	8, Xhtm200,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\order.gif,,,, 1468,,,,, !VITAL
+	8, Xhtm201,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\orderpak.gif,,,, 1576,,,,, !VITAL
+	8, Xhtm203,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\prodcat.gif,,,, 1066,,,,, !VITAL
+	8, Xhtm205,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\ratios.gif,,,, 1495,,,,, !VITAL
+	8, Xhtm207,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\sales.gif,,,, 1594,,,,, !VITAL
+	8, Xhtm211,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\shipping.gif,,,, 1067,,,,, !VITAL
+	8, Xhtm218,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\winventory.gif,,,, 1540,,,,, !VITAL
+	8, Xhtm126,,,,,,,, !READONLY,, sample\Xtreme\htmweb\logon.htm,,,, 4985,,,,, !VITAL
+	8, Xhtm158,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\consolidated.gif,,,, 1986,,,,, !VITAL
+	8, Xhtm187,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_reports.jpg,,,, 1848,,,,, !VITAL
+	8, Xhtm202,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\partners.GIF,,,, 1533,,,,, !VITAL
+	8, Xhtm204,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\profile.gif,,,, 1858,,,,, !VITAL
+	8, Xhtm210,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\salestoolsbut.GIF,,,, 1783,,,,, !VITAL
+	8, Xhtm217,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\whowhos.GIF,,,, 1761,,,,, !VITAL
+	8, Xhtm219,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\world.gif,,,, 1906,,,,, !VITAL
+	8, Xhtm220,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\Xteamtech.GIF,,,, 1396,,,,, !VITAL
+	8, Xhtm157,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\companyinfobut.GIF,,,, 2297,,,,, !VITAL
+	8, Xhtm216,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\warehousebut.GIF,,,, 2091,,,,, !VITAL
+	8, Xhtm110,,,,,,,, !READONLY,, sample\Xtreme\htmweb\company.htm,,,, 5689,,,,, !VITAL
+	8, Xhtm113,,,,,,,, !READONLY,, sample\Xtreme\htmweb\covlet.htm,,,, 5882,,,,, !VITAL
+	8, Xhtm182,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_login.gif,,,, 2676,,,,, !VITAL
+	8, Xhtm196,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_ware.gif,,,, 2715,,,,, !VITAL
+	8, Xhtm174,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_coin.gif,,,, 3007,,,,, !VITAL
+	8, Xhtm176,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_coinfo.gif,,,, 3007,,,,, !VITAL
+	8, Xhtm189,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_sale.gif,,,, 2731,,,,, !VITAL
+	8, Xhtm186,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_reports.gif,,,, 3551,,,,, !VITAL
+	8, Xhtm212,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\smlogo.gif,,,, 3528,,,,, !VITAL
+	8, Xhtm190,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_sale.jpg,,,, 7168,,,,, !VITAL
+	8, Xhtm197,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_ware.jpg,,,, 7168,,,,, !VITAL
+	8, Xhtm209,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\salestools.gif,,,, 5039,,,,, !VITAL
+	8, Xhtm175,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\nav_coin.jpg,,,, 7808,,,,, !VITAL
+	8, Xhtm214,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\warehouse.gif,,,, 5692,,,,, !VITAL
+	8, Xhtm156,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\companyinfo.gif,,,, 6220,,,,, !VITAL
+	8, Xhtm159,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\eis.gif,,,, 6074,,,,, !VITAL
+	8, Xhtm153,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\biglogo.gif,,,, 6400,,,,, !VITAL
+	8, Xhtm222,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\xtreme_logo_sm_00.gif,,,, 6493,,,,, !VITAL
+	8, Xhtm162,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\greg.jpg,,,, 8621,,,,, !VITAL
+	8, Xhtm150,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\bg_manrepor.jpg,,,, 16234,,,,, !VITAL
+	8, Xhtm171,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\manrepor.jpe,,,, 16234,,,,, !VITAL
+	8, Xhtm172,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\mark.jpg,,,, 11706,,,,, !VITAL
+	8, Xhtm221,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\Xtreme_logo_lg0.gif,,,, 12206,,,,, !VITAL
+	8, Xhtm154,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\coinfo.jpg,,,, 19232,,,,, !VITAL
+	8, Xhtm224,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\xtremebanner2.gif,,,, 13948,,,,, !VITAL
+	8, Xhtm223,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\xtremebanner.gif,,,, 16468,,,,, !VITAL
+	8, Xhtm170,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\logon.jpg,,,, 21714,,,,, !VITAL
+	8, Xhtm168,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\legal.jpg,,,, 24177,,,,, !VITAL
+	8, Xhtm151,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\bg_sales.gif,,,, 24707,,,,, !VITAL
+	8, Xhtm169,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\logon.jpe,,,, 29184,,,,, !VITAL
+	8, Xhtm152,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\bg_warehous.gif,,,, 26249,,,,, !VITAL
+	8, Xhtm167,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\legal.jpe,,,, 33408,,,,, !VITAL
+	8, Xhtm149,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\bg_logon.jpg,,,, 51349,,,,, !VITAL
+	8, Xhtm166,,,,,,,, !READONLY,, sample\Xtreme\htmweb\images\lbg_egal.jpg,,,, 57858,,,,, !VITAL
+
+[BasicDLLs\@WinCry]
+	30, u2lfinra.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 12288,,,,, !VITAL
+	30, u2lsamp1.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 27136,,,,, !VITAL
+	30, u2lexch.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 36864,,,,, !VITAL
+	30, crxlat32.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 37408,,,,, !VITAL
+	30, u2ldts.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 38400,,,,, !VITAL
+	30, u2lbar.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 40960,,,,, !VITAL
+	30, u25dts.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 44544,,,,, !VITAL
+	30, u252000.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 49152,,,,, !VITAL
+	30, u2l2000.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 49152,,,,, !VITAL
+	30, u25store.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 61440,,,,, !VITAL
+	30, u25total.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 59904,,,,, !VITAL
+	30, p2lodbc.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 82432,,,,,
+	30, u2lcom.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 150016,,,,, !VITAL
+	30, p2ixbse.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 222208,,,,,
+
+[Database Access\Btrieve\@TargetDir]
+	39, w32mkset.hlp,,,,,,, OLDER, !READONLY,,,,, SHARED, 9020,,,,, !VITAL
+	39, w32mkset.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 67584,,,, 2.0.0.1, !VITAL
+	39, btrfiles.inf,,,, 1997-08-29,,, OLDER, !READONLY,, bti32\btrfiles.inf,,, SHARED, 143314,,,,, !VITAL
+	39, wdbuui32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 100864,,,,, !VITAL
+	39, wdbuei32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 101163,,,, 6.15.2.0, !VITAL
+	39, btrstp32.exe,,,, 1997-08-29,,, OLDER, !READONLY,, bti32\setup.exe,,, SHARED, 138752,,,,, !VITAL
+	39, w32mkset.exe,,,,,,, OLDER, !READONLY,,,,, SHARED, 397312,,,, 2.0.0.1, !VITAL
+
+[Sample Files\Xtreme Mountain Bike\Sample Reports\@TargetDir]
+	15, maillabl.rpt,,,,,,,, !READONLY,, reports\Xtreme\maillabl.rpt,,,, 27136,,,,, !VITAL
+	15, income.rpt,,,,,,,, !READONLY,, reports\Xtreme\income.rpt,,,, 43520,,,,, !VITAL
+	15, balance.rpt,,,,,,,, !READONLY,, reports\Xtreme\balance.rpt,,,, 68096,,,,, !VITAL
+	15, ordpack.rpt,,,,,,,, !READONLY,, reports\Xtreme\ordpack.rpt,,,, 82944,,,,, !VITAL
+	15, empsales.rpt,,,,,,,, !READONLY,, reports\Xtreme\empsales.rpt,,,, 88576,,,,, !VITAL
+	15, customer.rpt,,,,,,,, !READONLY,, reports\Xtreme\customer.rpt,,,, 114688,,,,, !VITAL
+	15, wwsales.rpt,,,,,,,, !READONLY,, reports\Xtreme\wwsales.rpt,,,, 99328,,,,, !VITAL
+	15, finstate.rpt,,,,,,,, !READONLY,, reports\Xtreme\finstate.rpt,,,, 114688,,,,, !VITAL
+	15, prodcat.rpt,,,,,,,, !READONLY,, reports\Xtreme\prodcat.rpt,,,, 89600,,,,, !VITAL
+	15, empprof.rpt,,,,,,,, !READONLY,, reports\Xtreme\empprof.rpt,,,, 92160,,,,, !VITAL
+	15, invent.rpt,,,,,,,, !READONLY,, reports\Xtreme\invent.rpt,,,, 93696,,,,, !VITAL
+	15, statemnt.rpt,,,,,,,, !READONLY,, reports\Xtreme\statemnt.rpt,,,, 455680,,,,, !VITAL
+
+[Database Access\Microsoft Outlook\@WinCry]
+	26, p2soutlk.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 810496,,,,, !VITAL
+
+[Database Access\Microsoft Access\@RealWinsys]
+	19, dao2535.tlb,, dao2535.old,,,,, OLDER, !READONLY,,,,, SHARED, 73184,,,,, !VITAL
+	19, dao350.dll,, dao350.old,,,,, OLDER, !READONLY,,,,, SHARED, 582144,,,, 3.50.3602.0, !VITAL
+
+[Database Access\Arbor Essbase\Essbase Sample Reports\@TargetDir]
+	25, measurex.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\measurex.rpt,,,, 55296,,,,, !VITAL
+	25, salesx.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\salesx.rpt,,,, 56320,,,,, !VITAL
+	25, regionx.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\regionx.rpt,,,, 61440,,,,, !VITAL
+	25, pl_html.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\pl_html.rpt,,,, 69632,,,,, !VITAL
+	25, product.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\product.rpt,,,, 71680,,,,, !VITAL
+	25, profit.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\profit.rpt,,,, 105984,,,,, !VITAL
+	25, pl.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\pl.rpt,,,, 175616,,,,, !VITAL
+	25, top3.rpt,,,, 1997-08-29,,,, !READONLY,, reports\essbase\top3.rpt,,,, 256512,,,,, !VITAL
+
+[@OLEAUT32]
+	4, oleaut32.crw,,,,,,, OLDER, !READONLY,,,,, SHARED, 491792,,,, 2.20.4054.1, !VITAL
+
+[Developer's Files\MFC Class Library\@TargetDir]
+	38, crwizard.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 7369,,,,, !VITAL
+	38, peplus.cpp,,,, 1997-08-29,,,, !READONLY,,,,,, 45309,,,,, !VITAL
+	38, peplus.h,,,, 1997-08-29,,,, !READONLY,,,,,, 42236,,,,, !VITAL
+	38, crwizard.awx,,,, 1997-08-29,,,, !READONLY,,,,,, 1305088,,,,, !VITAL
+
+[Web Report Servers\Crystal Web Report Server\@TargetDir]
+	23, actxsamp.htm,,,, 1997-08-29,,,, !READONLY,, reports\actxsamp.htm,,,, 992,,,,, !VITAL
+	23, fhtmsamp.htm,,,, 1997-08-29,,,, !READONLY,, reports\fhtmsamp.htm,,,, 1026,,,,, !VITAL
+	23, javasamp.htm,,,, 1997-08-29,,,, !READONLY,, reports\javasamp.htm,,,, 989,,,,, !VITAL
+	23, phtmsamp.htm,,,, 1997-08-29,,,, !READONLY,, reports\phtmsamp.htm,,,, 1020,,,,, !VITAL
+	23, crwrep.gif,,,, 1997-08-29,,,, !READONLY,, reports\crwrep.gif,,,, 7940,,,,, !VITAL
+	23, crweb.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 276480,,,,, !VITAL
+	23, crpgsvr.exe,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 273920,,,,, !VITAL
+
+[Work Station Setup\@WKCSETUP]
+	1, msvcrt20.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 253952,,,, 2.11.0.0, !VITAL
+	16, wkccui32.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 75264,,,,,
+	16, wkcstp32.exe,,,, 1997-08-29,,,, !READONLY,, setup.exe,,,, 274944,,,,,
+	16, wkcfiles.inf,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 143314,,,,, !VITAL
+
+[Sample Files\Visual Basic API\@TargetDir]
+	24, sam32api.exe,,,, 1997-08-29,,, OLDER, !READONLY,, sample\sam32api\sam32api.exe,,,, 55802,,,,, !VITAL
+	24, crpezip.exe,,,, 1997-08-29,,, OLDER, !READONLY,, sample\crpedm32\crpezip.exe,,,, 195753,,,,, !VITAL
+
+[Database Access\Active Data Driver\@Winsys]
+	33, cdo32.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 15360,,,,, !VITAL
+	33, p2smon.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 122880,,,,, !VITAL
+	33, crddt32.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 290304,,,,, !VITAL
+
+[Developer's Files\Borland Delphi\@TargetDir]
+	28, ucrpe32.drr,,,,,,,, !READONLY,, vcl\ucrpe32.dcr,,,, 464,,,,, !VITAL
+	28, ucrpe32.drr,,,,,,,, !READONLY,, vcl\30\ucrpe32.dcr,,,, 464,,,,, !VITAL
+	28, umrgdlg.dfm,,,,,,,, !READONLY,, vcl\umrgdlg.dfm,,,, 1023,,,,, !VITAL
+	28, umrgdlg.dfm,,,,,,,, !READONLY,, vcl\30\umrgdlg.dfm,,,, 1023,,,,, !VITAL
+	28, install.txt,,,,,,,, !READONLY,, vcl\install.txt,,,, 2421,,,,, !VITAL
+	28, setloc.dfm,,,,,,,, !READONLY,, vcl\setloc.dfm,,,, 2164,,,,, !VITAL
+	28, setloc.dfm,,,,,,,, !READONLY,, vcl\30\setloc.dfm,,,, 2164,,,,, !VITAL
+	28, uedabt.dfm,,,,,,,, !READONLY,, vcl\uedabt.dfm,,,, 4008,,,,, !VITAL
+	28, uedabt.dfm,,,,,,,, !READONLY,, vcl\30\uedabt.dfm,,,, 4008,,,,, !VITAL
+	28, ucrpe.kwf,,,,,,,, !READONLY,, vcl\ucrpe.kwf,,,, 16384,,,,, !VITAL
+	28, readme32.txt,,,,,,,, !READONLY,, vcl\readme32.txt,,,, 15125,,,,, !VITAL
+	28, crpe32.pas,,,, 1997-08-29,,,, !READONLY,,,,,, 122533,,,,, !VITAL
+	28, ucrpe32.dcu,,,,,,,, !READONLY,, vcl\ucrpe32.dcu,,,, 122803,,,,, !VITAL
+	28, ucrpe.hlp,,,,,,,, !READONLY,, vcl\ucrpe.hlp,,,, 85850,,,,, !VITAL
+	28, ucrpe32.dcu,,,,,,,, !READONLY,, vcl\30\ucrpe32.dcu,,,, 160922,,,,, !VITAL
+
+[Web Report Servers\@RealWinsys]
+	28, exlate32.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 458752,,,,, !VITAL
+
+[Database Access\Btrieve\@Btrieve]
+	18, w32mkrc.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 110080,,,, 2.0.0.0, !VITAL
+	18, wbtrv32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 62464,,,, 2.0.0.0, !VITAL
+	18, w32mkde.exe,,,,,,, OLDER, !READONLY,,,,, SHARED, 298496,,,, 2.0.0.0, !VITAL
+
+[Database Access\ODBC\Microsoft SQLServer\@Winsys]
+	18, dbnmpntw.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 23552,,,, 1996.12.17.0, !VITAL
+	18, drvssrvr.hlp,,,,,,, OLDER, !READONLY,,,,,, 87427,,,,, !VITAL
+	18, sqlsrv32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 245760,,,, 2.65.2.40, !VITAL
+
+[Seagate Crystal Reports Programs\Distribution Expert\@RPTSETUP]
+	40, rptfiles.lyt,,,, 1997-08-29,,,, !READONLY,,,,,, 1710,,,,, !VITAL
+	40, rptsetup.lst,,,, 1997-08-29,,,, !READONLY,, setup.lst,,,, 673,,,,, !VITAL
+	40, setup.ini,,,,, !DECOMPRESS,,, !READONLY,,,,,, 319,,,,, !VITAL
+	40, rptimpld.dll,,,, 1997-08-29,,, OLDER, !READONLY,, implode.dll,,,, 17920,,,,, !VITAL
+	40, rptcui32.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 75264,,,,, !VITAL
+	40, crexpd32.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 49152,,,,,
+	40, setup.exe,,,,, !DECOMPRESS,,, !READONLY,,,,,, 35328,,,,, !VITAL
+	40, rptstp32.exe,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, rptstp32.ex_,,,, 282112,,,,, !VITAL
+
+[Database Access\Symantec ACT!\@WinCry]
+	31, p2iract3.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 30720,,,,, !VITAL
+	31, p2bact3.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 46080,,,,, !VITAL
+	31, p2iract.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 40960,,,,, !VITAL
+	31, p2bact.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 267264,,,,, !VITAL
+
+[Developer's Files\Crystal Report Engine Automation Server\@Winsys]
+	29, cpeaut32.dep,, PEAU32DP.OLD,, 1997-08-29,,,, !READONLY,,,,,, 513,,,,, !VITAL
+	29, cpeaut32.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 416768,,,,, !VITAL
+
+[Developer's Files\@Winsys]
+	3, msvcrt.dll,,,,,,, OLDER, !READONLY,,,,,, 267536, SYSTEM,,, 4.20.0.6201, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Report Designer\@Winsys]
+	20, crrun32.exe,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 278016,,,, 6.0.0.12, !VITAL
+
+[Seagate Crystal Reports Programs\Distribution Expert\@TargetDir]
+	36, dexpert.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 244736,,,,, !VITAL
+
+[Exporting\HTML\@WinCry]
+	37, u2fhtml.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 223232,,,,, !VITAL
+
+[@ResourceDLL]
+"Pro" = 40, cr3201.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, unistp32.dll,,,, 22016,,,,, !VITAL
+"Eval" = 40, cr3204.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, unistp32.dll,,,, 22016,,,,, !VITAL
+"ProSub" = 40, cr3205.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, unistp32.dll,,,, 22016,,,,, !VITAL
+"ProUp" = 40, cr3206.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, unistp32.dll,,,, 22016,,,,, !VITAL
+"ProSubUp" = 40, cr3207.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, unistp32.dll,,,, 22016,,,,, !VITAL
+"N4Sale" = 40, cr3209.dll,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, unistp32.dll,,,, 22016,,,,, !VITAL
+
+[Database Access\Arbor Essbase\Crystal Database Driver\@WinCry]
+	35, u2lesbse.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 70656,,,,, !VITAL
+	35, p2oesbse.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 141312,,,,, !VITAL
+
+[Database Access\dBASE\@WinCry]
+	27, p2bxbse.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 262144,,,,, !VITAL
+
+[Database Access\ODBC\Text\@ODBCDriver]
+	40, odtext32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 5120,,,, 3.50.3602.0, !VITAL
+	40, mstext35.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 166912,,,, 3.50.3428.0, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@Winsys]
+	7, cw3215.dll,,,,,,, OLDER, !READONLY,,,,,, 172032,,,, 4.2.0.0, !VITAL
+
+[Database Access\Btrieve\@WinCry]
+	37, p2ctbtrv.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 75776,,,, 6.0.0.6, !VITAL
+	37, p2bbtrv.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 94720,,,, 6.0.0.6, !VITAL
+
+[Database Access\Microsoft Exchange\Message Tracking Log\@WinCry]
+	7, p2strack.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 196096,,,,, !VITAL
+
+[Database Access\ODBC\IBM DB2\@Winsys]
+	7, qecsv1.bnd,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 10603,,,,, !VITAL
+	7, qerrv1.bnd,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 10603,,,,, !VITAL
+	7, qeurv1.bnd,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 10603,,,,, !VITAL
+	7, qecswhv1.bnd,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 13153,,,,, !VITAL
+	7, qerrwhv1.bnd,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 13153,,,,, !VITAL
+	7, qeurwhv1.bnd,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 13153,,,,, !VITAL
+	7, crdb211.hlp,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 25261,,,,, !VITAL
+	7, crdb211.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 98304,,,,, !VITAL
+
+[Developer's Files\C/C++\@TargetDir]
+	7, uxddisk.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1210,,,,, !VITAL
+	7, uxdmapi.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1616,,,,, !VITAL
+	7, uxdpost.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1494,,,,, !VITAL
+	7, uxfcr.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1038,,,,, !VITAL
+	7, uxfdif.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1243,,,,, !VITAL
+	7, uxfhtml.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1741,,,,, !VITAL
+	7, uxfodbc.h,,,, 1995-09-20,,,, !READONLY,,,,,, 1359,,,,, !VITAL
+	7, uxfrec.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1254,,,,, !VITAL
+	7, uxfrtf.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1050,,,,, !VITAL
+	7, uxfsepv.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1658,,,,, !VITAL
+	7, uxftext.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1259,,,,, !VITAL
+	7, uxfwks.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1106,,,,, !VITAL
+	7, uxfwordw.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1129,,,,, !VITAL
+	7, uxfxls.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1287,,,,, !VITAL
+	7, crpe32.lib,,,, 1997-08-29,,,, !READONLY,,,,,, 34304,,,,, !VITAL
+	7, crpe.h,,,, 1997-08-29,,,, !READONLY,,,,,, 65259,,,,, !VITAL
+	7, crpe32m.lib,,,, 1997-08-29,,,, !READONLY,,,,,, 206714,,,,, !VITAL
+
+[Sample Files\MFC Class Library\@TargetDir]
+	7, readme.txt,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\readme.txt,,,, 585,,,,, !VITAL
+	7, crpeplus.r2,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\res\crpeplus.rc2,,,, 400,,,,, !VITAL
+	7, icon1.ico,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\res\icon1.ico,,,, 766,,,,, !VITAL
+	7, toolbar.bmp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\res\toolbar.bmp,,,, 1198,,,,, !VITAL
+	7, rptinfo.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\rptinfo.cpp,,,, 635,,,,, !VITAL
+	7, stdafx.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\stdafx.cpp,,,, 206,,,,, !VITAL
+	7, stdafx.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\stdafx.h,,,, 284,,,,, !VITAL
+	7, areacmbo.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\areacmbo.cpp,,,, 1586,,,,, !VITAL
+	7, areacmbo.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\areacmbo.h,,,, 1022,,,,, !VITAL
+	7, areafmt.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\areafmt.h,,,, 1333,,,,, !VITAL
+	7, crpepdoc.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpepdoc.cpp,,,, 1763,,,,, !VITAL
+	7, crpepdoc.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpepdoc.h,,,, 1310,,,,, !VITAL
+	7, crpeplus.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpeplus.h,,,, 875,,,,, !VITAL
+	7, logonser.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\logonser.h,,,, 865,,,,, !VITAL
+	7, mainfrm.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\mainfrm.h,,,, 1782,,,,, !VITAL
+	7, prmfield.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\prmfield.h,,,, 1525,,,,, !VITAL
+	7, procprm.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\procprm.h,,,, 1097,,,,, !VITAL
+	7, crpeplus.ico,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\res\crpeplus.ico,,,, 1078,,,,, !VITAL
+	7, rptinfo.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\rptinfo.h,,,, 875,,,,, !VITAL
+	7, secfmt.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\secfmt.h,,,, 1385,,,,, !VITAL
+	7, setformu.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\setformu.h,,,, 1014,,,,, !VITAL
+	7, setloc.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\setloc.h,,,, 1092,,,,, !VITAL
+	7, sqlquery.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\sqlquery.cpp,,,, 1568,,,,, !VITAL
+	7, sqlquery.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\sqlquery.h,,,, 826,,,,, !VITAL
+	7, tablelog.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\tablelog.h,,,, 1202,,,,, !VITAL
+	7, crdates.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crdates.cpp,,,, 3331,,,,, !VITAL
+	7, crpepvw.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpepvw.h,,,, 3023,,,,, !VITAL
+	7, logonser.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\logonser.cpp,,,, 2512,,,,, !VITAL
+	7, procprm.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\procprm.cpp,,,, 2866,,,,, !VITAL
+	7, setformu.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\setformu.cpp,,,, 3246,,,,, !VITAL
+	7, crpeplus.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpeplus.cpp,,,, 3505,,,,, !VITAL
+	7, mainfrm.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\mainfrm.cpp,,,, 4173,,,,, !VITAL
+	7, resource.h,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\resource.h,,,, 5636,,,,, !VITAL
+	7, setloc.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\setloc.cpp,,,, 4089,,,,, !VITAL
+	7, tablelog.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\tablelog.cpp,,,, 4470,,,,, !VITAL
+	7, areafmt.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\areafmt.cpp,,,, 9025,,,,, !VITAL
+	7, crpeplus.clw,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpeplus.clw,,,, 16049,,,,, !VITAL
+	7, secfmt.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\secfmt.cpp,,,, 11478,,,,, !VITAL
+	7, crpepvw.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpepvw.cpp,,,, 16422,,,,, !VITAL
+	7, prmfield.cpp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\prmfield.cpp,,,, 13382,,,,, !VITAL
+	7, crpeplus.mak,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpeplus.mak,,,, 27183,,,,, !VITAL
+	7, crpeplus.rc,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpeplus.rc,,,, 26324,,,,, !VITAL
+	7, crpeplus.mdp,,,, 1997-08-29,,,, !READONLY,, sample\mfcdemo\crpeplus.mdp,,,, 54784,,,,, !VITAL
+
+[Database Access\ODBC\INFORMIX\@Winsys]
+	7, crinf11.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 23038,,,,, !VITAL
+	7, crinf11.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 151040,,,,, !VITAL
+
+[Database Access\Oracle\@WinCry]
+	7, p2sora7.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 174080,,,,, !VITAL
+
+[Database Access\Microsoft Exchange\Mailbox Admin/Public Folder Admin\@WinCry]
+	40, p2sexsr.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 154112,,,,, !VITAL
+
+[Database Access\IBM DB/2\@WinCry]
+	42, p2sdb2.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 169984,,,,, !VITAL
+
+[Database Access\Web activity log\@WinCry]
+	42, p2swblg.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 166912,,,,, !VITAL
+
+[Database Access\Informix\@WinCry]
+	42, p2sifmx.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 142336,,,,, !VITAL
+
+[Database Access\Microsoft Exchange\Public Folder ACL\@WinCry]
+	42, p2sacl.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 140800,,,,, !VITAL
+
+[Database Access\Microsoft Exchange\Public Folder Replica\@WinCry]
+	42, p2srepl.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 138752,,,,, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@WinCry]
+	42, p2bbde.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 135168,,,, 6.0.0.7, !VITAL
+
+[Database Access\NT Event Log\@Winsys]
+	42, p2sevt.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 133120,,,,, !VITAL
+
+[Database Access\Microsoft Exchange\Microsoft Exchange Folders/Address Book\@WinCry]
+	42, p2smapi.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 129024,,,,, !VITAL
+
+[Exporting\Excel\@WinCry]
+	43, u2fxls.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 125952,,,,, !VITAL
+
+[Database Access\Sybase SQLServer\@WinCry]
+	8, p2ssyb10.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 130560,,,,, !VITAL
+
+[Database Access\Microsoft SQLServer\@WinCry]
+	43, p2ssql.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 129024,,,,, !VITAL
+
+[Exporting\Word for Windows\@WinCry]
+	42, u2fwordw.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 118272,,,,, !VITAL
+
+[Database Access\ODBC\Sybase SQLServer\@Winsys]
+	43, crsyb11.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 140800,,,,, !VITAL
+
+[Exporting\Text\@WinCry]
+	34, u2ftext.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 112128,,,,, !VITAL
+
+[Database Access\ODBC\Centura SQLBase\@Winsys]
+	43, crgup11.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 19939,,,,, !VITAL
+	43, crgup11.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 102912,,,,, !VITAL
+
+[Exporting\MAPI\@WinCry]
+	43, u2dmapi.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 125901,,,,, !VITAL
+
+[Developer's Files\@TargetDir]
+	43, runtime.cnt,,,, 1997-08-29,,,, !READONLY,,,,,, 3827,,,,, !VITAL
+	43, runtime.hlp,,,, 1997-08-29,,,, !READONLY,,,,,, 95172,,,,, !VITAL
+
+[Exporting\Rich Text Format (RTF)\@WinCry]
+	9, u2frtf.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 100864,,,,, !VITAL
+
+[Sample Files\Borland Delphi VCL\@TargetDir]
+	43, vcldmo32.exe,,,,,,,, !READONLY,, sample\vcldmo32\vcldmo32.exe,,,, 55985,,,,, !VITAL
+
+[Developer's Files\INFORMIX NewEra Class\@TargetDir]
+	11, crpe.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\crpe.4gh,,,, 814,,,,, !VITAL
+	11, export.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\export.4gl,,,, 1085,,,,, !VITAL
+	11, location.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\location.4gh,,,, 782,,,,, !VITAL
+	11, location.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\location.4gl,,,, 658,,,,, !VITAL
+	11, logon.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\logon.4gl,,,, 852,,,,, !VITAL
+	11, parminfo.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\parminfo.4gl,,,, 697,,,,, !VITAL
+	11, printopt.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\printopt.4gl,,,, 859,,,,, !VITAL
+	11, session.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\session.4gl,,,, 791,,,,, !VITAL
+	11, subrpt.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\subrpt.4gh,,,, 768,,,,, !VITAL
+	11, subrpt.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\subrpt.4gl,,,, 642,,,,, !VITAL
+	11, tbltype.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\tbltype.4gl,,,, 785,,,,, !VITAL
+	11, export.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\export.4gh,,,, 1402,,,,, !VITAL
+	11, graph.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\graph.4gl,,,, 2317,,,,, !VITAL
+	11, jobinfo.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\jobinfo.4gh,,,, 1184,,,,, !VITAL
+	11, jobinfo.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\jobinfo.4gl,,,, 1085,,,,, !VITAL
+	11, logon.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\logon.4gh,,,, 1270,,,,, !VITAL
+	11, paramfld.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\paramfld.4gl,,,, 1782,,,,, !VITAL
+	11, parminfo.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\parminfo.4gh,,,, 836,,,,, !VITAL
+	11, printopt.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\printopt.4gh,,,, 1131,,,,, !VITAL
+	11, sectopts.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\sectopts.4gh,,,, 1264,,,,, !VITAL
+	11, sectopts.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\sectopts.4gl,,,, 1143,,,,, !VITAL
+	11, session.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\session.4gh,,,, 1016,,,,, !VITAL
+	11, tbltype.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\tbltype.4gh,,,, 1121,,,,, !VITAL
+	11, about.4h,,,, 1997-08-29,,,, !READONLY,, informix\sample\about.4gh,,,, 921,,,,, !VITAL
+	11, crpedemo.4h,,,, 1997-08-29,,,, !READONLY,, informix\sample\crpedemo.4gh,,,, 1943,,,,, !VITAL
+	11, engine.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\engine.4gh,,,, 2477,,,,, !VITAL
+	11, graph.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\graph.4gh,,,, 3393,,,,, !VITAL
+	11, paramfld.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\paramfld.4gh,,,, 3048,,,,, !VITAL
+	11, about.4gl,,,, 1997-08-29,,,, !READONLY,, informix\sample\about.4gl,,,, 2149,,,,, !VITAL
+	11, engine.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\engine.4gl,,,, 5879,,,,, !VITAL
+	11, errcodes.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\errcodes.4gh,,,, 5021,,,,, !VITAL
+	11, crpedemo.mak,,,, 1997-08-29,,,, !READONLY,, informix\sample\crpedemo.mak,,,, 6548,,,,, !VITAL
+	11, job.4gh,,,, 1997-08-29,,,, !READONLY,, informix\class3\job.4gh,,,, 16627,,,,, !VITAL
+	11, crpedemo.4gl,,,, 1997-08-29,,,, !READONLY,, informix\sample\crpedemo.4gl,,,, 39563,,,,, !VITAL
+	11, job.4gl,,,, 1997-08-29,,,, !READONLY,, informix\class3\job.4gl,,,, 54352,,,,, !VITAL
+
+[Database Access\Btrieve\@Winsys16]
+	25, sbtrvd32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 24576,,,, 1.0.0.1, !VITAL
+	25, s2dtconv.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 62976,,,, 2.50.0.2, !VITAL
+
+[Exporting\VIM\@WinCry]
+	3, u2dvim.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 87552,,,,, !VITAL
+
+[Exporting\Crystal Reports\@WinCry]
+	17, u2fcr.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 97598,,,,, !VITAL
+
+[Exporting\Lotus Notes\@WinCry]
+	43, u2dnotes.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 89088,,,,, !VITAL
+
+[Exporting\ODBC data source\@WinCry]
+	33, u2fodbc.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 77824,,,,, !VITAL
+
+[Sample Files\Borland Delphi API\@TargetDir]
+	41, pedelf32.exe,,,,,,,, !READONLY,, sample\pedelf32\pedelf32.exe,,,, 42398,,,,, !VITAL
+
+[Exporting\Report Definition\@WinCry]
+	19, u2frdef.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 78848,,,,, !VITAL
+
+[Exporting\Microsoft Exchange Public Folders\@WinCry]
+	18, u2dpost.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 66560,,,,, !VITAL
+
+[Sample Files\User Function Library (UFL)\@TargetDir]
+	43, u2lbar.def,,,, 1997-08-29,,,, !READONLY,,,,,, 638,,,,, !VITAL
+	43, u2lsamp1.def,,,, 1997-08-29,,,, !READONLY,,,,,, 513,,,,, !VITAL
+	43, uflsamp1.rc,,,, 1997-08-29,,,, !READONLY,,,,,, 1124,,,,, !VITAL
+	43, ufmain.h,,,, 1997-08-29,,,, !READONLY,,,,,, 979,,,,, !VITAL
+	43, ufuser.h,,,, 1997-08-29,,,, !READONLY,,,,,, 912,,,,, !VITAL
+	43, crdates.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1213,,,,, !VITAL
+	43, crdll.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1592,,,,, !VITAL
+	43, u2lsamp2.def,,,, 1997-08-29,,,, !READONLY,,,,,, 1427,,,,, !VITAL
+	43, uffuncs.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1855,,,,, !VITAL
+	43, ufjob.c,,,, 1997-08-29,,,, !READONLY,,,,,, 1533,,,,, !VITAL
+	43, ufjob.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1319,,,,, !VITAL
+	43, wintime.h,,,, 1997-08-29,,,, !READONLY,,,,,, 1705,,,,, !VITAL
+	43, crdates.c,,,, 1997-08-29,,,, !READONLY,,,,,, 3164,,,,, !VITAL
+	43, ufmain.c,,,, 1997-08-29,,,, !READONLY,,,,,, 4167,,,,, !VITAL
+	43, u2lsamp1.mak,,,, 1997-08-29,,,, !READONLY,,,,,, 7865,,,,, !VITAL
+	43, uflsamp1.c,,,, 1997-08-29,,,, !READONLY,,,,,, 6853,,,,, !VITAL
+	43, ufdll.h,,,, 1997-08-29,,,, !READONLY,,,,,, 10418,,,,, !VITAL
+	43, uflbar.c,,,, 1997-08-29,,,, !READONLY,,,,,, 13744,,,,, !VITAL
+	43, wintime.c,,,, 1997-08-29,,,, !READONLY,,,,,, 11422,,,,, !VITAL
+	43, uflsamp2.c,,,, 1997-08-29,,,, !READONLY,,,,,, 35086,,,,, !VITAL
+
+[Sample Files\Visual Basic Automation\@TargetDir]
+	43, sam32aut.exe,,,, 1997-08-29,,, OLDER, !READONLY,, sample\sam32aut\sam32aut.exe,,,, 35418,,,,, !VITAL
+
+[Sample Files\Visual Basic ActiveX\@TargetDir]
+	43, sam32ocx.exe,,,, 1997-08-29,,, OLDER, !READONLY,, sample\sam32ocx\sam32ocx.exe,,,, 33034,,,,, !VITAL
+
+[Exporting\Lotus 1-2-3\@WinCry]
+	22, u2fwks.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 57344,,,,, !VITAL
+
+[@Setup]
+	1, odbcint.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 32768,,,, 2.50.30.6, !VITAL
+	1, msdetstf.dll,,,,,,,, !READONLY,,,,,, 20480,,,,,
+	1, msshlstf.dll,,,,,,,, !READONLY,,,,,, 23552,,,,,
+	1, crwsetup.ini,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 12727,,,,, !VITAL
+	1, license.txt,,,,, !DECOMPRESS,,, !READONLY,,,,,, 12747,,,,, !VITAL
+	1, msuilstf.dll,,,,,,,, !READONLY,,,,,, 49152,,,,,
+"WIN95" = 39, ctl3d95.dl_,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,,, 15432,,,,, !VITAL
+"WINNT" = 39, ctl3dnt.dl_,,,,, !DECOMPRESS,, OLDER, !READONLY,,,,,, 15600,,,,, !VITAL
+	1, msinsstf.dll,,,,,,,, !READONLY,,,,,, 69632,,,,,
+	1, mscomstf.dll,,,,,,,, !READONLY,,,,,, 89088,,,,,
+	1, odbccp32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 91136,,,, 2.50.30.6, !VITAL
+	1, msvcrt20.dll,,,,, !DECOMPRESS,, OLDER, !READONLY,, msvcrt20.dl_,,,, 253952,,,, 2.11.0.0, !VITAL
+	1, mscuistf.dll,,,,,,,, !READONLY,,,,,, 1024000,,,,,
+
+[Exporting\Character Separated\@WinCry]
+	29, u2fsepv.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 53248,,,,, !VITAL
+
+[Exporting\Data Interchange Format (DIF)\@WinCry]
+	43, u2fdif.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 53248,,,,, !VITAL
+
+[Exporting\Record style (columns of values)\@WinCry]
+	43, u2frec.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 49152,,,,, !VITAL
+
+[Developer's Files\Microsoft Visual Basic\@TargetDir]
+	43, crwrap.bas,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 22382,,,,, !VITAL
+	43, global32.bas,,,, 1997-08-29,,, OLDER, !READONLY,,,,,, 70196,,,,, !VITAL
+
+[Exporting\Disk file\@WinCry]
+	21, u2ddisk.dll,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 45056,,,,, !VITAL
+
+[Seagate Crystal Reports Help\@Winsys]
+	32, csh.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 46592,,,, 1.0.0.30, !VITAL
+
+[Database Access\Bound Reporting\@Winsys]
+	12, p2bbnd.dll,,,, 1997-08-29,,, OLDER, !READONLY,,,,, SHARED, 36352,,,, 6.0.0.1, !VITAL
+
+[Sample Files\@TargetDir]
+	43, 00019144.dat,,,, 1997-08-29,,,, !READONLY,,,,,, 1536,,,,, !VITAL
+	43, index.ddf,,,, 1997-08-29,,,, !READONLY,,,,,, 2048,,,,, !VITAL
+	43, file.ddf,,,, 1997-08-29,,,, !READONLY,,,,,, 2560,,,,, !VITAL
+	43, bookord.px,,,, 1997-08-29,,,, !READONLY,,,,,, 4096,,,,, !VITAL
+	43, filmtype.dbf,,,, 1997-08-29,,,, !READONLY,,,,,, 1710,,,,, !VITAL
+	43, filmtype.ndx,,,, 1997-08-29,,,, !READONLY,,,,,, 2048,,,,, !VITAL
+	43, 00028747.dat,,,, 1997-08-29,,,, !READONLY,,,,,, 2560,,,,, !VITAL
+	43, movie.ndx,,,, 1997-08-29,,,, !READONLY,,,,,, 3584,,,,, !VITAL
+	43, studio.ndx,,,, 1997-08-29,,,, !READONLY,,,,,, 3584,,,,, !VITAL
+	43, bookord.db,,,, 1997-08-29,,,, !READONLY,,,,,, 8192,,,,, !VITAL
+	43, movie.dbf,,,, 1997-08-29,,,, !READONLY,,,,,, 3569,,,,, !VITAL
+	43, studio.dbf,,,, 1997-08-29,,,, !READONLY,,,,,, 4580,,,,, !VITAL
+	43, field.ddf,,,, 1997-08-29,,,, !READONLY,,,,,, 8192,,,,, !VITAL
+
+[Web Report Servers\Crystal Web Report ASP\@WinSys]
+	36, emfgen.dll,,,, 1997-08-29,,,, !READONLY,,,,,, 31232,,,,, !VITAL
+
+[Database Access\ODBC\Oracle 7.x/8.x\Oracle Support Library for 7.1\@Winsys]
+	43, ociw32.dll,,,,,,, OLDER, !READONLY,,,,, SHARED, 34816,,,, 1.0.0.1, !VITAL
+
+[Web Report Servers\Crystal Web Report ASP\@TargetDir]
+	6, framepag.asp,,,, 1997-08-29,,,, !READONLY,, reports\framepage.asp,,, SHARED, 473,,,,, !VITAL
+	6, htmstart.asp,,,, 1997-08-29,,,, !READONLY,, reports\htmstart.asp,,, SHARED, 524,,,,, !VITAL
+	6, actxasp.htm,,,, 1997-08-29,,,, !READONLY,, reports\actxasp.htm,,, SHARED, 1055,,,,, !VITAL
+	6, fhtmasp.htm,,,, 1997-08-29,,,, !READONLY,, reports\fhtmasp.htm,,, SHARED, 1089,,,,, !VITAL
+	6, javaasp.htm,,,, 1997-08-29,,,, !READONLY,, reports\javaasp.htm,,, SHARED, 1052,,,,, !VITAL
+	6, phtmasp.htm,,,, 1997-08-29,,,, !READONLY,, reports\phtmasp.htm,,, SHARED, 1083,,,,, !VITAL
+	6, report.asp,,,, 1997-08-29,,,, !READONLY,, reports\report.asp,,, SHARED, 2030,,,,, !VITAL
+	6, toolbar.asp,,,, 1997-08-29,,,, !READONLY,, reports\toolbar.asp,,, SHARED, 4189,,,,, !VITAL
+	6, rptserve.asp,,,, 1997-08-29,,,, !READONLY,, reports\rptserver.asp,,, SHARED, 14551,,,,, !VITAL
+
+[Database Access\Microsoft Access\@TargetDir]
+	5, sysdb32.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 24064,,,,, !VITAL
+
+[@Always]
+	1, readme.cnt,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 5594,,,,, !VITAL
+	28, uncstub.exe,,,, 1997-08-29,,,, !READONLY,,,,,, 20480,,,,, !VITAL
+"Readme" = 1, readme.hlp,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 105190,,,,, !VITAL
+
+[Database Access\ODBC\@Programs]
+	26, odbcad32.exe,,,,,,, OLDER, !READONLY,,,,, SHARED, 13312,,,, 3.0.28.22, !VITAL
+
+[Developer's Files\Microsoft Visual InterDev\@TargetDir]
+	7, rptserve.asp,,,,,,,, !READONLY,, reports\rptserver.asp,,, SHARED, 14551,,,,, !VITAL
+
+[Database Access\Symantec ACT!\@TargetDir]
+	36, crw.act,,,, 1997-08-29,,,, !READONLY,,,,,, 7471,,,,, !VITAL
+
+[Seagate Crystal Reports Help\Developer's Help\@TargetDir]
+	17, developr.cnt,,,, 1997-08-29,,,, !READONLY,,,,,, 8054,,,,, !VITAL
+	2, developr.h1_,,,, 1997-08-29,,,, !READONLY,, developr.hlp,,,, 3211045,,,,, !VITAL
+	3, developr.h2_, developr.hlp,,, 1997-08-29,,,, !READONLY,,,,,, 691987,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Distribution Expert\@INI]
+"CRWDIST.INI" = 14, crwd32.ini,, crwd32.old,, 1997-08-29,,,, !READONLY,,,,,, 3217,,,,, !VITAL
+
+[Database Access\Active Data Driver\@TargetDir]
+	40, orders.ttx,,,, 1997-08-29,,,, !READONLY,,,,, SHARED, 365,,,,, !VITAL
+
+[@Ctl3d]
+"WIN95" = 1, ctl3d95.dll,,,,,,, OLDER, !READONLY,, ctl3d32.dll,,, SHARED, 26624,,,, 2.31.0.0, !VITAL
+"WINNT" = 1, ctl3dnt.dll,,,,,,, OLDER, !READONLY,, ctl3d32.dll,,, SHARED, 27136,,,, 2.31.0.0, !VITAL
+
+[@Nevercopy]
+	1, setup.lst,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 648,,,,,
+	1, setup.exe,,,,, !DECOMPRESS,,, !READONLY,,,,,, 35328,,,,,
+	1, crwfiles.inf,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 147433,,,,,
+	1, crwstp32.exe,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 730112,,,,,
+
+[Database Access\ODBC\@TargetDir]
+	1, crodbc32.inf,,,, 1997-08-29,,,, !READONLY,,,,,, 13627,,,,, !VITAL

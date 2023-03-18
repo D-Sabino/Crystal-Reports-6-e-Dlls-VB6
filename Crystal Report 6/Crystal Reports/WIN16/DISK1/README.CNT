@@ -1,0 +1,106 @@
+:Base Readme.HLP
+1 What's New in 6.0
+2 Index=WHTNW_What_s_New_in_6.0_Index
+2 Web Reporting Technology=WHTNW_Web_Reporting_Technology
+2 Smart Navigation On the Web=WHTNW_Smart_Navigation_On_the_Web
+2 Crystal Web Report Server=WHTNW_Crystal_Web_Report_Server
+2 Smart Viewers=WHTNW_Smart_Viewers
+2 Web Application Deployment=WHTNW_Web_Application_Deployment
+2 OLAP data source access=WHTNW_Arbor_Essbase_support_extends_reporting_capabilities_to_OLAP_data_sources
+1 Advanced Developer Features
+2 Index=WHTNW_Advanced_Developer_Features_Index
+2 Smart Runtime Preview Window=WHTNW_Smart_Runtime_Preview_Window
+2 Drill Down in Runtime Preview Window=WHTNW_Drill_Down_in_Runtime_Preview_Window
+2 Customizable Runtime Preview Window=WHTNW_Customizable_Runtime_Preview_Window
+2 Event and Call-back Support=WHTNW_Event_and_Call_back_Support
+2 User-Defined Functions (UDFs) in Visual Basic=WHTNW_User_Defined_Functions_UDFs_in_Visual_Basic
+2 Automation Server=WHTNW_Automation_Server
+2 Improved Support for Apex True DBGrid 5.0=WHTNW_Improved_Support_for_Apex_True_DBGrid_5.0
+2 Reporting from Application Data=WHTNW_Reporting_from_Application_Data
+2 Increased Database Support=WHTNW_Increased_Database_Support
+2 Year 2000 UFL=WHTNW_Year_2000_UFL
+2 New Report Engine Calls=WHTNW_New_Report_Engine_Calls
+1 What’s New in 5.0
+2 Index=WHTNW_What_s_New_in_5.0_Index
+2 Sensational new interface=WHTNW_Sensational_new_interface_gives_you_power_and_control
+2 Multiple Section Reports=WHTNW_Multiple_Section_Reports_offer_new_reporting_alternatives
+2 Subreports=WHTNW_Subreports_expand_report_usefulness
+2 Conditional formatting=WHTNW_Conditional_formatting_adds_new_intelligence_to_reporting
+2 Query Tool=WHTNW_Query_Designer_adds_ad_hoc_querying_capabilities
+2 Parameter Fields for multi-purpose reports=WHTNW_Parameter_Fields_mean_multi_purpose_reports
+2 Text Objects=WHTNW_Text_Objects_give_you_text_with_intelligence
+2 Preprinted-form reports=WHTNW_Preprinted_form_reports_easier_than_ever
+2 Enhanced Cross-Tab capabilities=WHTNW_Enhanced_Cross_Tab_capabilities_help_identify_trends
+2 More powerful formulas=WHTNW_More_powerful_formulas_extend_your_capabilities
+2 In-place editing of OLE objects=WHTNW_In_place_editing_makes_it_easy_to_edit_OLE_objects
+2 Drag objects between reports, from other applications=WHTNW_Dragging_objects_between_reports_cuts_creation_time
+2 HTML exporting=WHTNW_HTML_exporting_simplifies_Web_activities
+2 Intellimouse Features=CRW_Intellimouse
+1 Crystal Web Server Notes
+2 How Crystal Smart viewers perform on different platforms=RM_CRW50_How_Crystal_Smart_viewers_perform_on_different_platforms
+2 ReportServer settings and corresponding Registry keys=RM_CRW50_ReportServer_settings_and_corresponding_Registry_keys
+2 Other known Crystal Web Server issues=RM_CRW50_Other_known_Crystal_Web_Server_issues
+2 Exporting to HTML=RM_CRW50_Exporting_to_HTML
+1 Installation Topics
+2 Installation Topics Index=INSTL_Installation_Topics_Index
+2 Installation Requirements 16-bit version=INSTL_Installation_Requirements_16_bit_version
+2 Installation Requirements 32-bit version=INSTL_Installation_Requirements_32_bit_version
+2 Installing Seagate Crystal Reports=INSTL_Installing_Seagate_Crystal_Reports
+2 Installing on a network workstation=INSTL_Installing_on_a_network_workstation
+2 Upgrading from a previous version=INSTL_Upgrading_from_a_previous_version
+2 New Installation Path=RM_CRW50_New_Installation_Path
+1 Configuration and Setup Topics
+2 Configuration and Setup Topics Index=CONFIG_Configuration_and_Setup_Topics_Index
+2 Btrieve page size too small=CONFIG_btrieve_page_size_too_small
+2 Default printer must be selected=CONFIG_default_printer_must_be_selected
+1 Notes to Developers
+2 Obsolete API Calls=RM_CRW_Note_to_Developers_Obsolete_API_Calls
+2 Using DBGrid with the Query Module=RM_CRW_Using_DBGrid_with_the_Query_Module
+2 Working with secured Access databases=RM_CRW_Working_with_secured_Access_databases
+2 Development issues using Active Server Pages=RM_CRW50_Development_issues_using_Active_Server_Pages
+2 Changes to the Crystal Report Automation Server (CPEAUT)=RM_CRW50_Changes_to_the_Crystal_Report_Automation_Server_CPEAUT
+1 Release Notes
+2 Release Notes=RM_CRW50_Release_Notes
+1 International Partners
+2 International Partners Directory=DIRECTRY_International_Partners_Directory
+2 Argentina=DIRECTRY_Argentina
+2 Australia=DIRECTRY_Australia
+2 Austria=DIRECTRY_Austria
+2 Belgium=DIRECTRY_Belgium
+2 Brazil=DIRECTRY_Brazil
+2 Chile=DIRECTRY_Chile
+2 Columbia=DIRECTRY_Columbia
+2 Cyprus=DIRECTRY_Cyprus
+2 Czech Republic=DIRECTRY_Czech_Republic
+2 Denmark=DIRECTRY_Denmark
+2 Finland=DIRECTRY_Finland
+2 France=DIRECTRY_France
+2 Germany=DIRECTRY_Germany
+2 Greece=DIRECTRY_Greece
+2 Hong Kong=DIRECTRY_Hong_Kong
+2 Hungary=DIRECTRY_Hungary
+2 India=DIRECTRY_India
+2 Ireland=DIRECTRY_Ireland
+2 Israel=DIRECTRY_Israel
+2 Italy=DIRECTRY_Italy
+2 Japan=DIRECTRY_Japan
+2 Korea=DIRECTRY_Korea
+2 Luxembourg=DIRECTRY_Luxembourg
+2 Mexico=DIRECTRY_Mexico
+2 Netherlands=DIRECTRY_Netherlands
+2 New Zealand=DIRECTRY_New_Zealand
+2 Norway=DIRECTRY_Norway
+2 Philippines=DIRECTRY_Philippines
+2 Poland=DIRECTRY_Poland
+2 Portugal=DIRECTRY_Portugal
+2 Russia=DIRECTRY_Russia
+2 Singapore=DIRECTRY_Singapore
+2 South Africa=DIRECTRY_South_Africa
+2 Spain=DIRECTRY_Spain
+2 Sweden=DIRECTRY_Sweden
+2 Taiwan ROC=DIRECTRY_Taiwan_ROC
+2 Thailand=DIRECTRY_Thailand
+2 Turkey=DIRECTRY_Turkey
+2 United Arab Emirates=DIRECTRY_United_Arab_Emirates
+2 United Kingdom=DIRECTRY_United_Kingdom
+2 Venezuela=DIRECTRY_Venezuela

@@ -1,0 +1,189 @@
+CRPEDemo Sample VB application
+December 8, 1994
+
+Overview
+--------
+
+This is a sample application was created to not only help users understand the most popular print engine calls when using Crystal Reports 4.0 Pro and Visual Basic 3.0 Pro but to help users debug and trouble shoot their own application programming issue. The stucture is fairly simple in design given that most of the related print engine calls are located in a single form. Therefore, all of the formula related Print Engine information is in one VB form. This structure not only helps users find the code they are interested in but it allows anyone the ability to simply add their own forms with new print Engine calls at any time.
+
+List of Print Engine Calls included in CRPEDemo
+-----------------------------------------------
+
+Call				Location
+
+PESetFont			Command1, Click Event, Font.FRM
+PEGetGraphOptions		Form, Load Event, GraphOpt.FRM
+PESetGraphOptions		OptionsOk, Click Event, GraphOpt.FRM
+PEGetGraphText			Form, Load Event, GraphTxt.FRM
+PESetGraphText			Command1, Click Event, GraphTxt.FRM
+PEGetGraphType			GraphTypeGetClick, Click Event, GraphTyp.FRM
+PESetGraphType			GraphSetTypeClick, Click Event, GraphTyp.FRM
+PEGetGraphData			Form, Load Event, GrphData.FRM
+PESetGraphData			LayoutClickOk, Click Event, GrphData.FRM
+PEGetNGroups			Form, Load Event, GroupCond.FRM
+PEGetGroupCondition		Form, Load Event, GroupCon.FRM
+PESetGroupCondition		Command2, Click Event, GroupCon.FRM
+PEOpenEngine			MenuEngineOpenJob, Click Event, Main.FRM
+PEClosePrintJob			MenuEngineCloseJob, Click Event, Main.FRM
+PEGetSelectedPrinter		Form, Load Event, PrintFrm.FRM
+PEGetNDetailCopies		Form, Load Event, PrintFrm.FRM
+PEGetPrintOptions		Form, Load Event, PrintFrm.FRM
+PEHasSavedData			Form, Load Event, PrintFrm.FRM
+PESetNDetailCopies		Command2, Click Event, PrintFrm.FRM
+PESetPrintOptions		Command2, Click Event, PrintFrm.FRM
+PEOutputToPrinter		Command2, Click Event, PrintFrm.FRM
+PEDiscardSavedData		Command2, Click Event, PrintFrm.FRM
+PEStartPrintJob			Command2, Click Event, PrintFrm.FRM
+PEGetReportTitle		Form, Load Event, RptTitle.FRM
+PESetReportTitle		Command3, Click Event, RptTitle.FRM
+PEGetSectionFormat		SectionCombo, Click Event, Section.FRM
+PEGetMinimumSectionHeight	SectionCombo, Click Event, Section.FRM
+PEGetLineHeight			SectionCombo, Click Event, Section.FRM\
+PESetSectionFormat		SetFormat, Click Event, Section.FRM
+PESetMinimumSectionHeight	SetFormat, Click Event, Section.FRM
+PESetLineHeight			SetFormat, Click Event, Section.FRM
+PEGetNthTableSessionInfo	Command1, Click Event, Security.FRM
+PESetNthTableSessionInfo	Command2, Click Event, Security.FRM
+PESelectPrinter			Command1, Click Event, SelectPr.FRM
+PEGetNthTableLogonInfo		Command3, Click Event, Server.FRM
+PESetNthTableLogonInfo		Command2, Click Event, Server.FRM
+PEGetNFormulas			Form, Load Event, SetFormu.FRM
+PEGetNthFormula			Form, Load Event, SetFormu.FRM
+PEGetSelectionFormula		Form, Load Event, SetFormu.FRM
+PEGetGroupSelectionFormula	Form, Load Event, SetFormu.FRM
+PESetFormula			Command7, Click Event, SetFormu.FRM
+PECheckFormula			Command6, Click Event, SetFormul.FRM
+PESetSelectionFormula		Command1, Click Event, SetFormul.FRM
+PESetGroupSelectionFormula	Command4, Click Event, SetFormul.FRM
+PEGetNSortFields		Form, Load Event, Sorting.FRM
+PEGetNGroupSortFields		Form, Load Event, Sorting.FRM
+PEGetNthSortField		Form, Load Event,  Sorting.FRM
+PEGetNthGroupSortField		Form, Load Event, Sorting.FRM
+PESetNthSortField		Command9, Click Event, Sorting.FRM
+PEDeleteNthSortField		Command10, Click Event, Sorting.FRM
+PESetNthGroupSortField		Command11, Click Event, Sorting.FRM
+PEDeleteNthGroupSortField	Command12, Click Event, Sorting.FRM
+PEGetSQLQuery			Command1, Click Event, SQLQuery.FRM
+PESetSQLQuery			Command2, Click Event, SQLQuery.FRM
+PEGetNParams			Form, Load Event, StoredPr.FRM
+PEGetNthParam			Form, Load Event, StoredPr.FRM
+PESetNthParam			StProcSet, Click Event, StoredPr.FRM
+PEGetNTables			Form, Click Event, Table.FRM
+PEGetNthTableLocation		Form, Load Event, Table.FRM
+PEGetNthTableType		LocationCombo, Click Event, Table.FRM
+PESetNthTableLocation		Command9, Click Event, Table.FRM
+PEShowPrintControls		Command2, Click Event, WinFrm.FRM
+PEOutPutToWindow		Command2, Click Event, WinFrm.FRM
+PEGetErrorCode			General, GetErrorString, CRPEDemo.BAS
+PEGetErrorText			General, GetErrorString, CRPEDemo.BAS
+	
+
+
+Basic Functionality:
+--------------------
+
+The following is a quick guideline on using CRPEDemo. For further information on specific Print Engine Calls please refer to the Crystal Reports - Developer's Reference Manual or the On-line help under Developer's Information. Before you can begin any report generation in VB you must Open the Crystal Reports Print Engine. This will load the CRPE.DLL which should be located in the Windows/System directory. Please be sure that the DLL is the latest version for Crystal Reports 4.0 Pro. If the application loads an older CRPE.DLL many of the new function calls will not work and you will receive errors. Once the Print Engine is open you will have to Open a Print Job(or open a specific report that you have created). To open a print job successfully you will need to ensure that the RPT file is locatable, the database dlls used when creating the report are in your path and any UFL DLLs that may have been used in the report(i.e. the NOW, Picture, Soundex and DTSTo functions all use UFLs) are in the same directory as CRPE.DLL.
+
+After opening the engine and opening a print job any print engine call is now available to use. You will notice that CRPEDemo will not enable the toolbar or the menu items until a print job is opened. The reason for this is that most of the print engine calls(except for a few specific ones) require a print job handle. Here is a typical sequence of calls that can be used in CRPEDemo. They have been listed with respect to their menu choices and button selections in CRPEDemo
+
+Under the Engine menu:
+
+Open Engine
+Open Print Job
+
+Under the Formula menu
+
+Selection Formula - This will bring up a dialogue that allows you to the selection formula.
+
+Under the File Menu:
+
+Print | Window - This allows you to print to the window. There is an option to use the saved data in the report or refresh. However, since a selection criteria is being set, in this case, the report will always refresh the data. The same would apply if a formula or group selection formula were being set.
+
+Crystal as an MDI Child
+-----------------------
+
+The Crystal Reports print window can be displayed as an MDI child if the methods in CRPEDemo are used. The basic concept is to create an MDI Child frame in VB and then make the Crystal print window a child of that child form. In the PEOutPutToWindow call the last parameter allows you to specify a ParentWindow handle. If the ParentWindow Handle is the handle of an MDI frame window then Crystal's print window will act as an MDI child. 
+
+The next step is to use two the Windows API calls GetWindow and MoveWindow. 
+
+The GetWindow function call is declared in the CRPEDemo.BAS file and is used to retrieve the handle of a window that has the specified relationship to the given window. The function searches the system's list of top-level windows, their associated child windows, the child windows of any child windows, and any siblings of the owner of a window. The second parameter of the GetWindow function call allows you to specify a relationship flag and in the case of CRPEDemo the second parameter is specified as GW_CHILD. This constant indentifies the MDI frame window's first child which would be the Crystal Reports print window.
+
+The MoveWindow function call is declared in the CRPEDemo.BAS and is used to change the position and dimensions of a window. For top-level windows, the position and dimensions are relative to the upper-left corner of the screen. For child windows, they are relative to the upper-left corner of the parent window's client area. 
+
+Both of these Windows API function calls are used in the MDI Child form 'Paint' and 'Resize' Procs to ensure that when the Crystal print window appears that the MDI child frame will match the size of the Crystal Reports Print window exactly and when the MDI child frame is resized the Crystal print window will resize accordingly. 
+
+Graph Type Tip
+--------------
+
+Selection a Graph Type
+
+Graph Number: Specifies which graph within the section you want to modify. This value is 0 indexed. Within a section, graphs are numbered from top to bottom, first, then from left to right if they have the same top. Therefore, the first graph would be 0, the second 1, etc. Most times you will only have one graph so the graph number will usually be 0.
+
+Section Code: Specifies the code for the report section in which the graph appears. See Table of section constants supplied with the PESetSectionFormat. 1000 is the summary, 2000 is the page header, 3000 is the first group header, 3001 is the second group header etc. 5000 is the first group footer, 5001 is the second group footer etc. You cannot place a graph in the details section so you should never use 4000 as a section code.
+
+Graph Type: Specifies a pointer to the type of  graph you want to be displayed. For a list of possible graph types, refer to the chart under PEGetGraphType in the Global.BAS
+
+
+Graph Layout Tip
+----------------
+
+PEGraphDataInfo
+
+Description
+
+The PEGraphDataInfo structure contains information on what report data is used by a graph to create the values in the graph. The structure is used by PEGetGraphData to retrieve information regarding an existing graph and by PESetGraphData to change the data used by an existing graph.
+
+
+VB Type Listing:
+Type PEGraphDataInfo
+	StructSize As Integer
+	rowGroupN As Integer
+	colGroupN As Integer
+	summarizedFieldN As Integer
+	graphDirection As Integer
+End Type
+
+Member	Description
+
+StructSize	
+----------
+
+Specifies the size of the PEGraphDataInfo structure.  You must initialize this member to be the size of the structure, for example:graphDataInfo.StructSize = sizeof(PEGraphDataInfo)
+
+rowGroupN
+---------
+
+Specifies which group number in the report is used to create the values in the rows of the graph.
+
+colGroupN
+---------	
+
+Specifies which group number in the report is used to create the values in the 		columns of the graph.
+
+summarizedFldN	
+--------------
+
+Specifies which summary field in the report is used to set the values of the risers in the graph. Summary fields are numbered in order of their creation.
+
+graphDirection
+--------------	
+
+For normal group/total report, the direction, is always PE_GRAPH_COLS_ONLY. For CrossTab reports, use any of the following constant values:
+
+Constant			Meaning
+
+PE_GRAPH_ROWS_ONLY		Use only row valuesin graph.
+PE_GRAPH_COLS_ONLY		Use only columnvalues in graph.
+PE_GRAPH_MIXED_ROW_COL		Graph by row values,then by column values.
+PE_GRAPH_MIXED_COL_ROW		Graph by column values,then by row values.
+PE_GRAPH_UNKNOWN_DIRECTION	The direction of thegraph is unknown.
+
+
+Help Buttons in CRPEDemo
+------------------------
+
+In most of the forms you will notice that there is a HELP button provided as well as a HELP menu and toolbar help button. These buttons are hard coded to shell out to the CRW.HLP file in the CRW directory. If you do not have a C:\CRW directory with the CRW.HLP included in it then these HELP buttons will not work and you get an error stating that the HELP FILE DOES NOT EXIST. 
+
+If you have any suggestions regarding this application please forward them to our Technical Support Department. Information on how to contact Crystal Technical Support can be found on the back cover of the Crystal Reports 4.0 Manuals
+
+Crystal Inc. Tech Support.

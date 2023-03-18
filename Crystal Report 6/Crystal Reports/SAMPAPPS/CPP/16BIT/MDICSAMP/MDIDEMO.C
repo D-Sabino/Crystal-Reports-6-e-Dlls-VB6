@@ -1,0 +1,275 @@
+/*--------------------------------------------------------
+   MDIDEMO.C -- Multiple Document Interface Demonstration
+                (c) Charles Petzold, 1990
+
+                This is a skeleton MDI. Modified by moi.
+  --------------------------------------------------------*/
+
+#include <windows.h>
+#include <stdlib.h>
+#include "mdidemo.h"
+#include "crpe.h"
+
+long FAR PASCAL FrameWndProc  (HWND, WORD, WORD, LONG) ;
+BOOL FAR PASCAL CloseEnumProc (HWND, LONG) ;
+long FAR PASCAL HelloWndProc  (HWND, WORD, WORD, LONG) ;
+
+// global variables
+
+char   szFrameClass [] = "MdiFrame" ;
+char   szHelloClass [] = "MdiHelloChild" ;
+HANDLE hInst ;
+HMENU  hMenuInit;
+HMENU  hMenuInitWindow;
+short  jobh;
+
+int PASCAL WinMain (HANDLE hInstance, HANDLE hPrevInstance, LPSTR lpszCmdLine, int nCmdShow)
+{
+  HANDLE   hAccel ;
+  HWND     hwndFrame, hwndClient ;
+  MSG      msg ;
+  WNDCLASS wndclass ;
+
+  hInst = hInstance ;
+
+  if (!hPrevInstance) {
+    // Register the frame window class
+    wndclass.style         = CS_HREDRAW | CS_VREDRAW ;
+    wndclass.lpfnWndProc   = FrameWndProc ;
+    wndclass.cbClsExtra    = 0 ;
+    wndclass.cbWndExtra    = 0 ;
+    wndclass.hInstance     = hInstance ;
+    wndclass.hIcon         = LoadIcon (NULL, IDI_APPLICATION) ;
+    wndclass.hCursor       = LoadCursor (NULL, IDC_ARROW) ;
+    wndclass.hbrBackground = COLOR_APPWORKSPACE + 1 ;
+    wndclass.lpszMenuName  = NULL ;
+    wndclass.lpszClassName = szFrameClass ;
+
+    RegisterClass (&wndclass) ;
+
+    // Register the Hello child window class
+    wndclass.style         = CS_HREDRAW | CS_VREDRAW ;
+    wndclass.lpfnWndProc   = HelloWndProc ;
+    wndclass.cbClsExtra    = 0;
+    wndclass.cbWndExtra    = 0;
+    wndclass.hInstance     = hInstance ;
+    wndclass.hIcon         = LoadIcon (NULL, IDI_APPLICATION) ;
+    wndclass.hCursor       = LoadCursor (NULL, IDC_ARROW) ;
+    wndclass.hbrBackground = GetStockObject (WHITE_BRUSH) ;
+    wndclass.lpszMenuName  = NULL ;
+    wndclass.lpszClassName = szHelloClass ;
+
+    RegisterClass (&wndclass) ;
+  }
+
+  // Obtain handles to three possible menus & submenus
+  hMenuInit  = LoadMenu (hInst, "MdiMenuInit") ;
+  hMenuInitWindow  = GetSubMenu (hMenuInit, INIT_MENU_POS) ;
+
+  // Load accelerator table
+  hAccel = LoadAccelerators (hInst, "MdiAccel") ;
+
+  // Create the frame window
+  hwndFrame = CreateWindow (szFrameClass,
+                            "MDI Demonstration",
+                            WS_OVERLAPPEDWINDOW | WS_CLIPCHILDREN,
+                            CW_USEDEFAULT,
+                            CW_USEDEFAULT,
+                            CW_USEDEFAULT,
+                            CW_USEDEFAULT,
+                            NULL,
+                            hMenuInit,
+                            hInstance,
+                            NULL) ;
+
+  hwndClient = GetWindow (hwndFrame, GW_CHILD) ;
+
+  ShowWindow (hwndFrame, nCmdShow) ;
+  UpdateWindow (hwndFrame) ;
+
+  // Enter the modified message loop
+  while (GetMessage (&msg, NULL, 0, 0)) {
+    if (!TranslateMDISysAccel (hwndClient, &msg) &&
+          !TranslateAccelerator (hwndFrame, hAccel, &msg)) {
+      TranslateMessage (&msg) ;
+      DispatchMessage (&msg) ;
+    }
+  }
+
+  return msg.wParam ;
+}
+
+
+long FAR PASCAL FrameWndProc (HWND hwnd, WORD message, WORD wParam, LONG lParam)
+{
+  static HWND        hwndClient ;
+  CLIENTCREATESTRUCT clientcreate ;
+  FARPROC            lpfnEnum ;
+  HWND               hwndChild, hwndNext ;
+  MDICREATESTRUCT    mdicreate ;
+  static short       job;
+
+  switch (message) {
+    case WM_CREATE:
+      PEOpenEngine ();
+
+      // Create the client window
+      clientcreate.hWindowMenu  = hMenuInitWindow ;
+      clientcreate.idFirstChild = IDM_FIRSTCHILD ;
+
+      hwndClient = CreateWindow ("MDICLIENT",
+                                 NULL,
+                                 WS_CHILD | WS_CLIPCHILDREN | WS_VISIBLE,
+                                 0,
+                                 0,
+                                 0,
+                                 0,
+                                 hwnd,
+                                 1,
+                                 hInst,
+                                 (LPSTR) &clientcreate) ;
+      return 0 ;
+
+    case WM_TIMER:
+      PECloseWindow (job);
+      PEClosePrintJob (job);
+      return 0;
+
+    case WM_COMMAND:
+      switch (wParam) {
+        case IDM_NEWHELLO:
+          // Create a Hello child window
+/*          mdicreate.szClass = szHelloClass ;
+          mdicreate.szTitle = "Hello" ;
+          mdicreate.hOwner  = hInst ;
+          mdicreate.x       = 500 ;
+          mdicreate.y       = 0;
+          mdicreate.cx      = 200;
+          mdicreate.cy      = 100;
+          mdicreate.style   = 0 ;
+          mdicreate.lParam  = NULL ;
+
+	  hwndChild = SendMessage (hwndClient, WM_MDICREATE, 0, (LONG) (LPMDICREATESTRUCT) &mdicreate);*/
+
+/*	  PEPrintReport ("c:\\crw\\crw2\\ordvbx.rpt", FALSE, TRUE, "TEST", 0, 0, 200, 200, WS_VISIBLE, hwnd);*/
+//	  SetTimer (hwnd, 1, 5000, NULL);
+	  jobh = job = PEOpenPrintJob ("custords.rpt");
+	  PEOutputToWindow (job, "Test", 0, 0, 200, 200, 0, hwnd);
+          PEStartPrintJob (job, TRUE);
+          return 0 ;
+
+        case IDM_CLOSE:
+          // Close the active window
+          hwndChild = LOWORD (SendMessage (hwndClient, WM_MDIGETACTIVE, 0, 0L)) ;
+          SendMessage (hwndClient, WM_MDIDESTROY, hwndChild, 0L) ;
+          return 0 ;
+
+        case IDM_EXIT:
+          // Exit the program
+          SendMessage (hwnd, WM_CLOSE, 0, 0L) ;
+          return 0 ;
+
+        // Messages for arranging windows
+        case IDM_TILE:
+          SendMessage (hwndClient, WM_MDITILE, 0, 0L) ;
+          return 0 ;
+
+        case IDM_CASCADE:
+          SendMessage (hwndClient, WM_MDICASCADE, 0, 0L) ;
+          return 0 ;
+
+        case IDM_ARRANGE:
+          SendMessage (hwndClient, WM_MDIICONARRANGE, 0, 0L) ;
+          return 0 ;
+
+        case IDM_CLOSEALL:
+          // Attempt to close all children
+          lpfnEnum = MakeProcInstance (CloseEnumProc, hInst);
+          EnumChildWindows (hwndClient, lpfnEnum, 0L) ;
+          FreeProcInstance (lpfnEnum) ;
+          return 0 ;
+
+        default:
+          // Pass to active child
+          hwndChild = LOWORD (SendMessage (hwndClient, WM_MDIGETACTIVE, 0, 0L)) ;
+
+          if (IsWindow (hwndChild))
+              SendMessage (hwndChild, WM_COMMAND, wParam, lParam) ;
+          break ;
+          // and then to DefFrameProc
+      }
+      break ;
+
+    case WM_CLOSE:
+      // Attempt to close all children
+      SendMessage (hwnd, WM_COMMAND, IDM_CLOSEALL, 0L) ;
+
+      if (NULL != GetWindow (hwndClient, GW_CHILD))
+        return 0 ;
+
+      break ;   // ie, call DefFrameProc ;
+
+    case WM_DESTROY :
+      PostQuitMessage (0) ;
+      PECloseEngine ();
+      return 0 ;
+  }
+
+  // Pass unprocessed messages to DefFrameProc (not DefWindowProc)
+  return DefFrameProc (hwnd, hwndClient, message, wParam, lParam) ;
+}
+
+
+
+BOOL FAR PASCAL CloseEnumProc (HWND hwnd, LONG lParam)
+{
+  if (GetWindow (hwnd, GW_OWNER))         // check for icon title
+    return 1 ;
+
+  SendMessage (GetParent (hwnd), WM_MDIRESTORE, hwnd, 0L) ;
+
+  if (!SendMessage (hwnd, WM_QUERYENDSESSION, 0, 0L))
+    return 1 ;
+
+  SendMessage (GetParent (hwnd), WM_MDIDESTROY, hwnd, 0L) ;
+    return 1 ;
+}
+
+
+
+long FAR PASCAL HelloWndProc (HWND hwnd, WORD message, WORD wParam, LONG lParam)
+{
+  HWND hButton;
+
+  switch (message) {
+    case WM_CREATE:
+      hButton = CreateWindow ("BUTTON", "Close", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, 10, 10, 100, 40, hwnd, CHILD1, hInst, NULL);
+      return 0 ;
+
+    case WM_COMMAND:
+      switch (wParam) {
+	case CHILD1:
+	  PECloseWindow (jobh);
+	  PEClosePrintJob (jobh);
+	  break;
+      }
+      return 0 ;
+
+    case WM_PAINT:
+      // Paint the window
+      return 0 ;
+
+    case WM_MDIACTIVATE:
+      return 0 ;
+
+    case WM_CLOSE:
+      break;
+
+    case WM_DESTROY:
+      return 0 ;
+  }
+
+  // Pass unprocessed message to DefMDIChildProc
+  return DefMDIChildProc (hwnd, message, wParam, lParam) ;
+}
+

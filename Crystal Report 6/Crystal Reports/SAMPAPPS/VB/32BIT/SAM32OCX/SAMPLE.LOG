@@ -1,0 +1,9 @@
+Line 36: Class Crystal.CrystalReport of control CrystalReport1 was not a loaded control class.
+Line 39: The property name _ExtentX in CrystalReport1 is invalid.
+Line 40: The property name _ExtentY in CrystalReport1 is invalid.
+Line 41: The property name _Version in CrystalReport1 is invalid.
+Line 42: The property name Destination in CrystalReport1 is invalid.
+Line 43: The property name WindowControlBox in CrystalReport1 is invalid.
+Line 44: The property name WindowMaxButton in CrystalReport1 is invalid.
+Line 45: The property name WindowMinButton in CrystalReport1 is invalid.
+Line 46: The property name PrintFileLinesPerPage in CrystalReport1 is invalid.

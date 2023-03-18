@@ -1,0 +1,16 @@
+[Params]
+    WndTitle   = Setup
+    WndMess    = Initializing Setup...
+    TmpDirSize = 1200
+    TmpDirName = ~btrinst.t
+    CmdLine    = btrstp16.exe /S %s %s
+    DrvModName = BTRSTP16
+
+[Files]
+    mscomstf.dl_ = mscomstf.dll
+    msinsstf.dl_ = msinsstf.dll
+    msuilstf.dl_ = msuilstf.dll
+    msshlstf.dl_ = msshlstf.dll
+    msdetstf.dl_ = msdetstf.dll
+    btrstp16.ex_ = btrstp16.exe
+    btrfiles.inf = btrfiles.inf

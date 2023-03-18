@@ -1,0 +1,122 @@
+ord seg offset name
+  1   1  00bc  WEP exported, shared data
+  2   6  022c  @TMDICLIENTALIAS@0$BCTR$QN14TMDIFRAMEALIASPX6HWND__N7TMODULE exported, shared data
+  3   6  0197  @TMDIFRAMEALIAS@0$BDTR$QV exported, shared data
+  4   6  00ea  @TMDIFRAMEALIAS@0$BCTR$QPX6HWND__T1N7TMODULE exported, shared data
+  5   6  0000  @TWINDOWALIAS@0$BCTR$QPX6HWND__N7TMODULE exported, shared data
+  6   7  01a0  PEOPENENGINE exported, shared data
+  7   7  0263  PECLOSEENGINE exported, shared data
+  8   7  02e7  PEGETVERSION exported, shared data
+  9   7  030d  PEOPENPRINTJOB exported, shared data
+ 10   7  04c0  PECLOSEPRINTJOB exported, shared data
+ 11   7  052d  PESTARTPRINTJOB exported, shared data
+ 12   7  05e0  PECANCELPRINTJOB exported, shared data
+ 13   7  0626  PEISPRINTJOBFINISHED exported, shared data
+ 14   7  1148  PEGETNFILES exported, shared data
+ 15   7  1193  PEGETNTHFILENAME exported, shared data
+ 16   7  123a  PESETNTHFILENAME exported, shared data
+ 17   7  1637  PEOUTPUTTOWINDOW exported, shared data
+ 18   7  169b  PEOUTPUTTOFILE exported, shared data
+ 19   7  1992  PEGETWINDOWHANDLE exported, shared data
+ 20   7  1ba1  PECLOSEWINDOW exported, shared data
+ 21   7  1be7  PEGETNSORTFIELDS exported, shared data
+ 22   7  1c32  PEGETNTHSORTFIELD exported, shared data
+ 23   7  1ce9  PESETNTHSORTFIELD exported, shared data
+ 24   7  1d3f  PEDELETENTHSORTFIELD exported, shared data
+ 25   7  1d8c  PEGETNGROUPSORTFIELDS exported, shared data
+ 26   7  1dd7  PEGETNTHGROUPSORTFIELD exported, shared data
+ 27   7  1e8e  PESETNTHGROUPSORTFIELD exported, shared data
+ 28   7  1ee4  PEDELETENTHGROUPSORTFIELD exported, shared data
+ 29   7  1f31  PEGETFORMULA exported, shared data
+ 30   7  1fe2  PESETFORMULA exported, shared data
+ 31   7  2038  PEGETSELECTIONFORMULA exported, shared data
+ 32   7  20e3  PESETSELECTIONFORMULA exported, shared data
+ 33   7  2133  PEGETGROUPSELECTIONFORMULA exported, shared data
+ 34   7  21de  PESETGROUPSELECTIONFORMULA exported, shared data
+ 35   7  255e  PEGETERRORCODE exported, shared data
+ 36   7  25d7  PEGETERRORTEXT exported, shared data
+ 37   7  26ca  PEGETHANDLESTRING exported, shared data
+ 38   7  00bb  PEPRINTREPORT exported, shared data
+ 39   7  15ce  PEOUTPUTTODEFAULTPRINTER exported, shared data
+ 40   7  15eb  PEOUTPUTTOPRINTER exported, shared data
+ 41   7  14cc  PESELECTPRINTER exported, shared data
+ 42   7  152d  PESETMARGINS exported, shared data
+ 43   7  19dc  PEPRINTWINDOW exported, shared data
+ 44   7  2329  PESETMINIMUMSECTIONHEIGHT exported, shared data
+ 45   7  244a  PESETFONT exported, shared data
+ 46   7  24b8  PESETNDETAILCOPIES exported, shared data
+ 47   7  191a  PESETPRINTOPTIONS exported, shared data
+ 48   7  066c  PEGETJOBSTATUS exported, shared data
+ 49   7  2505  PESETGROUPCONDITION exported, shared data
+ 50   7  0710  PEGETREPORTTITLE exported, shared data
+ 51   7  07b3  PESETREPORTTITLE exported, shared data
+ 52   7  23f4  PESETLINEHEIGHT exported, shared data
+ 53   7  0802  PEGETNTABLES exported, shared data
+ 54   7  0856  PEGETNTHTABLETYPE exported, shared data
+ 55   7  08d2  PEGETNTHTABLESESSIONINFO exported, shared data
+ 56   7  096c  PESETNTHTABLESESSIONINFO exported, shared data
+ 57   7  0a47  PEGETNTHTABLELOGONINFO exported, shared data
+ 58   7  0ae4  PESETNTHTABLELOGONINFO exported, shared data
+ 59   7  0bfd  PEGETNTHTABLELOCATION exported, shared data
+ 60   7  0c7d  PESETNTHTABLELOCATION exported, shared data
+ 61   7  0d21  PETESTNTHTABLECONNECTIVITY exported, shared data
+ 62   7  0d6e  PELOGONSERVER exported, shared data
+ 63   7  0f34  PELOGOFFSERVER exported, shared data
+ 64   7  2379  PESETSECTIONFORMAT exported, shared data
+ 65   7  06bd  PESETPRINTDATE exported, shared data
+ 66   7  16f3  PEGETEXPORTOPTIONS exported, shared data
+ 67   7  17aa  PEEXPORTTO exported, shared data
+ 68   7  1a29  PESHOWNEXTPAGE exported, shared data
+ 69   7  1a73  PESHOWFIRSTPAGE exported, shared data
+ 70   7  1abd  PESHOWPREVIOUSPAGE exported, shared data
+ 71   7  1b07  PESHOWLASTPAGE exported, shared data
+ 72   7  1b51  PESHOWPRINTCONTROLS exported, shared data
+ 73   7  1862  PEDECODEEXPORTOPTIONS exported, shared data
+ 74   7  1582  PESETREFRESHDATA exported, shared data
+ 75   7  222e  PEGETSQLQUERY exported, shared data
+ 76   7  22d9  PESETSQLQUERY exported, shared data
+ 77   7  144c  PELOGOFF exported, shared data
+ 78   7  13b1  PELOGON exported, shared data
+ 79   7  1323  PELOGOFFSQLSERVER exported, shared data
+ 80   7  128d  PELOGONSQLSERVER exported, shared data
+ 81   7  10c6  PELOGONSQLSERVERWITHPRIVATEINFO exported, shared data
+ 82   8  030a  SELFREGISTER exported, shared data
+ 83  16  790f  @XDSEEKFILE$QULUSUSULNUL exported, shared data
+ 84  16  78de  @XDREADFILE$QULUSUSNUSNV exported, shared data
+ 85  16  78bc  @XDDELETEFILE$QULUS exported, shared data
+ 86  16  789a  @XDCLOSEFILE$QULUS exported, shared data
+ 87  16  7878  @XDOPENFILE$QULUS exported, shared data
+ 88  16  7847  @XFSEEKFILE$QULUSUSULNUL exported, shared data
+ 89  16  7816  @XFWRITEFILE$QULUSUSNUSNXV exported, shared data
+ 90  16  77f1  @XFGETCROSSTAB$QULNN11UXFCROSSTAB exported, shared data
+ 91  16  77b7  @XFFORMATFIELDVALUE$QULNX12UXFFIELDINFONX14UXFFIELDFORMATINXV5V exported, shared data
+ 92  16  7786  @XFGETUNFORMATTEDFIELDVALUE$QULNX12UXFFIELDINFONNXVNI exported, shared data
+ 93  16  7755  @XFGETFORMATTEDFIELDVALUE$QULNX12UXFFIELDINFONN17UXFFORMATTEDO5 exported, shared data
+ 94  16  7736  @XFEVALUATEPRINTTIMEFORMULAS$QUL exported, shared data
+ 95  16  7717  @XFENDSECTION$QUL exported, shared data
+ 96  16  76ef  @XFSTARTSECTION$QULNX14UXFSECTIONINFOI exported, shared data
+ 97  18  0b89  PRINTABORTPROC exported, shared data
+ 98  70  0186  @SAFETYPOOL@0ALLOCATE$QUI exported, shared data
+ 99  73  114e  @ADVISESINK@0ONCLOSE$QV exported, shared data
+100  73  1140  @ADVISESINK@0ONSAVE$QV exported, shared data
+101  73  1132  @ADVISESINK@0ONRENAME$QN8IMONIKER exported, shared data
+102  73  10fe  @ADVISESINK@0ONVIEWCHANGE$QULL exported, shared data
+103  73  10f0  @ADVISESINK@0ONDATACHANGE$QN12TAGFORMATETCN12TAGSTGMEDIUM exported, shared data
+104  73  1058  @ADVISESINK@0RELEASE$QV exported, shared data
+105  73  1003  @ADVISESINK@0ADDREF$QV exported, shared data
+106  73  0f3f  @ADVISESINK@0QUERYINTERFACE$QMX4GUIDNNV exported, shared data
+107  73  0ec7  @CLIENTSITE@0REQUESTNEWOBJECTLAYOUT$QV exported, shared data
+108  73  0e90  @CLIENTSITE@0ONSHOWWINDOW$QI exported, shared data
+109  73  0e7c  @CLIENTSITE@0SHOWOBJECT$QV exported, shared data
+110  73  0e58  @CLIENTSITE@0GETCONTAINER$QNN13IOLECONTAINER exported, shared data
+111  73  0dc8  @CLIENTSITE@0GETMONIKER$QULULNN8IMONIKER exported, shared data
+112  73  0d86  @CLIENTSITE@0SAVEOBJECT$QV exported, shared data
+113  73  0cee  @CLIENTSITE@0RELEASE$QV exported, shared data
+114  73  0c99  @CLIENTSITE@0ADDREF$QV exported, shared data
+115  73  0bd5  @CLIENTSITE@0QUERYINTERFACE$QMX4GUIDNNV exported, shared data
+116  80  130d  @NULLABORTPROC$QPX5HDC__S exported, shared data
+117 120  01ac  @INITWNDPROC$QPX6HWND__UIUIL exported, shared data
+118 120  010f  @STDWNDPROC$QPX6HWND__USUSL exported, shared data
+119 127  07e2  @SAFETYPOOL@0SAFETYPOOL exported, shared data
+120 127  07e0  @SAFETYPOOL@0SIZE exported, shared data
+

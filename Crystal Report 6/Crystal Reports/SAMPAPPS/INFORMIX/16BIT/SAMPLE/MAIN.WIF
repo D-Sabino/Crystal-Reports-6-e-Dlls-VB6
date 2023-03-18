@@ -1,0 +1,467 @@
+VERSION "2.00.WC1"
+BEGIN ixWindow Window1
+	windowStyle = ixWindow::mainTop
+	containingWindow *= NULL
+	derivedFrom *= "ixWindow"
+	rulersOn *= FALSE
+	fontItalic *= FALSE
+	title = "Demo Application"
+	fontUnderline *= FALSE
+	enabled *= TRUE
+	backgroundColor = 8454143
+	foregroundColor *= NULL
+	fontName *= "System"
+	fontSize *= 10
+	fontBold *= TRUE
+	database = "SPORTS"
+	snapToGrid *= FALSE
+	height = 5190
+	width = 8160
+	left = 0
+	top = 0
+	helpFile *= NULL
+	classname = "MainWin"
+	name = "Window1"
+	helpNum *= 0
+	source *= TRUE
+	shown *= TRUE
+	rofID *= 0
+	@rofFileName *= NULL
+	topicName *= NULL
+	icon *= NULL
+	theStartup = TRUE
+	characterMode *= FALSE
+	gridOn *= FALSE
+	BEGIN ixMenu Menu10
+		name = "Menu10"
+		helpNum *= 0
+		rofID *= 0
+		fontItalic *= NULL
+		title *= "File"
+		fontUnderline *= NULL
+		@rofFileName *= NULL
+		enabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		checkState *= ixMenu::notACheck
+		accelerator *= NULL
+		classname *= "ixMenu"
+		BEGIN ixMenu Menu12
+			name = "Menu12"
+			helpNum *= 0
+			rofID *= 0
+			fontItalic *= NULL
+			title *= "Open"
+			fontUnderline *= NULL
+			@rofFileName *= NULL
+			enabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			checkState *= ixMenu::notACheck
+			accelerator *= NULL
+			classname *= "ixMenu"
+		END
+		BEGIN ixMenu Menu13
+			name = "Menu13"
+			helpNum *= 0
+			rofID *= 0
+			fontItalic *= NULL
+			title *= "Save"
+			fontUnderline *= NULL
+			@rofFileName *= NULL
+			enabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			checkState *= ixMenu::notACheck
+			accelerator *= NULL
+			classname *= "ixMenu"
+		END
+		BEGIN ixMenu Menu14
+			name = "Menu14"
+			helpNum *= 0
+			rofID *= 0
+			fontItalic *= NULL
+			title *= "Save As"
+			fontUnderline *= NULL
+			@rofFileName *= NULL
+			enabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			checkState *= ixMenu::notACheck
+			accelerator *= NULL
+			classname *= "ixMenu"
+		END
+		BEGIN ixMenu Menu15
+			name = "Menu15"
+			helpNum *= 0
+			rofID *= 0
+			fontItalic *= NULL
+			title *= "-"
+			fontUnderline *= NULL
+			@rofFileName *= NULL
+			enabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			checkState *= ixMenu::notACheck
+			accelerator *= NULL
+			classname *= "ixMenu"
+		END
+		BEGIN ixMenu exit_menu
+			name = "exit_menu"
+			helpNum *= 0
+			rofID *= 0
+			fontItalic *= NULL
+			title *= "Exit\tAlt+F4"
+			fontUnderline *= NULL
+			@rofFileName *= NULL
+			enabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			checkState *= ixMenu::notACheck
+			accelerator *= "Alt+F4"
+			classname *= "ixMenu"
+			handler activate()
+EXIT PROGRAM
+			end handler
+		END
+	END
+	BEGIN ixButton open_btn
+		fontItalic *= NULL
+		title = "Open"
+		fontUnderline *= NULL
+		enabled *= TRUE
+		tabIndex *= NULL
+		tabEnabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 750
+		width = 2010
+		left = 510
+		top = 3435
+		theDefault *= FALSE
+		classname *= "ixButton"
+		name = "open_btn"
+		helpNum *= 0
+		shown *= TRUE
+		rofID *= 0
+		@rofFileName *= NULL
+		handler activate()
+VARIABLE newWin PopupWin,
+     thisWin MainWin
+
+LET thisWin = getWindow() CAST MainWin
+-- LET thisWin = self.getWindow()
+
+LET newWin = NEW PopupWin( containingWindow :  thisWin  )
+LET newWin.thisText1 = thisWin.myText1
+CALL newWin.open()
+LET thisWin.myText1 = newWin.thisText1
+DISPLAY "We're back !! myText1 = ", thisWin.myText1.getValueStr()
+		end handler
+	END
+	BEGIN ixLabel Label2
+		fontItalic *= NULL
+		fontUnderline *= NULL
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 270
+		width = 1290
+		left = 3255
+		top = 120
+		classname *= "ixLabel"
+		name = "Label2"
+		shown *= TRUE
+		rofID *= 0
+		labelJustify *= ixLabel::leftJustify
+		text = "Data Field1"
+		@rofFileName *= NULL
+	END
+	BEGIN ixTextBox datafield_tb
+		fontItalic *= NULL
+		fontUnderline *= NULL
+		enabled *= TRUE
+		tabIndex *= NULL
+		tabEnabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 315
+		width = 2940
+		left = 4530
+		top = 120
+		maxChars = 32
+		classname *= "ixTextBox"
+		name = "datafield_tb"
+		helpNum *= 0
+		shown *= TRUE
+		rofID *= 0
+		text = NULL
+		@rofFileName *= NULL
+		multiLine = FALSE
+		handler valueChanged()
+VARIABLE thisWin MainWin
+
+LET thisWin = getWindow() CAST MainWin
+LET thisWin.myText1 = new ixString( self.getText() ) 
+DISPLAY thisWin.myText1.getValueStr()
+		end handler
+	END
+	BEGIN ixListBox ListBox5
+		fontItalic *= NULL
+		fontUnderline *= NULL
+		enabled *= TRUE
+		tabIndex *= NULL
+		tabEnabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor = 0
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 1665
+		width = 3660
+		left = 3165
+		top = 690
+		style *= ixListBox::singleSelect
+		classname *= "ixListBox"
+		name = "ListBox5"
+		helpNum *= 0
+		itemList = "Value1", "Value2", "Value3"
+		shown *= TRUE
+		sorted *= TRUE
+		rofID *= 0
+		@rofFileName *= NULL
+	END
+	BEGIN ixFrame Frame6
+		fontItalic *= NULL
+		fontUnderline *= NULL
+		enabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 1785
+		width = 2430
+		left = 165
+		top = 45
+		helpFile *= NULL
+		borderWidth *= 20
+		classname *= "ixFrame"
+		name = "Frame6"
+		helpNum *= 0
+		shown *= TRUE
+		rofID *= 0
+		@rofFileName *= NULL
+		BEGIN ixCheckBox CheckBox4
+			fontItalic *= NULL
+			title = "Option 1"
+			fontUnderline *= NULL
+			enabled *= TRUE
+			tabIndex *= NULL
+			tabEnabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			height = 495
+			width = 1335
+			left = 210
+			top = 90
+			classname *= "ixCheckBox"
+			name = "CheckBox4"
+			helpNum *= 0
+			shown *= TRUE
+			rofID *= 0
+			checked *= FALSE
+			@rofFileName *= NULL
+		END
+		BEGIN ixRadioButton RadioButton8
+			fontItalic *= NULL
+			title = "Radio 1"
+			fontUnderline *= NULL
+			enabled *= TRUE
+			tabIndex *= NULL
+			tabEnabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			height = 555
+			width = 1230
+			left = 210
+			top = 600
+			classname *= "ixRadioButton"
+			name = "RadioButton8"
+			helpNum *= 0
+			shown *= TRUE
+			rofID *= 0
+			@rofFileName *= NULL
+		END
+		BEGIN ixRadioButton RadioButton9
+			fontItalic *= NULL
+			title = "Radio 2"
+			fontUnderline *= NULL
+			enabled *= TRUE
+			tabIndex *= NULL
+			tabEnabled *= TRUE
+			backgroundColor *= NULL
+			foregroundColor *= NULL
+			fontName *= NULL
+			fontSize *= NULL
+			fontBold *= NULL
+			height = 435
+			width = 1890
+			left = 210
+			top = 1170
+			classname *= "ixRadioButton"
+			name = "RadioButton9"
+			helpNum *= 0
+			shown *= TRUE
+			rofID *= 0
+			@rofFileName *= NULL
+		END
+	END
+	BEGIN ixButton Button95
+		fontItalic *= NULL
+		title = "SDK Message"
+		fontUnderline *= NULL
+		enabled *= TRUE
+		tabIndex *= NULL
+		tabEnabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 705
+		width = 2160
+		left = 2700
+		top = 3495
+		theDefault *= FALSE
+		classname *= "ixButton"
+		name = "Button95"
+		helpNum *= 0
+		shown *= TRUE
+		rofID *= 0
+		@rofFileName *= NULL
+		handler activate()
+
+BEGIN_C
+
+MessageBox( NULL, "hello world", "debug", MB_OK );
+
+
+END_C
+		end handler
+	END
+	BEGIN ixButton Button96
+		fontItalic *= NULL
+		title *= "Button"
+		fontUnderline *= NULL
+		enabled *= TRUE
+		tabIndex *= NULL
+		tabEnabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 465
+		width = 1785
+		left = 870
+		top = 2475
+		theDefault *= FALSE
+		classname *= "ixButton"
+		name = "Button96"
+		helpNum *= 0
+		shown *= TRUE
+		rofID *= 0
+		@rofFileName *= NULL
+	END
+	BEGIN ixButton Button295
+		fontItalic *= NULL
+		title *= "Button"
+		fontUnderline *= NULL
+		enabled *= TRUE
+		tabIndex *= NULL
+		tabEnabled *= TRUE
+		backgroundColor *= NULL
+		foregroundColor *= NULL
+		fontName *= NULL
+		fontSize *= NULL
+		fontBold *= NULL
+		height = 795
+		width = 2235
+		left = 5385
+		top = 3405
+		theDefault *= FALSE
+		classname *= "ixButton"
+		name = "Button295"
+		helpNum *= 0
+		shown *= TRUE
+		rofID *= 0
+		@rofFileName *= NULL
+		handler activate()
+VARIABLE 
+      thisWin MainWin,
+      ret BOOLEAN
+
+LET thisWin = getWindow() CAST MainWin
+
+LET myJob =  thisWin.myEngine.openJob("report1.rpt")
+IF ( myJob IS NULL ) THEN
+      DISPLAY "myJob is null"
+ELSE
+LET ret = myJob.OutputToWindow( "Test Title", 10, 20, 300, 300, 0, NULL )
+DISPLAY "ret = ", ret
+
+CALL myJob.StartJob() RETURNING ret
+DISPLAY "ret = ", ret
+END IF
+
+		end handler
+	END
+	handler pre_header()
+INCLUDE "crystal.4gh"
+	end handler
+	handler start()
+
+LET myEngine = new CRPEngine( TRUE )
+	end handler
+	handler class_extension()
+PUBLIC VARIABLE myText1, myText2 ixString
+PUBLIC VARIABLE myEngine CRPEngine
+	end handler
+	handler pre_body()
+INCLUDE "popup1.4gh"
+VARIABLE myJob CRPEJob
+	end handler
+END

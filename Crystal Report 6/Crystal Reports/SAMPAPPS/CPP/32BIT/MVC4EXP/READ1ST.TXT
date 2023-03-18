@@ -1,0 +1,8 @@
+
+
+This application has the code modified to export without prompting.
+When you run the application, open your report, and then choose 
+Report|Export.  This will export the report that you have chosen to 
+C:\WINTEMP\TEST.TXT.  You can find the code that does the export in
+crpepvw.cpp.
+

@@ -1,0 +1,66 @@
+INCLUDE SYSTEM "ixrow.4gh"
+
+INCLUDE SYSTEM "ixwindow.4gh"
+INCLUDE SYSTEM "ixmenu.4gh"
+INCLUDE SYSTEM "ixbutton.4gh"
+INCLUDE SYSTEM "ixlabel.4gh"
+INCLUDE SYSTEM "ixtxtbox.4gh"
+INCLUDE SYSTEM "ixlstbox.4gh"
+INCLUDE SYSTEM "ixframe.4gh"
+INCLUDE SYSTEM "ixchkbox.4gh"
+INCLUDE SYSTEM "ixradbtn.4gh"
+
+INCLUDE "crystal.4gh"
+
+CLASS MainWin DERIVED FROM ixWindow
+	FUNCTION MainWin( 
+		geometry ixGeometry : NEW ixGeometry( 
+			top : 0,
+			left : 0,
+			height : 5190,
+			width : 8160
+		),
+		appearance ixAppearance : NEW ixAppearance( 
+			fontName : "System",
+			fontSize : 10,
+			fontBold : TRUE,
+			fontItalic : FALSE,
+			fontUnderline : FALSE,
+			foreColor : NULL,
+			backColor : 8454143
+		),
+		windowStyle SMALLINT : ixWindow::mainTop,
+		containingWindow ixWindow : NULL,
+		title CHAR(*) : "Demo Application",
+		enabled BOOLEAN : TRUE,
+		helpFile CHAR(*) : NULL,
+		name CHAR(*) : "Window1",
+		helpNum INTEGER : 0,
+		source BOOLEAN : TRUE,
+		shown BOOLEAN : TRUE,
+		topicName CHAR(*) : NULL,
+		icon CHAR(*) : NULL
+	) 
+PUBLIC VARIABLE 
+	Menu10 ixMenu,
+	Menu12 ixMenu,
+	Menu13 ixMenu,
+	Menu14 ixMenu,
+	Menu15 ixMenu,
+	exit_menu ixMenu,
+	open_btn ixButton,
+	Label2 ixLabel,
+	datafield_tb ixTextBox,
+	ListBox5 ixListBox,
+	Frame6 ixFrame,
+	CheckBox4 ixCheckBox,
+	RadioButton8 ixRadioButton,
+	RadioButton9 ixRadioButton,
+	Button95 ixButton,
+	Button96 ixButton,
+	Button295 ixButton
+
+PUBLIC VARIABLE myText1, myText2 ixString
+PUBLIC VARIABLE myEngine CRPEngine
+
+END CLASS -- MainWin

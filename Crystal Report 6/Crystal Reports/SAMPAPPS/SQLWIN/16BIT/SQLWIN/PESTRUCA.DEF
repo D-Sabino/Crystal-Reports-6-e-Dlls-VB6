@@ -1,0 +1,20 @@
+Library     PESTRUCA
+Description 'Intermediate function calls to Crystal Reports'
+
+ExeType     Windows
+
+HeapSize    1024
+
+Code        Moveable Discardable PreLoad
+Data        Moveable Preload
+
+Segments    _TEXT    Preload
+
+Exports
+       	    WEP                            @1
+            CRLogOnServer
+            CRSetNthTableLogOnInfo
+            CRGetNthTableLogOnInfo
+            CRSetNthTableLocation
+            CRGetNthtableLocation
+            CRSelectPrinter

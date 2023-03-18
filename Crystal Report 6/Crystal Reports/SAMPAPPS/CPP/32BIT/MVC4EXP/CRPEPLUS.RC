@@ -1,0 +1,460 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+//LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+//#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""res\\crpeplus.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#include ""afxres.rc""  \011// Standard components\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\crpeplus.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Report"
+    BEGIN
+        MENUITEM "&Print Preview",              ID_REPORT_PREVIEW
+        MENUITEM "P&rint To Printer",           ID_REPORT_TOPRINTER
+        MENUITEM "&Export...",                  ID_REPORT_EXPORT
+    END
+    POPUP "Form&ula"
+    BEGIN
+        MENUITEM "Set &Formula",                ID_FORMULA_SETFORMULA
+        MENUITEM "Set &Selection Formula",      ID_FORMULA_SETSELECTIONFORMULA
+
+    END
+    POPUP "&Logon"
+    BEGIN
+        MENUITEM "Logon &SQL Server",           ID_LOGON_LOGONSQLSERVER
+        MENUITEM "&Table Logon Info",           ID_LOGON_TABLELOGONINFO
+    END
+    POPUP "&SQL"
+    BEGIN
+        MENUITEM "&Modify SQL",                 ID_SQLQUERY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About crpeplus...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Crystal Reports Class Demo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON1,IDC_STATIC,11,17,18,20
+    LTEXT           "Crystal Reports Class Demo Version 1.0",IDC_STATIC,40,
+                    10,119,8
+    LTEXT           "Copyright © 1995",IDC_STATIC,39,32,119,8
+    DEFPUSHBUTTON   "OK",IDOK,164,18,32,14,WS_GROUP
+    LTEXT           "By Craig Chaplin, Kai Chan",IDC_STATIC,40,21,96,10
+    LTEXT           "Steps to use this sample application:",IDC_STATIC,9,49,
+                    198,9
+    LTEXT           "1. Open a report (*.rpt) that was designed in Crystal Reports.",
+                    IDC_STATIC,20,70,170,19
+    LTEXT           "2. If the report is based on SQL tables, you might be required to logon to your SQL server first.  To logon to server, select the Logon menu, and then select either Logon SQL Server or Table Logon Info option.",
+                    IDC_STATIC,19,95,170,33
+    LTEXT           "3. Crystal Reports can print your report to a window, to the printer,  or export to a file of 11 different formats.  Select the Report menu and then select the output of your choice.",
+                    IDC_STATIC,18,134,170,32
+    GROUPBOX        "",IDC_STATIC,4,60,208,112
+END
+
+IDD_SELFORMULA DIALOG DISCARDABLE  0, 0, 290, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "SET SELECTION FORMULA"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Set",IDSet,53,97,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,184,97,50,14
+    EDITTEXT        IDC_NEWSELECTFORMULA,12,22,261,63,ES_AUTOHSCROLL
+    GROUPBOX        "Set Selection Formula to:",IDC_STATIC,5,10,277,81
+    PUSHBUTTON      "&OK",IDOK,118,97,51,14
+END
+
+IDD_LOGONSERVER DIALOG DISCARDABLE  0, 0, 215, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "LOGON SQL SERVER"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Logon Server",IDLOGONSERVER,42,111,50,14
+    PUSHBUTTON      "&Done",IDOK,122,111,50,14
+    LTEXT           "Database DLL",IDC_STATIC,21,31,62,8
+    LTEXT           "Server Name",IDC_STATIC,21,44,62,12
+    LTEXT           "Database Name",IDC_STATIC,21,57,62,12
+    LTEXT           "User ID",IDC_STATIC,21,70,62,8
+    LTEXT           "Password",IDC_STATIC,21,84,62,8
+    GROUPBOX        "PELOGONSERVER",IDC_STATIC,9,13,194,92
+    EDITTEXT        IDC_EDIT1,91,29,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,91,42,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,91,55,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,91,68,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,91,81,97,12,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_TABLELOGON DIALOG DISCARDABLE  0, 0, 215, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "SQL TABLE LOGON"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Set",ID_SETLOGON,9,130,50,14
+    PUSHBUTTON      "&Done",IDCANCEL,151,130,50,14
+    LTEXT           "Server Name",-1,23,48,60,12
+    LTEXT           "Database Name",-1,23,61,60,12
+    LTEXT           "User ID",-1,23,74,60,12
+    LTEXT           "Password",-1,23,88,60,12
+    GROUPBOX        "PESETNTHTABLELOCATION",-1,9,13,194,111
+    EDITTEXT        IDC_EDIT1,91,47,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,91,60,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,91,73,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,91,86,97,12,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_Tables,92,31,95,53,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Database Table",IDC_TABLE,23,31,60,13
+    CONTROL         "        Propagate Across Tables",IDC_PROPAGATE,"Button",
+                    BS_AUTOCHECKBOX,25,105,135,10
+    PUSHBUTTON      "&Test Logon",IDC_TEST,81,130,50,14
+END
+
+IDD_SETFORMULA DIALOG DISCARDABLE  0, 0, 254, 119
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Formula"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Done",IDOK,172,92,50,14
+    COMBOBOX        IDC_CFNAME,72,13,124,62,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Formula Name",IDC_STATIC,16,15,47,8
+    LTEXT           "Formula Text",IDC_STATIC,16,29,58,8
+    EDITTEXT        IDC_FORMTEXT,18,39,221,45,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Set",IDC_SET,47,92,50,14
+END
+
+IDD_SQLQUERY DIALOG DISCARDABLE  0, 0, 313, 188
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SQL QUERY"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Set SQL",IDSet,80,159,50,14
+    PUSHBUTTON      "&Done",IDCANCEL,182,158,50,14
+    GROUPBOX        "SQL Query",IDC_STATIC,7,7,299,140
+    EDITTEXT        IDC_SQLTEXT,17,20,279,118,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Crystal Services Inc\0"
+            VALUE "FileDescription", "CRPEPLUS MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CRPEPLUS\0"
+            VALUE "LegalCopyright", "Copyright © 1995\0"
+            VALUE "OriginalFilename", "CRPEPLUS.EXE\0"
+            VALUE "ProductName", "CRPEPLUS Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 213
+    END
+
+    IDD_SETFORMULA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_SQLQUERY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Crystal Reports Class Demo\n\nCrpepl\n\n\nCrpeplus.Document\nCrpepl Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Crystal Reports Class Demo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_REPORT_PREVIEW       "Print the report to a window"
+    ID_REPORT_TOPRINTER     "Print the report to the printer"
+    ID_REPORT_EXPORT        "Export the report to a different format"
+    ID_FORMULA_SETFORMULA   "Change the content of the report's formulas"
+    ID_FORMULA_SETSELECTIONFORMULA "Modify the selection criteria"
+    ID_LOGON_LOGONSQLSERVER "Logon to SQL Server: MS Server, Oracle, SQLBase, ..."
+    ID_LOGON_TABLELOGONINFO "Set the logon of Info of each table in the report"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SQL_STOREDPROCEDURE  "Change stored procedure parameters"
+    ID_SQLQUERY             "Modify the report's SQL Query"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\crpeplus.rc2"  // non-Microsoft Visual C++ edited resources
+
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+#include "afxres.rc"  	// Standard components
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,85 @@
+' TrueGrid constant definitions
+' Updated: 26-Oct-93
+
+' MarqueeStyle Property values
+
+Global Const GMQ_FOCUSCELL = 0
+Global Const GMQ_SOLIDCELL = 1
+Global Const GMQ_HIGHCELL = 2
+Global Const GMQ_HIGHROW = 3
+Global Const GMQ_HIGHROWRCELL = 4
+Global Const GMQ_NONE = 5
+
+' FetchMode Property values
+
+Global Const GFM_BYCELL = 0
+Global Const GFM_BYROW = 1
+Global Const GFM_BYGRID = 2
+
+' ColumnStyle Property values
+
+Global Const GRS_LEFT = 0
+Global Const GRS_CENTER = 1
+Global Const GRS_RIGHT = 2
+Global Const GRS_READONLY = 8192
+Global Const GRS_HSAME = &H0
+Global Const GRS_HLEFT = &H10
+Global Const GRS_HCENTER = &H20
+Global Const GRS_HRIGHT = &H30
+
+' SplitSizeMode Property values
+
+Global Const GSPT_SCALABLE = 0
+Global Const GSPT_TWIPS = 1
+Global Const GSPT_COLUMNS = 2
+
+' HorzScrollbar and VertScrollbar Property values
+
+Global Const GSB_NONE = 0
+Global Const GSB_ALWAYS = 1
+Global Const GSB_AUTOMATIC = 2
+
+' Values for ExposeCellMode
+
+Global Const GEX_SELECT = 0
+Global Const GEX_EDIT = 1
+Global Const GEX_ALLOWCLIP = 2
+
+' Font style values
+
+Global Const GRF_INHERIT = 0
+Global Const GRF_NORMAL = 1
+Global Const GRF_BOLD = 2
+Global Const GRF_ITALIC = 3
+Global Const GRF_BOLDITALIC = 4
+Global Const GRF_ULINE = 5
+Global Const GRF_UBOLD = 6
+Global Const GRF_UITALIC = 7
+Global Const GRF_UBOLDITALIC = 8
+
+' HorzLines and VertLines Property values
+
+Global Const GRL_NONE = 0
+Global Const GRL_SINGLE = 1
+Global Const GRL_3D = 2
+
+' Values for FetchAttributes Status parameter
+' One or more bits may be present
+
+Global Const GFS_CURCELL = &H1
+Global Const GFS_HIGHROW = &H2
+Global Const GFS_CHANGED = &H4
+Global Const GFS_SELECTED = &H8
+
+' Values used for inheriting colors and font
+' values
+
+Global Const INHERIT_FONT = 0
+Global Const INHERIT_COLOR = -1
+
+' Declaration for TgGetControlHwnd, which returns the Hwnd of
+' any control.  Not really related to TrueGrid, except that
+' it is necessary to have such a function to get the Hwnd
+' of a Data Control.
+
+Declare Function TgGetControlHwnd Lib "TRUEGRID.VBX" (ctl As Control) As Integer

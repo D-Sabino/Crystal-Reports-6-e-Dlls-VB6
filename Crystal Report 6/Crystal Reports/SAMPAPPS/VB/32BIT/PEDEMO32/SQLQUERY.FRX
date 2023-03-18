@@ -1,0 +1,1 @@
+zFROM and WHERE parts of the query can be changed if required. New ranges and links can be added and existing ones changed.ÛSELECT lists fields used in the report including those in formulas, totals, sorts, selections and ranges. FROM lists tables in the report followed by their aliases. WHERE specifies field ranges and links between tables.

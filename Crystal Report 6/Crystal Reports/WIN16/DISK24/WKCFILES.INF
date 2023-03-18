@@ -1,0 +1,1142 @@
+[Source Media Descriptions]
+	"1", "Seagate Crystal Reports Disk 1", "setup.exe", "."
+	"2", "Seagate Crystal Reports Disk 2", "anchina.ld", "..\bde"
+	"3", "Seagate Crystal Reports Disk 3", "idapi.cfg", "..\bde"
+	"4", "Seagate Crystal Reports Disk 4", "bdecfg.exe", "..\bde"
+
+[Default File Settings]
+"STF_BACKUP"     = ""
+"STF_COPY"       = "YES"
+"STF_DECOMPRESS" = "YES"
+"STF_OVERWRITE"  = "ALWAYS"
+"STF_READONLY"   = "YES"
+"STF_ROOT"       = ""
+"STF_SETTIME"    = "YES"
+"STF_TIME"       = "0"
+"STF_VITAL"      = "YES"
+
+[@Always]
+	1, readme.cnt,,,, 1997-08-28, !DECOMPRESS,,, !READONLY,,,,,, 5594,,,,, !VITAL
+"Readme" = 1, readme.hlp,,,, 1997-08-28, !DECOMPRESS,,, !READONLY,,,,,, 104187,,,,, !VITAL
+
+[@Ctl3d16]
+"WINDOWS" = 1, ctl3dv2.dll,,,, 1995-07-13,,, OLDER, !READONLY,,,,, SHARED, 27632,,,, 2.31.0.0, !VITAL
+
+[@Nevercopy]
+	1, setup.exe,,,, 1992-03-23, !DECOMPRESS,,, !READONLY,,,,,, 24624,,,,,
+	1, crwdecl.inc,,,, 1997-08-28,,,, !READONLY,,,,,, 18767,,,,,
+	1, crwfiles.inf,,,, 1997-08-28, !DECOMPRESS,,, !READONLY,,,,,, 82152,,,,,
+	1, crwfuncs.inc,,,, 1997-08-28,,,, !READONLY,,,,,, 16354,,,,,
+	1, crwstp16.exe,,,, 1997-08-26,,,, !READONLY,,,,,, 616656,,,,,
+	1, setup.lst,,,, 1997-07-31, !DECOMPRESS,,, !READONLY,,,,,, 601,,,,,
+
+[@ResourceDLL]
+"Pro" = 1, cr1601.dll,,,, 1997-04-26, !DECOMPRESS,,, !READONLY,, unistp.dll,,,, 3200,,,,, !VITAL
+"Eval" = 1, cr1604.dll,,,, 1997-04-26, !DECOMPRESS,,, !READONLY,, unistp.dll,,,, 3200,,,,, !VITAL
+"ProSub" = 1, cr1605.dll,,,, 1997-04-26, !DECOMPRESS,,, !READONLY,, unistp.dll,,,, 3200,,,,, !VITAL
+"ProUp" = 1, cr1606.dll,,,, 1997-04-26, !DECOMPRESS,,, !READONLY,, unistp.dll,,,, 3200,,,,, !VITAL
+"ProSubUp" = 1, cr1607.dll,,,, 1997-04-26, !DECOMPRESS,,, !READONLY,, unistp.dll,,,, 3200,,,,, !VITAL
+"N4Sale" = 1, cr1609.dll,,,, 1997-04-26, !DECOMPRESS,,, !READONLY,, unistp.dll,,,, 3200,,,,, !VITAL
+
+[@Setup]
+	1, crwdefs.inc,,,, 1997-08-28, !DECOMPRESS,,, !READONLY,,,,,, 499,,,,,
+	1, crwrenam.inc,,,, 1996-07-10, !DECOMPRESS,,, !READONLY,,,,,, 5691,,,,,
+	1, crwsetup.ini,,,, 1997-08-12, !DECOMPRESS,,, !READONLY,,,,,, 12727,,,,,
+	1, license.txt,,,, 1997-08-12, !DECOMPRESS,,, !READONLY,,,,,, 12747,,,,, !VITAL
+	1, mscomstf.dl_,,,, 1996-04-11, !DECOMPRESS,,, !READONLY,,,,,, 41320,,,,,
+	1, mscuistf.dll,,,, 1997-08-07,,,, !READONLY,,,,,, 1001376,,,,,
+	1, msdetstf.dl_,,,, 1996-04-11, !DECOMPRESS,,, !READONLY,,,,,, 14949,,,,,
+	1, msinsstf.dll,,,, 1996-04-11, !DECOMPRESS,,, !READONLY,, msinsstf.dl_,,,, 65440,,,,,
+	1, msshlstf.dl_,,,, 1996-04-11, !DECOMPRESS,,, !READONLY,,,,,, 9226,,,,,
+	1, msuilstf.dl_,,,, 1996-04-11, !DECOMPRESS,,, !READONLY,,,,,, 3970,,,,,
+	1, odbcinst.dll,,,, 1994-12-06,,,, !READONLY,,,,,, 92576,,,, 2.10.24.1, !VITAL
+	1, setup.exe,,,, 1992-03-23, !DECOMPRESS,,, !READONLY,,,,,, 24624,,,,,
+
+[Database Access\Active data driver\@TargetDir]
+	1, orders.ttx,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 365,,,,, !VITAL
+
+[Database Access\Active data driver\@Winsys]
+	1, cdo.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 93808,,,,, !VITAL
+	1, crddt.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 262688,,,,, !VITAL
+	1, pdsmon.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 88464,,,, 6.0.0.8, !VITAL
+
+[Database Access\Arbor Essbase\Arbor Client Files\@Essbasebin]
+	1, essapiw.dll,,,, 1996-06-17,,, OLDER, !READONLY,,,,, SHARED, 209920,,,,, !VITAL
+	1, essbase.mdb,,,, 1996-06-18,,, NEVER, !READONLY,,,,, SHARED, 88108,,,,, !VITAL
+	1, essotlsw.dll,,,, 1996-06-17,,, OLDER, !READONLY,,,,, SHARED, 123077,,,,, !VITAL
+	1, essotlw.dll,,,, 1996-05-17,,, OLDER, !READONLY,,,,, SHARED, 35823,,,,, !VITAL
+	1, essshrw.dll,,,, 1996-06-17,,, OLDER, !READONLY,,,,, SHARED, 203157,,,,, !VITAL
+	1, essnetw.lsp,,,, 1996-06-18,,, OLDER, !READONLY,,,,, SHARED, 125501,,,,, !VITAL
+	1, essnetw.npp,,,, 1996-06-18,,, OLDER, !READONLY,,,,, SHARED, 120919,,,,, !VITAL
+	1, essnetw.wsk,,,, 1996-05-17,,, OLDER, !READONLY,,,,, SHARED, 123965,,,,, !VITAL
+
+[Database Access\Arbor Essbase\Crystal Database Driver\@WinCry]
+	1, pdoesbse.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 121648,,,,, !VITAL
+	1, uflesbse.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 31104,,,,, !VITAL
+
+[Database Access\Arbor Essbase\Essbase Sample Reports\@TargetDir]
+	1, measurex.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\measurex.rpt,,,, 55296,,,,, !VITAL
+	1, pl.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\pl.rpt,,,, 175616,,,,, !VITAL
+	1, pl_html.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\pl_html.rpt,,,, 69632,,,,, !VITAL
+	1, product.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\product.rpt,,,, 71680,,,,, !VITAL
+	1, profit.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\profit.rpt,,,, 105984,,,,, !VITAL
+	1, regionx.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\regionx.rpt,,,, 61440,,,,, !VITAL
+	1, salesx.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\salesx.rpt,,,, 56320,,,,, !VITAL
+	1, top3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\essbase\top3.rpt,,,, 256512,,,,, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@IDAPI]
+	4, bdecfg.exe,, bdecfg.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 360960,,,, 2.5.1.52, !VITAL
+	4, bdecfg.hlp,,,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 77390,,,,, !VITAL
+	4, idapi01.dll,, idapi01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 397056,,,, 2.5.1.52, !VITAL
+	4, idasci01.dll,, idasci01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 88080,,,, 2.5.1.52, !VITAL
+	4, idbat01.dll,, idbat01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 106752,,,, 2.5.1.52, !VITAL
+	4, iddbas01.dll,, iddbas01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 324096,,,, 2.5.1.52, !VITAL
+	4, idodbc01.dll,, idodbc01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 353376,,,, 2.5.1.52, !VITAL
+	4, idpdx01.dll,, idpdx01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 255200,,,, 2.5.1.52, !VITAL
+	4, idqry01.dll,, idqry01.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 410800,,,, 2.5.1.52, !VITAL
+	4, idr10009.dll,, idr10009.old,, 1996-03-29,,, OLDER, !READONLY,,,,, SHARED, 20832,,,, 2.5.1.52, !VITAL
+	4, ild01.dll,, ild01.old,, 1995-01-25,,, OLDER, !READONLY,,,,, SHARED, 47616,,,, 1.3.6.0, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@IDAPIConfig]
+	3, idapi.cfg,, idapi.old,, 1996-05-31,,, NEVER, !READONLY,,,,, SHARED, 5385,,,,, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@IDAPILangDrv]
+	2, anchina.ld,, anchina.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, ancyrr.ld,, ancyrr.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, anczech.ld,, anczech.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3951,,,,, !VITAL
+	2, angreek1.ld,, angreek1.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, anhundc.ld,, anhundc.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 4092,,,,, !VITAL
+	2, ankorea.ld,, ankorea.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, anpolish.ld,, anpolish.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, ansii850.ld,, ansii850.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3972,,,,, !VITAL
+	2, ansiintl.ld,, ansiintl.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3972,,,,, !VITAL
+	2, ansinor4.ld,, ansinor4.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, ansislov.ld,, ansislov.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, ansispan.ld,, ansispan.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3984,,,,, !VITAL
+	2, ansiswfn.ld,, ansiswfn.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, antaiwan.ld,, antaiwan.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, anthai.ld,, anthai.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, anturk.ld,, anturk.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1ca0.ld,, bllt1ca0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1da0.ld,, bllt1da0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3978,,,,, !VITAL
+	2, bllt1de0.ld,, bllt1de0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1es0.ld,, bllt1es0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 4002,,,,, !VITAL
+	2, bllt1fi0.ld,, bllt1fi0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1fr0.ld,, bllt1fr0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1is0.ld,, bllt1is0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1it0.ld,, bllt1it0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1nl0.ld,, bllt1nl0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1no0.ld,, bllt1no0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3978,,,,, !VITAL
+	2, bllt1pt0.ld,, bllt1pt0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1sv0.ld,, bllt1sv0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1uk0.ld,, bllt1uk0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, bllt1us0.ld,, bllt1us0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, china.ld,, china.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, cskamen.ld,, cskamen.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, cyrr.ld,, cyrr.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, czech.ld,, czech.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, db437de0.ld,, db437de0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3942,,,,, !VITAL
+	2, db437es1.ld,, db437es1.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3975,,,,, !VITAL
+	2, db437fi0.ld,, db437fi0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437fr0.ld,, db437fr0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437gr0.ld,, db437gr0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437it0.ld,, db437it0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437nl0.ld,, db437nl0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437sv0.ld,, db437sv0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437th0.ld,, db437th0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db437uk0.ld,, db437uk0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db850cf0.ld,, db850cfo.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db850de0.ld,, db850de0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db850es0.ld,, db850es0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 4002,,,,, !VITAL
+	2, db850fr0.ld,, db850fr0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db850it1.ld,, db850it1.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db850nl0.ld,, db850nl0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db850pt0.ld,, db850pt0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db850sv1.ld,, db850sv1.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db850uk0.ld,, db850uk0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db850us0.ld,, db850us0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+	2, db852cz0.ld,, db852cz0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3966,,,,, !VITAL
+	2, db852hdc.ld,, db852hdc.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, db852po0.ld,, db852po0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, db852sl0.ld,, db852sl0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db857tr0.ld,, db857tr0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db860pt0.ld,, db860pt0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db863cf1.ld,, db863cf1.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db865da0.ld,, db865da0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db865no0.ld,, db865no0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db866ru0.ld,, db866ru0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db867cz0.ld,, db867cz0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3966,,,,, !VITAL
+	2, db936cn0.ld,, db936cn0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db949ko0.ld,, db949ko0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, db950tw0.ld,, db950tw0.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, dbwines0.ld,, dbwines0.old,, 1995-01-25,,, OLDER, !READONLY,,,,, SHARED, 4008,,,,, !VITAL
+	2, dbwinus0.ld,, dbwinus0.old,, 1995-01-25,,, OLDER, !READONLY,,,,, SHARED, 3960,,,,, !VITAL
+	2, dbwinwe0.ld,, dbwinwe0.old,, 1995-01-25,,, OLDER, !READONLY,,,,, SHARED, 3960,,,,, !VITAL
+	2, grcp437.ld,, grcp437.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, hun852dc.ld,, hun852dc.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 4092,,,,, !VITAL
+	2, iceland.ld,, iceland.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, intl.ld,, intl.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3966,,,,, !VITAL
+	2, intl850.ld,, intl850.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3972,,,,, !VITAL
+	2, korea.ld,, korea.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, nordan.ld,, nordan.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, nordan40.ld,, nordan40.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, polish.ld,, polish.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, slovene.ld,, slovene.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, spanish.ld,, spanish.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3984,,,,, !VITAL
+	2, swedfin.ld,, swedfin.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3948,,,,, !VITAL
+	2, taiwan.ld,, taiwan.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, thai.ld,, thai.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3939,,,,, !VITAL
+	2, turk.ld,, turk.old,, 1995-01-06,,, OLDER, !READONLY,,,,, SHARED, 3954,,,,, !VITAL
+
+[Database Access\Borland Database Engine(BDE)\@WinCry]
+	1, pdbbde.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 126976,,,,, !VITAL
+
+[Database Access\Bound Reporting\@WinCry]
+	1, pdbbnd.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 26640,,,,, !VITAL
+
+[Database Access\Btrieve\@Btrieve]
+	1, wbt32res.dll,, wbt32res.old,, 1995-10-05,,, OLDER, !READONLY,,,,, SHARED, 4292,,,, 6.15.925.1, !VITAL
+	1, wbtr32.exe,, wbtr32.old,, 1995-10-10,,, OLDER, !READONLY,,,,, SHARED, 314980,,,, 6.15.925.1, !VITAL
+	1, wbtrcall.dll,, wbtrcall.old,, 1994-05-20,,, OLDER, !READONLY,,,,, SHARED, 16066,,,,, !VITAL
+	1, wbtrlocl.dll,, wbtrlocl.old,, 1995-10-05,,, OLDER, !READONLY,,,,, SHARED, 17690,,,, 6.15.925.1, !VITAL
+	1, wbtrvres.dll,, wbtrvres.old,, 1994-05-20,,, OLDER, !READONLY,,,,, SHARED, 3760,,,,, !VITAL
+
+[Database Access\Btrieve\@TargetDir]
+	1, btrfiles.inf,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,, bti\btrfiles.inf,,,, 79152,,,,, !VITAL
+	1, btrsetup.lst,,,, 1997-08-22, !DECOMPRESS,,, !READONLY,, bti\setup.lst,,,, 435,,,,, !VITAL
+	1, btrstp16.ex_,,,, 1997-02-13, !DECOMPRESS,,, !READONLY,, bti\btrstp16.ex_,,,, 36988,,,,, !VITAL
+	1, butil.dll,,,, 1994-05-20,,,, !READONLY,,,,,, 101888,,,,, !VITAL
+	1, dbsetup.exe,,,, 1994-05-24,,,, !READONLY,,,,,, 206848,,,,, !VITAL
+	1, dbu_ui.dll,,,, 1994-05-25,,,, !READONLY,,,,,, 145408,,,,, !VITAL
+	1, wbtrcall.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, wbtrvdef.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Database Access\Btrieve\@WinCry]
+	1, pdbbtrv.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 68800,,,,, !VITAL
+	1, pdctbtrv.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 34832,,,,, !VITAL
+
+[Database Access\Btrieve\@Winsys16]
+	1, sbtrvdef.dll,,,, 1996-10-09,,, OLDER, !READONLY,,,,, SHARED, 8400,,,,, !VITAL
+	1, sedtconv.dll,,,, 1996-04-25,,, OLDER, !READONLY,,,,, SHARED, 65840,,,, 2.50.0.2, !VITAL
+
+[Database Access\Microsoft Access\@TargetDir]
+	1, sysdb16.exe,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 9248,,,, 5.0.0.1, !VITAL
+
+[Database Access\Microsoft Access\@Winsys]
+	1, dao2516.dll,, dao2516.old,, 1995-08-15,,, OLDER, !READONLY,,,,,, 543584,,,, 2.50.0.1626, !VITAL
+	1, vaen21.olb,, vaen21.old,, 1995-08-15,,, OLDER, !READONLY,,,,,, 35200,,,, 2.0.0.5422, !VITAL
+	1, vbajet.dll,, vbajet.old,, 1995-08-15,,, OLDER, !READONLY,,,,,, 2920,,,, 2.0.0.5422, !VITAL
+	1, vbar2.dll,, vbar2.old,, 1995-01-13,,, OLDER, !READONLY,,,,,, 298880,,,, 2.0.0.2420, !VITAL
+	1, pdbdao.dll,, pdbdao.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 72032,,,, 6.0.0.30, !VITAL
+	1, pdctdao.dll,, pdctdao.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 35424,,,, 6.0.0.25, !VITAL
+	1, pdirdao.dll,, pdirdao.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 45920,,,, 6.0.0.26, !VITAL
+	1, msajt112.dll,, msajt112.old,, 1994-04-11,,, OLDER, !READONLY,,,,, SHARED, 17440,,,, 1.99.0.1605, !VITAL
+	1, pdbjet.dll,, pdbjet.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 86544,,,, 6.0.0.5, !VITAL
+	1, pdctjet.dll,, pdctjet.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 77840,,,, 6.0.0.3, !VITAL
+	1, pdirjet.dll,, pdirjet.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 85520,,,, 6.0.0.4, !VITAL
+	1, msabc110.dll,,,, 1993-04-28,,, OLDER, !READONLY,,,,, SHARED, 279568,,,, 1.10.0.0, !VITAL
+	1, msajt200.dll,,,, 1994-11-20,,, OLDER, !READONLY,,,,, SHARED, 995136,,,, 2.50.0.1606, !VITAL
+	1, msjeterr.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,, SHARED, 11232,,,, 2.50.0.1111, !VITAL
+	1, msjetint.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,, SHARED, 15936,,,, 2.50.0.1111, !VITAL
+
+[Database Access\Microsoft Exchange\Microsoft Exchange Folders/Address Book\@WinCry]
+	1, pdsmapi.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 118480,,,,, !VITAL
+
+[Database Access\Microsoft SQLServer\@WinCry]
+	1, pdssql.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 88016,,,,, !VITAL
+
+[Database Access\Microsoft SQLServer\@Winsys]
+	1, crlib.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 172000,,,,, !VITAL
+	1, crsql07.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 350080,,,,, !VITAL
+	1, crutl07.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 133520,,,,, !VITAL
+
+[Database Access\ODBC\@TargetDir]
+	1, crodbc16.inf,,,, 1997-08-28,,,, !READONLY,,,,,, 10375,,,,, !VITAL
+	1, odbcadm.exe,,,, 1994-06-13,,, OLDER, !READONLY,,,,,, 6496,,,, 2.0.15.10, !VITAL
+	1, qlee.bnd,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qlee.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qlgup.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qlora.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qlss.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qlxql.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Database Access\ODBC\@WinCry]
+	1, pdsdb22.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 54096,,,,, !VITAL
+	1, pdsgupta.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 55888,,,,, !VITAL
+	1, pdsodbc.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 164368,,,,, !VITAL
+
+[Database Access\ODBC\@Winsys]
+	1, cpn16ut.dll,,,, 1994-03-16,,, OLDER, !READONLY,,,,,, 3264,,,,, !VITAL
+	1, btrv200.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 111616,,,, 2.50.0.1117, !VITAL
+	1, odbtrv16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 4096,,,, 2.0.23.1, !VITAL
+	1, msxl2016.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 149344,,,, 2.50.0.1117, !VITAL
+	1, odexl16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 4080,,,, 2.0.23.1, !VITAL
+	1, msabc110.dll,,,, 1993-04-28,,, OLDER, !READONLY,,,,,, 279568,,,, 1.10.0.0, !VITAL
+	1, msajt200.dll,,,, 1994-11-20,,, OLDER, !READONLY,,,,,, 995136,,,, 2.50.0.1606, !VITAL
+	1, msjeterr.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 11232,,,, 2.50.0.1111, !VITAL
+	1, msjetint.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 15936,,,, 2.50.0.1111, !VITAL
+	1, odbcjet.hlp,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 113064,,,,, !VITAL
+	1, odbcjt16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 246928,,,, 2.0.23.17, !VITAL
+	1, odbcjtnw.hlp,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 83833,,,,, !VITAL
+	1, odbctl16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 64080,,,, 1.0.23.9, !VITAL
+	1, odpdx16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 4096,,,, 2.0.23.1, !VITAL
+	1, pdx200.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 233328,,,, 2.50.0.1117, !VITAL
+	1, mstx2016.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 102080,,,, 2.50.0.1117, !VITAL
+	1, odtext16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 4096,,,, 2.0.23.1, !VITAL
+	1, vaen2.olb,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 41124,,,, 2.0.0.2430, !VITAL
+	1, vbajet.dll,,,, 1995-08-15,,, OLDER, !READONLY,,,,,, 2920,,,, 2.0.0.5422, !VITAL
+	1, vbar2.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 298880,,,, 2.0.0.2420, !VITAL
+	1, oddbse16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 4080,,,, 2.0.23.1, !VITAL
+	1, odfox16.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 4096,,,, 2.0.23.1, !VITAL
+	1, xbs200.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 296832,,,, 2.50.0.1117, !VITAL
+	1, odbc.dll,, odbc.old,, 1994-12-06,,, OLDER, !READONLY,,,,, SHARED, 56240,,,, 2.10.24.1, !VITAL
+	1, odbc16ut.dll,,,, 1994-03-16,,, OLDER, !READONLY,,,,,, 5792,,,,, !VITAL
+	1, odbc32.dll,,,, 1994-03-16,,, OLDER, !READONLY,,,,,, 12288,,,,, !VITAL
+	1, odbccp32.dll,,,, 1994-03-16,,, OLDER, !READONLY,,,,,, 5632,,,,, !VITAL
+	1, odbccurs.dll,,,, 1995-01-13,,, OLDER, !READONLY,,,,,, 88896,,,, 2.10.23.23, !VITAL
+	1, odbcinst.dll,, odbcinst.old,, 1994-12-06,,, OLDER, !READONLY,,,,,, 92576,,,, 2.10.24.1, !VITAL
+	1, odbcinst.hlp,,,, 1994-03-16,,, OLDER, !READONLY,,,,,, 17412,,,,, !VITAL
+	1, crbas09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 185488,,,,, !VITAL
+	1, crflt09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 301936,,,,, !VITAL
+	1, crgui07.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 22384,,,,, !VITAL
+	1, crutl09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 178560,,,,, !VITAL
+
+[Database Access\ODBC\Centura SQLBase\@Winsys]
+	1, crgup09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 75488,,,,, !VITAL
+	1, crgup09.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13006,,,,, !VITAL
+
+[Database Access\ODBC\IBM DB2\@Winsys]
+	1, crdb209.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 62464,,,,, !VITAL
+	1, crdb209.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13693,,,,, !VITAL
+	1, crdbm07.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 49344,,,,, !VITAL
+	1, crdbm07.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13358,,,,, !VITAL
+	1, qecsv1.bnd,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 10603,,,,, !VITAL
+	1, qecswhv1.bnd,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 13153,,,,, !VITAL
+	1, qerrv1.bnd,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 10603,,,,, !VITAL
+	1, qerrwhv1.bnd,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 13153,,,,, !VITAL
+	1, qeurv1.bnd,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 10603,,,,, !VITAL
+	1, qeurwhv1.bnd,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 13153,,,,, !VITAL
+
+[Database Access\ODBC\INFORMIX\@Winsys]
+	1, crinf509.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 89632,,,,, !VITAL
+	1, crinf509.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13599,,,,, !VITAL
+	1, ldllsqlw.dll,,,, 1993-02-09,,,, !READONLY,,,,, SHARED, 152275,,,,, !VITAL
+	1, rds.iem,,,, 1992-03-31,,,, !READONLY,,,,,, 3044,,,,, !VITAL
+	1, sql.iem,,,, 1992-03-31,,,, !READONLY,,,,,, 25487,,,,, !VITAL
+
+[Database Access\ODBC\Lotus Notes\@Winsys]
+	1, notessql.dll,,,, 1994-10-13,,, OLDER, !READONLY,,,,,, 11056,,,, 1.1.22.3, !VITAL
+	1, notessql.hlp,,,, 1994-10-27,,, OLDER, !READONLY,,,,,, 60139,,,,, !VITAL
+	1, nsqlcfg.dll,,,, 1994-10-27,,, OLDER, !READONLY,,,,,, 8096,,,, 1.1.22.3, !VITAL
+	1, nsqlodbc.dll,,,, 1994-11-21,,, OLDER, !READONLY,,,,,, 455392,,,, 1.1.22.3, !VITAL
+
+[Database Access\ODBC\Microsoft Excel\@Winsys]
+	1, crxls09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 61792,,,,, !VITAL
+	1, crxls09.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 10293,,,,, !VITAL
+	1, crxls509.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 59168,,,,, !VITAL
+	1, crxls509.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 9661,,,,, !VITAL
+
+[Database Access\ODBC\Microsoft SQLServer\@Winsys]
+	1, crss09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 96432,,,,, !VITAL
+	1, crss09.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13612,,,,, !VITAL
+
+[Database Access\ODBC\Oracle\@Winsys]
+	1, core3win.dll,,,, 1994-11-17,,, OLDER, !READONLY,,,,, SHARED, 245136,,,, 0.0.0.0, !VITAL
+	1, corewin.dll,,,, 1994-05-03,,, OLDER, !READONLY,,,,, SHARED, 879488,,,, 0.0.0.0, !VITAL
+	1, cror709.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 66480,,,,, !VITAL
+	1, cror709.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 11938,,,,, !VITAL
+	1, ora71win.dll,, ora71win.old,, 1994-12-16,,, OLDER, !READONLY,,,,, SHARED, 321968,,,, 0.0.0.0, !VITAL
+	1, ora7win.dll,, ora7win.old,, 1994-03-23,,, OLDER, !READONLY,,,,, SHARED, 273264,,,, 0.0.0.0, !VITAL
+	1, crora07.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 39904,,,,, !VITAL
+	1, crora07.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 11938,,,,, !VITAL
+
+[Database Access\ODBC\Scalable SQL\@Winsys]
+	1, crxql09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 69488,,,,, !VITAL
+	1, crxql09.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 11682,,,,, !VITAL
+
+[Database Access\ODBC\Sybase SQLServer\@Winsys]
+	1, crsyb09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 103568,,,,, !VITAL
+	1, crsyb09.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13691,,,,, !VITAL
+
+[Database Access\ODBC\Text\@Winsys]
+	1, crtxt09.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 93840,,,,, !VITAL
+	1, crtxt09.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 13737,,,,, !VITAL
+
+[Database Access\Oracle\@WinCry]
+	1, pdsora7.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 129536,,,,, !VITAL
+
+[Database Access\Oracle\@Winsys]
+	1, ociw16.dll,,,, 1996-03-27,,, OLDER, !READONLY,,,,, SHARED, 11616,,,,, !VITAL
+
+[Database Access\Paradox\@TargetDir]
+	1, pxengcfg.exe,,,, 1993-03-01,,, OLDER, !READONLY,,,,,, 16400,,,,, !VITAL
+	1, pxengwin.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Database Access\Paradox\@WinCry]
+	1, pdbpdx.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 53584,,,,, !VITAL
+
+[Database Access\Paradox\@Winsys]
+	1, pxengwin.dll,, pxengwin.old,, 1994-12-08,,, OLDER, !READONLY,,,,, SHARED, 236734,,,,, !VITAL
+
+[Database Access\Sybase SQLServer\@WinCry]
+	1, pdssyb10.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 90256,,,,, !VITAL
+
+[Database Access\Symantec ACT!\@TargetDir]
+	1, crw.act,,,, 1997-08-28,,,, !READONLY,,,,,, 7471,,,,, !VITAL
+
+[Database Access\Symantec ACT!\@WinCry]
+	1, pdbact.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 210320,,,,, !VITAL
+	1, pdiract.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 46592,,,,, !VITAL
+
+[Database Access\dBASE\@WinCry]
+	1, pdbxbse.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 238336,,,,, !VITAL
+
+[Developer's Files\@TargetDir]
+	1, runtime.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 107194,,,,, !VITAL
+
+[Developer's Files\Borland Delphi\@TargetDir]
+	1, crpe.pas,,,, 1997-08-28,,,, !READONLY,,,,,, 113192,,,,, !VITAL
+	1, install.txt,,,, 1996-08-21,,,, !READONLY,, vcl\install.txt,,,, 2261,,,,, !VITAL
+	1, readme18.txt,,,, 1996-08-21,,,, !READONLY,, vcl\readme18.txt,,,, 16304,,,,, !VITAL
+	1, setloc.dfm,,,, 1997-07-09,,,, !READONLY,, vcl\setloc.dfm,,,, 2164,,,,, !VITAL
+	1, ucrpe.dcu,,,, 1997-08-15,,,, !READONLY,, vcl\ucrpe.dcu,,,, 101648,,,,, !VITAL
+	1, ucrpe.drr,,,, 1997-08-04,,,, !READONLY,, vcl\ucrpe.dcr,,,, 407,,,,, !VITAL
+	1, ucrpe.hlp,,,, 1996-10-07,,,, !READONLY,, vcl\ucrpe.hlp,,,, 120890,,,,, !VITAL
+	1, ucrpe.kwf,,,, 1996-10-07,,,, !READONLY,, vcl\ucrpe.kwf,,,, 24576,,,,, !VITAL
+	1, ucrpecon.dcu,,,, 1997-08-01,,,, !READONLY,, vcl\ucrpecon.dcu,,,, 14800,,,,, !VITAL
+	1, ucrpeedi.dcu,,,, 1997-08-15,,,, !READONLY,, vcl\ucrpeedi.dcu,,,, 6048,,,,, !VITAL
+	1, ucrpestr.dcu,,,, 1997-08-15,,,, !READONLY,, vcl\ucrpestr.dcu,,,, 50416,,,,, !VITAL
+	1, ucrpeutl.dcu,,,, 1997-08-01,,,, !READONLY,, vcl\ucrpeutl.dcu,,,, 5584,,,,, !VITAL
+	1, uedabt.dfm,,,, 1997-08-05,,,, !READONLY,, vcl\uedabt.dfm,,,, 4008,,,,, !VITAL
+	1, umrgdlg.dfm,,,, 1995-12-23,,,, !READONLY,, vcl\umrgdlg.dfm,,,, 1023,,,,, !VITAL
+
+[Developer's Files\C/C++\@TargetDir]
+	1, crpe.h,,,, 1997-08-28,,,, !READONLY,,,,,, 65259,,,,, !VITAL
+	1, crpe.lib,,,, 1997-08-28,,,, !READONLY,,,,,, 32256,,,,, !VITAL
+	1, crpedb.h,,,, 1997-08-28,,,, !READONLY,,,,,, 11202,,,,, !VITAL
+	1, uxddisk.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1210,,,,, !VITAL
+	1, uxdmapi.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1616,,,,, !VITAL
+	1, uxdnotes.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1317,,,,, !VITAL
+	1, uxdpost.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1494,,,,, !VITAL
+	1, uxdvim.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1288,,,,, !VITAL
+	1, uxfcr.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1038,,,,, !VITAL
+	1, uxfdif.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1243,,,,, !VITAL
+	1, uxfdoc.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1087,,,,, !VITAL
+	1, uxfhtml.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1741,,,,, !VITAL
+	1, uxfodbc.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1359,,,,, !VITAL
+	1, uxfqp.h,,,, 1997-08-28,,,, !READONLY,,,,,, 983,,,,, !VITAL
+	1, uxfrec.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1254,,,,, !VITAL
+	1, uxfrtf.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1050,,,,, !VITAL
+	1, uxfsepv.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1658,,,,, !VITAL
+	1, uxftext.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1259,,,,, !VITAL
+	1, uxfwks.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1106,,,,, !VITAL
+	1, uxfwordw.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1129,,,,, !VITAL
+	1, uxfxls.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1287,,,,, !VITAL
+
+[Developer's Files\Crystal Report Engine Automation Server\@Winsys]
+	1, cpeaut16.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 430528,,,,, !VITAL
+
+[Developer's Files\INFORMIX NewEra Class\@TargetDir]
+	1, crpe.h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpe.h,,,, 44936,,,,, !VITAL
+	1, crpeexpo.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpeexpo.4gh,,,, 1941,,,,, !VITAL
+	1, crpegdi.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpegdi.4gh,,,, 2918,,,,, !VITAL
+	1, crpego.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpego.4gh,,,, 1944,,,,, !VITAL
+	1, crpegti.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpegti.4gh,,,, 2200,,,,, !VITAL
+	1, crpejob.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpejob.4gh,,,, 15294,,,,, !VITAL
+	1, crpejobi.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpejobi.4gh,,,, 1784,,,,, !VITAL
+	1, crpelogo.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpelogo.4gh,,,, 1737,,,,, !VITAL
+	1, crpengin.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpengin.4gh,,,, 3465,,,,, !VITAL
+	1, crpeprin.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpeprin.4gh,,,, 1702,,,,, !VITAL
+	1, crpesect.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpesect.4gh,,,, 1827,,,,, !VITAL
+	1, crpesess.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpesess.4gh,,,, 1505,,,,, !VITAL
+	1, crpetabl.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpetabl.4gh,,,, 1622,,,,, !VITAL
+	1, crpetloc.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crpetloc.4gh,,,, 1211,,,,, !VITAL
+	1, crystal.4h,,,, 1997-08-28,,,, !READONLY,, informix\class\incl\crystal.4gh,,,, 4633,,,,, !VITAL
+	1, crpe.lib,,,, 1997-08-28,,,, !READONLY,, informix\class\lib\crpe.lib,,,, 16384,,,,, !VITAL
+	1, crystal.lib,,,, 1997-08-28,,,, !READONLY,, informix\class\lib\crystal.lib,,,, 90179,,,,, !VITAL
+	1, crpeexpo.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpeexpo.4gl,,,, 2079,,,,, !VITAL
+	1, crpegdi.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpegdi.4gl,,,, 1875,,,,, !VITAL
+	1, crpego.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpego.4gl,,,, 2040,,,,, !VITAL
+	1, crpegti.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpegti.4gl,,,, 2270,,,,, !VITAL
+	1, crpejob.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpejob.4gl,,,, 53586,,,,, !VITAL
+	1, crpejobi.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpejobi.4gl,,,, 2074,,,,, !VITAL
+	1, crpelogo.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpelogo.4gl,,,, 1849,,,,, !VITAL
+	1, crpengin.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpengin.4gl,,,, 10465,,,,, !VITAL
+	1, crpeprin.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpeprin.4gl,,,, 1850,,,,, !VITAL
+	1, crpesect.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpesect.4gl,,,, 2129,,,,, !VITAL
+	1, crpesess.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpesess.4gl,,,, 1778,,,,, !VITAL
+	1, crpetabl.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpetabl.4gl,,,, 1766,,,,, !VITAL
+	1, crpetloc.4gl,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crpetloc.4gl,,,, 1627,,,,, !VITAL
+	1, crystal.mak,,,, 1997-08-28,,,, !READONLY,, informix\class\src\crystal.mak,,,, 3293,,,,, !VITAL
+	1, about.4gl,,,, 1997-08-28,,,, !READONLY,, informix\sample\about.4gl,,,, 2149,,,,, !VITAL
+	1, about.4h,,,, 1997-08-28,,,, !READONLY,, informix\sample\about.4gh,,,, 921,,,,, !VITAL
+	1, crpedemo.4gl,,,, 1997-08-28,,,, !READONLY,, informix\sample\crpedemo.4gl,,,, 39563,,,,, !VITAL
+	1, crpedemo.4h,,,, 1997-08-28,,,, !READONLY,, informix\sample\crpedemo.4gh,,,, 1943,,,,, !VITAL
+	1, crpedemo.mak,,,, 1997-08-28,,,, !READONLY,, informix\sample\crpedemo.mak,,,, 6548,,,,, !VITAL
+
+[Developer's Files\Microsoft Visual Basic\@TargetDir]
+	1, crwrap.bas,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 21968,,,,, !VITAL
+	1, crwrap3.bas,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 13058,,,,, !VITAL
+	1, global.bas,,,, 1997-08-28,,,, !READONLY,,,,,, 63369,,,,, !VITAL
+
+[Developer's Files\Microsoft Visual Basic\@Winsys]
+	1, crwrap16.dll,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 26256,,,, 6.0.0.4, !VITAL
+	1, crystal.vbx,, crystal.old,, 1997-08-28,,,, !READONLY,,,,,, 93200,,,, 4.0.0.4, !VITAL
+"Ole Control" = 1, crys1619.tlb,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 16221,,,,, !VITAL
+"Ole Control" = 1, crys1649.tlb,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 16221,,,,, !VITAL
+"Ole Control" = 1, crystl16.ocx,, crystl16.old,, 1997-08-28,,, OLDER, !READONLY,,,,,, 166880,,,, 6.0.0.606, !VITAL
+	1, oc25.dll,, oc25.old,, 1995-01-11,,, OLDER, !READONLY,,,,,, 534144,,,, 2.52.0.0, !VITAL
+
+[Developer's Files\Microsoft Visual Basic\Truegrid\@Truegrid]
+	1, biblio.ldb,,,, 1995-04-15,,,, !READONLY,,,,,, 64,,,,, !VITAL
+	1, biblio.mdb,,,, 1995-04-15,,,, !READONLY,,,,,, 131072,,,,, !VITAL
+	1, breport.exe,,,, 1996-07-15,,,, !READONLY,,,,,, 10080,,,,, !VITAL
+	1, breport.mak,,,, 1995-04-15,,,, !READONLY,,,,,, 103,,,,, !VITAL
+	1, breport.vbp,,,, 1996-07-11,,,, !READONLY,,,,,, 474,,,,, !VITAL
+	1, dabout.fam,,,, 1995-04-15,,,, !READONLY,, dbtable\about.frm,,,, 2998,,,,, !VITAL
+	1, dabout.frx,,,, 1995-04-15,,,, !READONLY,, dbtable\about.frx,,,, 770,,,,, !VITAL
+	1, dbtable.doc,,,, 1995-04-15,,,, !READONLY,, dbtable\dbtable.doc,,,, 11718,,,,, !VITAL
+	1, dbtable.exe,,,, 1995-04-15,,,, !READONLY,, dbtable\dbtable.exe,,,, 20775,,,,, !VITAL
+	1, dbtable.ico,,,, 1995-04-15,,,, !READONLY,, dbtable\dbtable.ico,,,, 766,,,,, !VITAL
+	1, dbtable.mak,,,, 1995-04-15,,,, !READONLY,, dbtable\dbtable.mak,,,, 215,,,,, !VITAL
+	1, dform1.bas,,,, 1995-04-15,,,, !READONLY,, dbtable\xform1.bas,,,, 29132,,,,, !VITAL
+	1, dform1.fax,,,, 1995-04-15,,,, !READONLY,, dbtable\form1.frx,,,, 842,,,,, !VITAL
+	1, dform1.frm,,,, 1995-04-15,,,, !READONLY,, dbtable\form1.frm,,,, 3907,,,,, !VITAL
+	1, dtgconst.txt,,,, 1995-04-15,,,, !READONLY,, dbtable\tgconst.txt,,,, 2120,,,,, !VITAL
+	1, dwhere.bas,,,, 1995-04-15,,,, !READONLY,, dbtable\where.bas,,,, 1808,,,,, !VITAL
+	1, dwinhelp.bas,,,, 1995-04-15,,,, !READONLY,, winhelp.bas,,,, 1662,,,,, !VITAL
+	1, xform1.bas,,,, 1995-04-15,,,, !READONLY,, dbtable\xform1.bas,,,, 29132,,,,, !VITAL
+	1, labout.fam,,,, 1995-04-15,,,, !READONLY,, linkgrid\ABOUT.FRM,,,, 2868,,,,, !VITAL
+	1, labout.frx,,,, 1995-04-15,,,, !READONLY,, linkgrid\ABOUT.FRX,,,, 618,,,,, !VITAL
+	1, lcompose.dbf,,,, 1995-04-15,,,, !READONLY,, linkgrid\COMPOSER.DBF,,,, 6354,,,,, !VITAL
+	1, lform1.frm,,,, 1995-04-15,,,, !READONLY,, linkgrid\FORM1.FRM,,,, 3579,,,,, !VITAL
+	1, lform2.frm,,,, 1995-04-15,,,, !READONLY,, linkgrid\FORM2.FRM,,,, 1481,,,,, !VITAL
+	1, linkgrid.exe,,,, 1995-04-15,,,, !READONLY,, linkgrid\linkgrid.exe,,,, 12837,,,,, !VITAL
+	1, linkgrid.ico,,,, 1995-04-15,,,, !READONLY,, linkgrid\linkgrid.ico,,,, 766,,,,, !VITAL
+	1, linkgrid.mak,,,, 1995-04-15,,,, !READONLY,, linkgrid\linkgrid.mak,,,, 186,,,,, !VITAL
+	1, lopus.dbf,,,, 1995-04-15,,,, !READONLY,, linkgrid\OPUS.DBF,,,, 37064,,,,, !VITAL
+	1, lwhere.bas,,,, 1995-04-15,,,, !READONLY,, linkgrid\WHERE.BAS,,,, 1808,,,,, !VITAL
+	1, lwinhelp.bas,,,, 1995-04-15,,,, !READONLY,, linkgrid\WINHELP.BAS,,,, 1662,,,,, !VITAL
+	1, mabout.frx,,,, 1995-04-15,,,, !READONLY,, markgrid\ABOUT.FRX,,,, 770,,,,, !VITAL
+	1, maboutr.fam,,,, 1995-04-15,,,, !READONLY,, markgrid\ABOUT.FRM,,,, 3001,,,,, !VITAL
+	1, markgrid.exe,,,, 1995-04-15,,,, !READONLY,, markgrid\markgrid.exe,,,, 13095,,,,, !VITAL
+	1, markgrid.ico,,,, 1995-04-15,,,, !READONLY,, markgrid\markgrid.ico,,,, 766,,,,, !VITAL
+	1, markgrid.mak,,,, 1995-04-15,,,, !READONLY,, markgrid\markgrid.mak,,,, 195,,,,, !VITAL
+	1, mcompose.dbf,,,, 1995-04-15,,,, !READONLY,, markgrid\COMPOSER.DBF,,,, 6354,,,,, !VITAL
+	1, mform1.frm,,,, 1995-04-15,,,, !READONLY,, markgrid\FORM1.FRM,,,, 4266,,,,, !VITAL
+	1, mwhere.bas,,,, 1995-04-15,,,, !READONLY,, markgrid\WHERE.BAS,,,, 1808,,,,, !VITAL
+	1, mwinhelp.bas,,,, 1995-04-15,,,, !READONLY,, markgrid\WINHELP.BAS,,,, 1662,,,,, !VITAL
+	1, tgconst.txt,,,, 1995-04-15,,,, !READONLY,,,,,, 569,,,,, !VITAL
+	1, tgform1.fax,,,, 1996-07-11,,,, !READONLY,, FORM1.FRX,,,, 145,,,,, !VITAL
+	1, tgform1.frm,,,, 1996-07-11,,,, !READONLY,, FORM1.FRM,,,, 6414,,,,, !VITAL
+	1, datacons.txt,,,, 1995-04-15,,,, !READONLY,, trubrwse\datacons.txt,,,, 3447,,,,, !VITAL
+	1, schema.fax,,,, 1995-04-15,,,, !READONLY,, trubrwse\SCHEMA.FRX,,,, 4360,,,,, !VITAL
+	1, schema.frm,,,, 1995-04-15,,,, !READONLY,, trubrwse\schema.frm,,,, 33229,,,,, !VITAL
+	1, seltable.fax,,,, 1995-04-15,,,, !READONLY,, trubrwse\SELTABLE.FRX,,,, 107,,,,, !VITAL
+	1, seltable.frm,,,, 1995-04-15,,,, !READONLY,, trubrwse\seltable.frm,,,, 2755,,,,, !VITAL
+	1, tabout.fam,,,, 1995-04-15,,,, !READONLY,, trubrwse\ABOUT.FRM,,,, 2703,,,,, !VITAL
+	1, tabout.frx,,,, 1995-04-15,,,, !READONLY,, trubrwse\ABOUT.FRX,,,, 770,,,,, !VITAL
+	1, trubrwse.exe,,,, 1995-04-15,,,, !READONLY,, trubrwse\trubrwse.exe,,,, 38713,,,,, !VITAL
+	1, trubrwse.fax,,,, 1995-04-15,,,, !READONLY,, trubrwse\TRUBRWSE.FRX,,,, 843,,,,, !VITAL
+	1, trubrwse.frm,,,, 1995-04-15,,,, !READONLY,, trubrwse\trubrwse.frm,,,, 12290,,,,, !VITAL
+	1, trubrwse.ico,,,, 1995-04-15,,,, !READONLY,, trubrwse\trubrwse.ico,,,, 766,,,,, !VITAL
+	1, trubrwse.mak,,,, 1995-04-15,,,, !READONLY,, trubrwse\trubrwse.mak,,,, 281,,,,, !VITAL
+	1, twhere.bas,,,, 1995-04-15,,,, !READONLY,, trubrwse\WHERE.BAS,,,, 1808,,,,, !VITAL
+	1, twinhelp.bas,,,, 1995-04-15,,,, !READONLY,, trubrwse\WINHELP.BAS,,,, 1662,,,,, !VITAL
+	1, utils.bas,,,, 1995-04-15,,,, !READONLY,, trubrwse\utils.bas,,,, 13121,,,,, !VITAL
+	1, truegrid.lic,,,, 1995-04-15,,,, !READONLY,,,,,, 599,,,,, !VITAL
+	1, truegrid.vbx,,,, 1995-04-15,,,, !READONLY,,,,,, 324112,,,,, !VITAL
+
+[Exporting\Character Separated\@WinCry]
+	1, uxfsepv.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 35824,,,,, !VITAL
+
+[Exporting\Crystal Reports\@WinCry]
+	1, uxfcr.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 23136,,,,, !VITAL
+
+[Exporting\Data Interchange Format (DIF)\@WinCry]
+	1, uxfdif.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 34736,,,,, !VITAL
+
+[Exporting\Disk file\@WinCry]
+	1, uxddisk.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 24224,,,,, !VITAL
+
+[Exporting\Excel\@WinCry]
+	1, uxfxls.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 104944,,,,, !VITAL
+
+[Exporting\HTML\@WinCry]
+	1, uxfhtml.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 228576,,,,, !VITAL
+
+[Exporting\Lotus 1-2-3\@WinCry]
+	1, uxfwks.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 39552,,,,, !VITAL
+
+[Exporting\Lotus Notes\@TargetDir]
+	1, crw.nsf,,,, 1997-08-28,,, OLDER, !READONLY,,,,,, 147456,,,,, !VITAL
+
+[Exporting\Lotus Notes\@WinCry]
+	1, uxdnotes.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 62480,,,,, !VITAL
+
+[Exporting\MAPI\@WinCry]
+	1, uxdmapi.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 38976,,,,, !VITAL
+
+[Exporting\Microsoft Exchange Public Folders\@WinCry]
+	1, uxdpost.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 85328,,,,, !VITAL
+
+[Exporting\ODBC data source\@WinCry]
+	1, uxfodbc.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 35120,,,,, !VITAL
+
+[Exporting\Quattro Pro\@WinCry]
+	1, uxfqp.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 36576,,,,, !VITAL
+
+[Exporting\Record style (columns of values)\@WinCry]
+	1, uxfrec.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 32704,,,,, !VITAL
+
+[Exporting\Report Definition\@WinCry]
+	1, uxfrdef.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 37168,,,,, !VITAL
+
+[Exporting\Rich Text Format (RTF)\@WinCry]
+	1, uxfrtf.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 51072,,,,, !VITAL
+
+[Exporting\Text\@WinCry]
+	1, uxftext.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 63408,,,,, !VITAL
+
+[Exporting\VIM\@WinCry]
+	1, uxdvim.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 62736,,,,, !VITAL
+
+[Exporting\Word for DOS/WordPerfect\@TargetDir]
+	1, wordwin.xtd,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Exporting\Word for DOS/WordPerfect\@WinCry]
+	1, uxfdoc.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 37008,,,,, !VITAL
+	1, worddos.xtd,,,, 1997-08-28,,,, !READONLY,,,,,, 37196,,,,, !VITAL
+	1, wperfect.xtd,,,, 1997-08-28,,,, !READONLY,,,,,, 52220,,,,, !VITAL
+
+[Exporting\Word for Windows\@WinCry]
+	1, uxfwordw.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 70048,,,,, !VITAL
+
+[PG Editor\@TargetDir]
+	1, 3dblack.3df,,,, 1995-05-12,,,, !READONLY,, gallery\3driser\3dblack.3df,,,, 15594,,,,, !VITAL
+	1, 3dcngar2.3df,,,, 1995-05-24,,,, !READONLY,, gallery\3driser\3dcngar2.3df,,,, 18150,,,,, !VITAL
+	1, 3dcngrib.3df,,,, 1995-05-24,,,, !READONLY,, gallery\3driser\3dcngrib.3df,,,, 17626,,,,, !VITAL
+	1, 3dcnsar2.3df,,,, 1995-05-24,,,, !READONLY,, gallery\3driser\3dcnsar2.3df,,,, 17628,,,,, !VITAL
+	1, 3dcnsst2.3df,,,, 1995-05-24,,,, !READONLY,, gallery\3driser\3dcnsst2.3df,,,, 18132,,,,, !VITAL
+	1, 3dcolor.3df,,,, 1995-05-12,,,, !READONLY,, gallery\3driser\3dcolor.3df,,,, 15602,,,,, !VITAL
+	1, 3dfltcub.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3dfltcub.3df,,,, 18112,,,,, !VITAL
+	1, 3dline.3df,,,, 1995-05-11,,,, !READONLY,, gallery\3driser\3dline.3df,,,, 15396,,,,, !VITAL
+	1, 3dpyrmid.3df,,,, 1995-05-12,,,, !READONLY,, gallery\3driser\3dpyrmid.3df,,,, 15582,,,,, !VITAL
+	1, 3drisbar.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3drisbar.3df,,,, 17992,,,,, !VITAL
+	1, 3drispyr.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3drispyr.3df,,,, 17996,,,,, !VITAL
+	1, 3dsurf4.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3dsurf4.3df,,,, 29476,,,,, !VITAL
+	1, 3dsurfhc.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3dsurfhc.3df,,,, 20848,,,,, !VITAL
+	1, 3dsurfs2.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3dsurfs2.3df,,,, 17706,,,,, !VITAL
+	1, 3dscat.3df,,,, 1995-05-26,,,, !READONLY,, gallery\3driser\3dscat.3df,,,, 17370,,,,, !VITAL
+	1, 3dscatlb.3df,,,, 1995-07-18,,,, !READONLY,, gallery\3driser\3dscatlb.3df,,,, 17418,,,,, !VITAL
+	1, area.3df,,,, 1995-07-05,,,, !READONLY,, gallery\area\area.3df,,,, 15406,,,,, !VITAL
+	1, varaabs.3df,,,, 1995-05-23,,,, !READONLY,, gallery\area\varaabs.3df,,,, 17710,,,,, !VITAL
+	1, varastk.3df,,,, 1995-05-23,,,, !READONLY,, gallery\area\varastk.3df,,,, 18002,,,,, !VITAL
+	1, 25bar.3df,,,, 1995-05-12,,,, !READONLY,, gallery\bar\25bar.3df,,,, 15402,,,,, !VITAL
+	1, 2dbar.3df,,,, 1995-05-12,,,, !READONLY,, gallery\bar\2dbar.3df,,,, 15390,,,,, !VITAL
+	1, 2dbar2.3df,,,, 1995-05-12,,,, !READONLY,, gallery\bar\2dbar2.3df,,,, 15412,,,,, !VITAL
+	1, 2dhorz.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\2dhorz.3df,,,, 15586,,,,, !VITAL
+	1, hbarbsid.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbarbsid.3df,,,, 18212,,,,, !VITAL
+	1, hbarbstk.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbarbstk.3df,,,, 18036,,,,, !VITAL
+	1, hbardsid.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbardsid.3df,,,, 17708,,,,, !VITAL
+	1, hbardstk.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbardstk.3df,,,, 18138,,,,, !VITAL
+	1, hbarper.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbarper.3df,,,, 17672,,,,, !VITAL
+	1, hbarsid.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbarsid.3df,,,, 17628,,,,, !VITAL
+	1, hbarstk.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\hbarstk.3df,,,, 18368,,,,, !VITAL
+	1, mixed.3df,,,, 1995-05-12,,,, !READONLY,, gallery\bar\mixed.3df,,,, 15582,,,,, !VITAL
+	1, vbarbsid.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\vbarbsid.3df,,,, 17522,,,,, !VITAL
+	1, vbarbstk.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\vbarbstk.3df,,,, 18034,,,,, !VITAL
+	1, vbardsid.3df,,,, 1995-05-22,,,, !READONLY,, gallery\bar\vbardsid.3df,,,, 17606,,,,, !VITAL
+	1, vbardstk.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\vbardstk.3df,,,, 18136,,,,, !VITAL
+	1, vbarper.3df,,,, 1995-07-18,,,, !READONLY,, gallery\bar\vbarper.3df,,,, 17670,,,,, !VITAL
+	1, vbarsid.3df,,,, 1995-05-26,,,, !READONLY,, gallery\bar\vbarsid.3df,,,, 17582,,,,, !VITAL
+	1, vbarstk.3df,,,, 1995-05-23,,,, !READONLY,, gallery\bar\vbarstk.3df,,,, 18550,,,,, !VITAL
+	1, bubble.3df,,,, 1995-05-25,,,, !READONLY,, gallery\bubble\bubble.3df,,,, 18570,,,,, !VITAL
+	1, bubble_d.3df,,,, 1995-05-26,,,, !READONLY,, gallery\bubble\bubble-d.3df,,,, 17782,,,,, !VITAL
+	1, bubble1.3df,,,, 1995-05-22,,,, !READONLY,, gallery\bubble\bubble1.3df,,,, 15578,,,,, !VITAL
+	1, hilo.3df,,,, 1995-05-23,,,, !READONLY,, gallery\hilo\hilo.3df,,,, 17274,,,,, !VITAL
+	1, hilo1.3df,,,, 1995-05-12,,,, !READONLY,, gallery\hilo\hilo1.3df,,,, 15390,,,,, !VITAL
+	1, hilooc.3df,,,, 1995-05-23,,,, !READONLY,, gallery\hilo\hilooc.3df,,,, 17418,,,,, !VITAL
+	1, hist1.3df,,,, 1995-05-12,,,, !READONLY,, gallery\hist\hist1.3df,,,, 15390,,,,, !VITAL
+	1, histh.3df,,,, 1995-05-23,,,, !READONLY,, gallery\hist\histh.3df,,,, 18112,,,,, !VITAL
+	1, histv.3df,,,, 1995-05-23,,,, !READONLY,, gallery\hist\histv.3df,,,, 18122,,,,, !VITAL
+	1, line.3df,,,, 1995-07-05,,,, !READONLY,, gallery\line\line.3df,,,, 15408,,,,, !VITAL
+	1, vlinabs.3df,,,, 1995-05-23,,,, !READONLY,, gallery\line\vlinabs.3df,,,, 17604,,,,, !VITAL
+	1, vlinstk.3df,,,, 1995-05-26,,,, !READONLY,, gallery\line\vlinstk.3df,,,, 17992,,,,, !VITAL
+	1, pict_h.3df,,,, 1995-05-26,,,, !READONLY,, gallery\picto\pict-h.3df,,,, 18278,,,,, !VITAL
+	1, pict_v.3df,,,, 1995-05-26,,,, !READONLY,, gallery\picto\pict-v.3df,,,, 18276,,,,, !VITAL
+	1, pie.3df,,,, 1995-05-23,,,, !READONLY,, gallery\pie\pie.3df,,,, 17366,,,,, !VITAL
+	1, pie25.3df,,,, 1995-05-12,,,, !READONLY,, gallery\pie\pie25.3df,,,, 15572,,,,, !VITAL
+	1, piering.3df,,,, 1995-05-23,,,, !READONLY,, gallery\pie\piering.3df,,,, 17366,,,,, !VITAL
+	1, polar.3df,,,, 1995-05-25,,,, !READONLY,, gallery\polar\polar.3df,,,, 17830,,,,, !VITAL
+	1, polar_d.3df,,,, 1995-05-25,,,, !READONLY,, gallery\polar\polar-d.3df,,,, 18328,,,,, !VITAL
+	1, radar.3df,,,, 1995-05-25,,,, !READONLY,, gallery\radar\radar.3df,,,, 17602,,,,, !VITAL
+	1, radar02.3df,,,, 1995-05-25,,,, !READONLY,, gallery\radar\radar02.3df,,,, 17070,,,,, !VITAL
+	1, scat.3df,,,, 1995-05-23,,,, !READONLY,, gallery\scatter\scat.3df,,,, 17492,,,,, !VITAL
+	1, scatter.3df,,,, 1995-05-12,,,, !READONLY,, gallery\scatter\scatter.3df,,,, 15574,,,,, !VITAL
+	1, spec01.3df,,,, 1995-05-25,,,, !READONLY,, gallery\spectral\spec01.3df,,,, 18658,,,,, !VITAL
+	1, spec02.3df,,,, 1995-05-25,,,, !READONLY,, gallery\spectral\spec02.3df,,,, 19482,,,,, !VITAL
+	1, spec1.3df,,,, 1995-05-12,,,, !READONLY,, gallery\spectral\spec1.3df,,,, 15594,,,,, !VITAL
+	1, table01.3df,,,, 1995-05-25,,,, !READONLY,, gallery\table\table01.3df,,,, 17314,,,,, !VITAL
+	1, table02.3df,,,, 1995-05-23,,,, !READONLY,, gallery\table\table02.3df,,,, 17702,,,,, !VITAL
+	1, table1.3df,,,, 1995-05-12,,,, !READONLY,, gallery\table\table1.3df,,,, 15150,,,,, !VITAL
+	1, pg3dtool.dll,,,, 1997-05-02,,,, !READONLY,,,,,, 160768,,,,, !VITAL
+	1, pgdialog.dll,,,, 1997-05-02,,,, !READONLY,,,,,, 254976,,,,, !VITAL
+	1, pgeditor.exe,,,, 1997-05-02,,,, !READONLY,,,,,, 1143296,,,,, !VITAL
+	1, pgeditor.hlp,,,, 1995-06-26,,,, !READONLY,,,,,, 602770,,,,, !VITAL
+	1, pgfxtool.dll,,,, 1997-05-02,,,, !READONLY,,,,,, 57344,,,,, !VITAL
+	1, pgnewdlg.dll,,,, 1997-05-02,,,, !READONLY,,,,,, 47104,,,,, !VITAL
+	1, pictures.3fx,,,, 1995-05-15,,,, !READONLY,,,,,, 2090,,,,, !VITAL
+	1, 4blue.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4blue.bmp,,,, 32886,,,,, !VITAL
+	1, 4coral.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4coral.bmp,,,, 32886,,,,, !VITAL
+	1, 4cryst.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4cryst.bmp,,,, 32886,,,,, !VITAL
+	1, 4dunes.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4dunes.bmp,,,, 8310,,,,, !VITAL
+	1, 4foam.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4foam.bmp,,,, 32886,,,,, !VITAL
+	1, 4hewn.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4hewn.bmp,,,, 32886,,,,, !VITAL
+	1, 4lake.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4lake.bmp,,,, 32886,,,,, !VITAL
+	1, 4lines.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4lines.bmp,,,, 32886,,,,, !VITAL
+	1, 4lines2.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4lines2.bmp,,,, 32886,,,,, !VITAL
+	1, 4ltblue.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4ltblue.bmp,,,, 5318,,,,, !VITAL
+	1, 4magnt.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4magnt.bmp,,,, 32886,,,,, !VITAL
+	1, 4murex.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4murex.bmp,,,, 32886,,,,, !VITAL
+	1, 4pea.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4pea.bmp,,,, 32886,,,,, !VITAL
+	1, 4pond.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4pond.bmp,,,, 5318,,,,, !VITAL
+	1, 4pool.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4pool.bmp,,,, 8310,,,,, !VITAL
+	1, 4red.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4red.bmp,,,, 32886,,,,, !VITAL
+	1, 4redder.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4redder.bmp,,,, 32886,,,,, !VITAL
+	1, 4redsky.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4redsky.bmp,,,, 32886,,,,, !VITAL
+	1, 4rufblu.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4rufblu.bmp,,,, 32886,,,,, !VITAL
+	1, 4runoff.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4runoff.bmp,,,, 8310,,,,, !VITAL
+	1, 4sand.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4sand.bmp,,,, 32886,,,,, !VITAL
+	1, 4sky.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4sky.bmp,,,, 32886,,,,, !VITAL
+	1, 4snails.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4snails.bmp,,,, 8310,,,,, !VITAL
+	1, 4snow.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4snow.bmp,,,, 8310,,,,, !VITAL
+	1, 4turq.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4turq.bmp,,,, 32886,,,,, !VITAL
+	1, 4twister.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4twister.bmp,,,, 5318,,,,, !VITAL
+	1, 4violet.bmp,,,, 1992-04-07,,,, !READONLY,, pictures\4violet.bmp,,,, 32886,,,,, !VITAL
+	1, virginp.3fx,,,, 1995-04-27,,,, !READONLY,,,,,, 1046,,,,, !VITAL
+	1, washes.3fx,,,, 1995-04-24,,,, !READONLY,,,,,, 4178,,,,, !VITAL
+
+[Sample Files\@TargetDir]
+	1, 00019144.dat,,,, 1997-08-28,,,, !READONLY,,,,,, 1536,,,,, !VITAL
+	1, 00028747.dat,,,, 1997-08-28,,,, !READONLY,,,,,, 2560,,,,, !VITAL
+	1, field.ddf,,,, 1997-08-28,,,, !READONLY,,,,,, 8192,,,,, !VITAL
+	1, file.ddf,,,, 1997-08-28,,,, !READONLY,,,,,, 2560,,,,, !VITAL
+	1, index.ddf,,,, 1997-08-28,,,, !READONLY,,,,,, 2048,,,,, !VITAL
+	1, bookord.db,,,, 1997-08-28,,,, !READONLY,,,,,, 8192,,,,, !VITAL
+	1, bookord.px,,,, 1997-08-28,,,, !READONLY,,,,,, 4096,,,,, !VITAL
+	1, filmtype.dbf,,,, 1997-08-28,,,, !READONLY,,,,,, 1710,,,,, !VITAL
+	1, filmtype.ndx,,,, 1997-08-28,,,, !READONLY,,,,,, 2048,,,,, !VITAL
+	1, movie.dbf,,,, 1997-08-28,,,, !READONLY,,,,,, 3569,,,,, !VITAL
+	1, movie.ndx,,,, 1997-08-28,,,, !READONLY,,,,,, 3584,,,,, !VITAL
+	1, studio.dbf,,,, 1997-08-28,,,, !READONLY,,,,,, 4580,,,,, !VITAL
+	1, studio.ndx,,,, 1997-08-28,,,, !READONLY,,,,,, 3584,,,,, !VITAL
+
+[Sample Files\Borland Delphi API\@TargetDir]
+	1, pedelf16.exe,,,, 1996-08-21,,,, !READONLY,, sample\pedelf16\pedelf16.exe,,,, 42314,,,,, !VITAL
+
+[Sample Files\Borland Delphi VCL\@TargetDir]
+	1, vcldemo.exe,,,, 1996-08-21,,,, !READONLY,, sample\vcldemo\vcldemo.exe,,,, 55771,,,,, !VITAL
+
+[Sample Files\Sample Reports\@TargetDir]
+	1, sample_p.hlp,,,, 1997-08-28,,,, !READONLY,, sample.hlp,,,, 209394,,,,, !VITAL
+	1, costs.mdb,,,, 1997-08-28,,,, !READONLY,,,,,, 98304,,,,, !VITAL
+	1, craze.mdb,,,, 1997-08-28,,,, !READONLY,,,,,, 1572864,,,,, !VITAL
+	1, craze.qry,,,, 1997-08-28,,,, !READONLY,,,,,, 6893,,,,, !VITAL
+	1, crazeb.bmp,,,, 1997-08-28,,,, !READONLY,,,,,, 2974,,,,, !VITAL
+	1, crazec.bmp,,,, 1997-08-28,,,, !READONLY,,,,,, 22554,,,,, !VITAL
+	1, crazeole.bmp,,,, 1997-08-28,,,, !READONLY,,,,,, 22554,,,,, !VITAL
+	1, finance.ldb,,,, 1997-08-28,,,, !READONLY,,,,,, 128,,,,, !VITAL
+	1, finance.mdb,,,, 1997-08-28,,,, !READONLY,,,,,, 294912,,,,, !VITAL
+	1, ordrcr.mdb,,,, 1997-08-28,,,, !READONLY,,,,,, 98304,,,,, !VITAL
+	1, purchase.mdb,,,, 1997-08-28,,,, !READONLY,,,,,, 98304,,,,, !VITAL
+	1, rt01.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 40448,,,,, !VITAL
+	1, rt02.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 47104,,,,, !VITAL
+	1, sgt01.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 11776,,,,, !VITAL
+	1, sgt02.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 24576,,,,, !VITAL
+	1, sgt03.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 24576,,,,, !VITAL
+	1, sgt04.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 26112,,,,, !VITAL
+	1, sgt05.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 13824,,,,, !VITAL
+	1, sgt06.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 24576,,,,, !VITAL
+	1, sgt07.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 14848,,,,, !VITAL
+	1, sgt08.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 86016,,,,, !VITAL
+	1, sgt09.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 26624,,,,, !VITAL
+	1, sgt10.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 15360,,,,, !VITAL
+	1, sgt11.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 23552,,,,, !VITAL
+	1, sgt12.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 64000,,,,, !VITAL
+	1, subtotl.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 26112,,,,, !VITAL
+	1, trueabac.rpt,,,, 1997-08-28,,,, !READONLY,,,,,, 18432,,,,, !VITAL
+	1, addrbook.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\exchange\addrbook.rpt,,,, 77672,,,,, !VITAL
+	1, folders.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\exchange\folders.rpt,,,, 21678,,,,, !VITAL
+	1, svtrafic.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\exchange\svtrafic.rpt,,,, 157208,,,,, !VITAL
+	1, activity.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\internet\activity.rpt,,,, 87824,,,,, !VITAL
+	1, webacces.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\internet\webacces.rpt,,,, 18595,,,,, !VITAL
+	1, eventdtl.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\ntevent\eventdtl.rpt,,,, 26484,,,,, !VITAL
+	1, eventsum.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\ntevent\eventsum.rpt,,,, 47669,,,,, !VITAL
+	1, diskuse.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\sms\diskuse.rpt,,,, 23133,,,,, !VITAL
+	1, ipnetwor.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\sms\ipnetwor.rpt,,,, 18101,,,,, !VITAL
+	1, services.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\sms\services.rpt,,,, 18170,,,,, !VITAL
+	1, columns.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\sqlsrv\columns.rpt,,,, 21379,,,,, !VITAL
+	1, tabdepnd.rpt,,,, 1997-08-28,,,, !READONLY,, reports\101\sqlsrv\tabdepnd.rpt,,,, 20095,,,,, !VITAL
+	1, accountg.dc5,,,, 1997-08-28,,,, !READONLY,, accountg.dc5,,,, 19415,,,,, !VITAL
+	1, acctap.dc5,,,, 1997-08-28,,,, !READONLY,, acctap.dc5,,,, 17551,,,,, !VITAL
+	1, acctar.dc5,,,, 1997-08-28,,,, !READONLY,, acctar.dc5,,,, 82891,,,,, !VITAL
+	1, banking.dc5,,,, 1997-08-28,,,, !READONLY,, banking.dc5,,,, 19893,,,,, !VITAL
+	1, adconds.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adconds.rpt,,,, 70656,,,,, !VITAL
+	1, adcont1s.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adcont1s.rpt,,,, 57344,,,,, !VITAL
+	1, adcont2s.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adcont2s.rpt,,,, 71680,,,,, !VITAL
+	1, adcostss.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adcostss.rpt,,,, 22016,,,,, !VITAL
+	1, adforms.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adforms.rpt,,,, 79872,,,,, !VITAL
+	1, adincogs.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adincogs.rpt,,,, 70144,,,,, !VITAL
+	1, admultis.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\admultis.rpt,,,, 511488,,,,, !VITAL
+	1, adsubres.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adsubres.rpt,,,, 27648,,,,, !VITAL
+	1, adxtab1s.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adxtab1s.rpt,,,, 115200,,,,, !VITAL
+	1, adxtab2s.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\adxtab2s.rpt,,,, 40448,,,,, !VITAL
+	1, apclpo1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\apclpo1p.rpt,,,, 61952,,,,, !VITAL
+	1, apclpo2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\apclpo2p.rpt,,,, 63488,,,,, !VITAL
+	1, apoppo1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\apoppo1p.rpt,,,, 62464,,,,, !VITAL
+	1, apoppo2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\apoppo2p.rpt,,,, 64512,,,,, !VITAL
+	1, appurorp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\appurorp.rpt,,,, 70656,,,,, !VITAL
+	1, arcord1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arcord1p.rpt,,,, 86016,,,,, !VITAL
+	1, arcord2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arcord2p.rpt,,,, 81408,,,,, !VITAL
+	1, arcord3p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arcord3p.rpt,,,, 69120,,,,, !VITAL
+	1, arcordpp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arcordpp.rpt,,,, 69120,,,,, !VITAL
+	1, arinvcep.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arinvcep.rpt,,,, 80896,,,,, !VITAL
+	1, arordfmp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arordfmp.rpt,,,, 64000,,,,, !VITAL
+	1, arstatep.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\arstatep.rpt,,,, 69632,,,,, !VITAL
+	1, craze3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\craze3.rpt,,,, 64512,,,,, !VITAL
+	1, craze5.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\craze5.rpt,,,, 56832,,,,, !VITAL
+	1, gocdir1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\gocdir1p.rpt,,,, 51712,,,,, !VITAL
+	1, gocdir2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\gocdir2p.rpt,,,, 55296,,,,, !VITAL
+	1, gofaxcop.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\gofaxcop.rpt,,,, 43520,,,,, !VITAL
+	1, golethep.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\golethep.rpt,,,, 453632,,,,, !VITAL
+	1, gomalabp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\gomalabp.rpt,,,, 47104,,,,, !VITAL
+	1, gonatagp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\gonatagp.rpt,,,, 38912,,,,, !VITAL
+	1, hr.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hr.rpt,,,, 73216,,,,, !VITAL
+	1, hrcontsp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hrcontsp.rpt,,,, 33792,,,,, !VITAL
+	1, hrdire1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hrdire1p.rpt,,,, 47104,,,,, !VITAL
+	1, hrdire2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hrdire2p.rpt,,,, 49152,,,,, !VITAL
+	1, hrdirp1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hrdirp1p.rpt,,,, 67072,,,,, !VITAL
+	1, hrdirp2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hrdirp2p.rpt,,,, 68608,,,,, !VITAL
+	1, hrprof1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\hrprof1p.rpt,,,, 72704,,,,, !VITAL
+	1, inonor1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\inonor1p.rpt,,,, 60928,,,,, !VITAL
+	1, inonor2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\inonor2p.rpt,,,, 60928,,,,, !VITAL
+	1, inrest1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\inrest1p.rpt,,,, 56832,,,,, !VITAL
+	1, inrest2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\inrest2p.rpt,,,, 61440,,,,, !VITAL
+	1, insuplip.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\insuplip.rpt,,,, 50176,,,,, !VITAL
+	1, insupprp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\insupprp.rpt,,,, 58368,,,,, !VITAL
+	1, inventop.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\inventop.rpt,,,, 53248,,,,, !VITAL
+	1, invwpicp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\invwpicp.rpt,,,, 69120,,,,, !VITAL
+	1, mkpcat1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\mkpcat1p.rpt,,,, 66048,,,,, !VITAL
+	1, mkpcat2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\mkpcat2p.rpt,,,, 51200,,,,, !VITAL
+	1, mkpcat3p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\mkpcat3p.rpt,,,, 51200,,,,, !VITAL
+	1, mkpric1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\mkpric1p.rpt,,,, 50176,,,,, !VITAL
+	1, mkpric2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\mkpric2p.rpt,,,, 47616,,,,, !VITAL
+	1, scusli1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scusli1p.rpt,,,, 55296,,,,, !VITAL
+	1, scusli2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scusli2p.rpt,,,, 57856,,,,, !VITAL
+	1, scuspr1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scuspr1p.rpt,,,, 64000,,,,, !VITAL
+	1, scuspr2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scuspr2p.rpt,,,, 57856,,,,, !VITAL
+	1, scussa1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scussa1p.rpt,,,, 56832,,,,, !VITAL
+	1, scussa2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scussa2p.rpt,,,, 63488,,,,, !VITAL
+	1, scussa3p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\scussa3p.rpt,,,, 57344,,,,, !VITAL
+	1, sempmo1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sempmo1p.rpt,,,, 58368,,,,, !VITAL
+	1, sempmo2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sempmo2p.rpt,,,, 54272,,,,, !VITAL
+	1, sempmo3p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sempmo3p.rpt,,,, 55808,,,,, !VITAL
+	1, semprevp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\semprevp.rpt,,,, 66048,,,,, !VITAL
+	1, sempxtbp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sempxtbp.rpt,,,, 64000,,,,, !VITAL
+	1, sprodcap.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodcap.rpt,,,, 51712,,,,, !VITAL
+	1, sproddsp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sproddsp.rpt,,,, 57856,,,,, !VITAL
+	1, sprodptp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodptp.rpt,,,, 53760,,,,, !VITAL
+	1, sprodsup.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodsup.rpt,,,, 77312,,,,, !VITAL
+	1, sprodt1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodt1p.rpt,,,, 55808,,,,, !VITAL
+	1, sprodt2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodt2p.rpt,,,, 55808,,,,, !VITAL
+	1, sprodt3p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodt3p.rpt,,,, 54784,,,,, !VITAL
+	1, sprodt4p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodt4p.rpt,,,, 54784,,,,, !VITAL
+	1, sprodtnp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodtnp.rpt,,,, 52224,,,,, !VITAL
+	1, sprodwsp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodwsp.rpt,,,, 72704,,,,, !VITAL
+	1, sprodxtp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sprodxtp.rpt,,,, 56320,,,,, !VITAL
+	1, sropackp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sropackp.rpt,,,, 67584,,,,, !VITAL
+	1, srordf1p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\srordf1p.rpt,,,, 60928,,,,, !VITAL
+	1, srordf2p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\srordf2p.rpt,,,, 63488,,,,, !VITAL
+	1, srordf3p.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\srordf3p.rpt,,,, 61952,,,,, !VITAL
+	1, sroutorp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\sroutorp.rpt,,,, 53760,,,,, !VITAL
+	1, srrecorp.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\srrecorp.rpt,,,, 54784,,,,, !VITAL
+	1, wwsales.rpt,,,, 1997-08-28,,,, !READONLY,, reports\craze\wwsales.rpt,,,, 51200,,,,, !VITAL
+	1, fbalsht1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbalsht1.rpt,,,, 120320,,,,, !VITAL
+	1, fbalsht2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbalsht2.rpt,,,, 96256,,,,, !VITAL
+	1, fbalsht3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbalsht3.rpt,,,, 88576,,,,, !VITAL
+	1, fbalsht4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbalsht4.rpt,,,, 80896,,,,, !VITAL
+	1, fbankcr1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr1.rpt,,,, 36864,,,,, !VITAL
+	1, fbankcr2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr2.rpt,,,, 28160,,,,, !VITAL
+	1, fbankcr3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr3.rpt,,,, 37888,,,,, !VITAL
+	1, fbankcr4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr4.rpt,,,, 39936,,,,, !VITAL
+	1, fbankcr5.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr5.rpt,,,, 30720,,,,, !VITAL
+	1, fbankcr6.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr6.rpt,,,, 30208,,,,, !VITAL
+	1, fbankcr7.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr7.rpt,,,, 35328,,,,, !VITAL
+	1, fbankcr8.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcr8.rpt,,,, 29184,,,,, !VITAL
+	1, fbankcu1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcu1.rpt,,,, 34304,,,,, !VITAL
+	1, fbankcu2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcu2.rpt,,,, 34304,,,,, !VITAL
+	1, fbankcu3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcu3.rpt,,,, 39936,,,,, !VITAL
+	1, fbankcu4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankcu4.rpt,,,, 34304,,,,, !VITAL
+	1, fbankfa1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankfa1.rpt,,,, 43520,,,,, !VITAL
+	1, fbankfa2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankfa2.rpt,,,, 31744,,,,, !VITAL
+	1, fbankfa3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankfa3.rpt,,,, 31232,,,,, !VITAL
+	1, fbankid1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankid1.rpt,,,, 37888,,,,, !VITAL
+	1, fbankid2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankid2.rpt,,,, 37376,,,,, !VITAL
+	1, fbankin1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin1.rpt,,,, 38400,,,,, !VITAL
+	1, fbankin2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin2.rpt,,,, 38912,,,,, !VITAL
+	1, fbankin3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin3.rpt,,,, 38400,,,,, !VITAL
+	1, fbankin4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin4.rpt,,,, 39424,,,,, !VITAL
+	1, fbankin5.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin5.rpt,,,, 38400,,,,, !VITAL
+	1, fbankin6.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin6.rpt,,,, 69632,,,,, !VITAL
+	1, fbankin7.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankin7.rpt,,,, 68096,,,,, !VITAL
+	1, fbanknu1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbanknu1.rpt,,,, 28160,,,,, !VITAL
+	1, fbanknu2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbanknu2.rpt,,,, 26624,,,,, !VITAL
+	1, fbankrt1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankrt1.rpt,,,, 37376,,,,, !VITAL
+	1, fbankrt2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankrt2.rpt,,,, 33792,,,,, !VITAL
+	1, fbankrt3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankrt3.rpt,,,, 33792,,,,, !VITAL
+	1, fbankrt4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankrt4.rpt,,,, 32256,,,,, !VITAL
+	1, fbankrt5.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbankrt5.rpt,,,, 30208,,,,, !VITAL
+	1, fbanktr1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbanktr1.rpt,,,, 33280,,,,, !VITAL
+	1, fbanktr2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbanktr2.rpt,,,, 32768,,,,, !VITAL
+	1, fbanktr3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fbanktr3.rpt,,,, 80384,,,,, !VITAL
+	1, fcomdat1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fcomdat1.rpt,,,, 32256,,,,, !VITAL
+	1, fcomdat2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fcomdat2.rpt,,,, 38912,,,,, !VITAL
+	1, fcomstm1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fcomstm1.rpt,,,, 172544,,,,, !VITAL
+	1, fcomstm2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fcomstm2.rpt,,,, 105472,,,,, !VITAL
+	1, ffinra1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\ffinra1.rpt,,,, 116736,,,,, !VITAL
+	1, ffinra2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\ffinra2.rpt,,,, 131584,,,,, !VITAL
+	1, ffinra3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\ffinra3.rpt,,,, 55296,,,,, !VITAL
+	1, fincash1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincash1.rpt,,,, 63488,,,,, !VITAL
+	1, fincash2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincash2.rpt,,,, 52736,,,,, !VITAL
+	1, fincash3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincash3.rpt,,,, 54784,,,,, !VITAL
+	1, fincstm1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincstm1.rpt,,,, 72704,,,,, !VITAL
+	1, fincstm2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincstm2.rpt,,,, 61952,,,,, !VITAL
+	1, fincstm3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincstm3.rpt,,,, 56320,,,,, !VITAL
+	1, fincstm4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fincstm4.rpt,,,, 49664,,,,, !VITAL
+	1, fininfo1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fininfo1.rpt,,,, 61440,,,,, !VITAL
+	1, finport1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\finport1.rpt,,,, 43520,,,,, !VITAL
+	1, finport2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\finport2.rpt,,,, 46592,,,,, !VITAL
+	1, finport3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\finport3.rpt,,,, 39936,,,,, !VITAL
+	1, finport4.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\finport4.rpt,,,, 40448,,,,, !VITAL
+	1, fsprsht1.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fsprsht1.rpt,,,, 157696,,,,, !VITAL
+	1, fsprsht2.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fsprsht2.rpt,,,, 173056,,,,, !VITAL
+	1, fsprsht3.rpt,,,, 1997-08-28,,,, !READONLY,, reports\finance\fsprsht3.rpt,,,, 99840,,,,, !VITAL
+	1, genoffic.dc5,,,, 1997-08-28,,,, !READONLY,, genoffic.dc5,,,, 25038,,,,, !VITAL
+	1, hr.dc5,,,, 1997-08-28,,,, !READONLY,, hr.dc5,,,, 19973,,,,, !VITAL
+	1, int_rate.dc5,,,, 1997-08-28,,,, !READONLY,, int_rate.dc5,,,, 15982,,,,, !VITAL
+	1, invent.dc5,,,, 1997-08-28,,,, !READONLY,, invent.dc5,,,, 16277,,,,, !VITAL
+	1, market.dc5,,,, 1997-08-28,,,, !READONLY,, market.dc5,,,, 11444,,,,, !VITAL
+	1, portfoli.dc5,,,, 1997-08-28,,,, !READONLY,, portfoli.dc5,,,, 18955,,,,, !VITAL
+	1, receive.dc5,,,, 1997-08-28,,,, !READONLY,, receive.dc5,,,, 16231,,,,, !VITAL
+	1, salesc.dc5,,,, 1997-08-28,,,, !READONLY,, salesc.dc5,,,, 74024,,,,, !VITAL
+	1, salese.dc5,,,, 1997-08-28,,,, !READONLY,, salese.dc5,,,, 69531,,,,, !VITAL
+	1, salesp.dc5,,,, 1997-08-28,,,, !READONLY,, salesp.dc5,,,, 35635,,,,, !VITAL
+	1, ship.dc5,,,, 1997-08-28,,,, !READONLY,, ship.dc5,,,, 59708,,,,, !VITAL
+	1, stk_info.dc5,,,, 1997-08-28,,,, !READONLY,, stk_info.dc5,,,, 15243,,,,, !VITAL
+	1, sub_info.dc5,,,, 1997-08-28,,,, !READONLY,, sub_info.dc5,,,, 21670,,,,, !VITAL
+
+[Sample Files\User Function Library (UFL)\@TargetDir]
+	1, crdates.c,,,, 1997-08-28,,,, !READONLY,,,,,, 3164,,,,, !VITAL
+	1, crdates.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1213,,,,, !VITAL
+	1, crdll.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1592,,,,, !VITAL
+	1, ufdll.h,,,, 1997-08-28,,,, !READONLY,,,,,, 10418,,,,, !VITAL
+	1, uffuncs.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1855,,,,, !VITAL
+	1, ufjob.c,,,, 1997-08-28,,,, !READONLY,,,,,, 1533,,,,, !VITAL
+	1, ufjob.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1319,,,,, !VITAL
+	1, uflbar.c,,,, 1997-08-28,,,, !READONLY,,,,,, 13744,,,,, !VITAL
+	1, uflbar.def,,,, 1997-08-28,,,, !READONLY,,,,,, 665,,,,, !VITAL
+	1, uflbar.prj,,,, 1997-08-28,,,, !READONLY,,,,,, 6263,,,,, !VITAL
+	1, uflsamp1.c,,,, 1997-08-28,,,, !READONLY,,,,,, 6853,,,,, !VITAL
+	1, uflsamp1.def,,,, 1997-08-28,,,, !READONLY,,,,,, 700,,,,, !VITAL
+	1, uflsamp1.prj,,,, 1997-08-28,,,, !READONLY,,,,,, 6455,,,,, !VITAL
+	1, uflsamp1.rc,,,, 1997-08-28,,,, !READONLY,,,,,, 1124,,,,, !VITAL
+	1, uflsamp2.c,,,, 1997-08-28,,,, !READONLY,,,,,, 35086,,,,, !VITAL
+	1, uflsamp2.def,,,, 1997-08-28,,,, !READONLY,,,,,, 1628,,,,, !VITAL
+	1, uflsamp2.prj,,,, 1997-08-28,,,, !READONLY,,,,,, 5943,,,,, !VITAL
+	1, ufmain.c,,,, 1997-08-28,,,, !READONLY,,,,,, 4167,,,,, !VITAL
+	1, ufmain.h,,,, 1997-08-28,,,, !READONLY,,,,,, 979,,,,, !VITAL
+	1, ufuser.h,,,, 1997-08-28,,,, !READONLY,,,,,, 912,,,,, !VITAL
+	1, wintime.c,,,, 1997-08-28,,,, !READONLY,,,,,, 11422,,,,, !VITAL
+	1, wintime.h,,,, 1997-08-28,,,, !READONLY,,,,,, 1705,,,,, !VITAL
+
+[Sample Files\Visual Basic API\@TargetDir]
+	1, crpezip.exe,,,, 1997-08-28,,,, !READONLY,, sample\crpedm16\crpezip.exe,,,, 89875,,,,, !VITAL
+	1, sam16api.exe,,,, 1997-08-28,,,, !READONLY,, sample\sam16api\sam16api.exe,,,, 63192,,,,, !VITAL
+
+[Sample Files\Visual Basic ActiveX\@TargetDir]
+	1, sam16ocx.exe,,,, 1997-08-28,,,, !READONLY,, sample\sam16ocx\sam16ocx.exe,,,, 33155,,,,, !VITAL
+
+[Sample Files\Visual Basic VBX\@TargetDir]
+	1, vbxzip.exe,,,, 1997-08-28,,,, !READONLY,, sample\vbxdemo\vbxdemo.exe,,,, 64439,,,,, !VITAL
+
+[Seagate Crystal Reports Help\@TargetDir]
+	1, acroexe.00,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, acroexe.01,,,, 1997-08-28,,,, !READONLY,,,,,, 447216,,,,, !VITAL
+	1, hyprfind.dll,,,, 1996-06-17,,,, !READONLY,,,,,, 103952,,,,, !VITAL
+	1, hyprview.dll,,,, 1996-06-17,,,, !READONLY,,,,,, 114192,,,,, !VITAL
+	1, hyprview.hlp,,,, 1996-06-17,,,, !READONLY,,,,,, 9592,,,,, !VITAL
+	1, cuecard.hlp,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, about.hlp,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Seagate Crystal Reports Help\@Winsys]
+	1, csh.dll,,,, 1996-10-01,,, OLDER, !READONLY,,,,, SHARED, 46592,,,,, !VITAL
+
+[Seagate Crystal Reports Help\Developer's Help\@TargetDir]
+	1, developr.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 3744574,,,,, !VITAL
+
+[Seagate Crystal Reports Help\Seagate Crystal Reports Programs Help\@TargetDir]
+	1, dictnry.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 357869,,,,,
+	1, crwhlp.00,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, crwhlp.01,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, crwhlp.02,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, crwhlp.03,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, crwhlp.04,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, crwhlp.05,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, crwhlp.06,,,, 1997-08-28,,,, !READONLY,,,,,, 722363,,,,, !VITAL
+	1, query.hlp,,,, 1997-08-28,,,, !READONLY,,,,,, 448242,,,,, !VITAL
+
+[Seagate Crystal Reports Help\Technical Reference in Acrobat Format\@TargetDir]
+	1, techrpdf.00,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.01,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.02,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.03,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.04,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.05,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.06,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.07,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.08,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.09,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.10,,,, 1997-08-28,,,, !READONLY,,,,,, 1081344,,,,, !VITAL
+	1, techrpdf.11,,,, 1997-08-28,,,, !READONLY,,,,,, 222546,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\@OLE2]
+"Ole2 COMPOBJ.DLL" = 1, compobj.dll,,,, 1995-04-11,,, OLDER, !READONLY,,,,, SHARED, 109056,,,, 2.3.125.142, !VITAL
+"Ole2 OLE2.DLL" = 1, ole2.dll,,,, 1995-04-19,,, OLDER, !READONLY,,,,, SHARED, 304640,,,, 2.3.125.142, !VITAL
+"Ole2 OLE2.REG" = 1, ole2.reg,,,, 1995-04-11,,,, !READONLY,,,,,, 27397,,,,, !VITAL
+"Ole2 OLE2CONV.DLL" = 1, ole2conv.dll,,,, 1993-11-16,,, OLDER, !READONLY,,,,, SHARED, 57328,,,, 2.1.0.1, !VITAL
+"Ole2 OLE2DISP.DLL" = 1, ole2disp.dll,,,, 1995-04-11,,, OLDER, !READONLY,,,,, SHARED, 163408,,,, 2.3.3019.1, !VITAL
+"Ole2 OLE2NLS.DLL" = 1, ole2nls.dll,,,, 1995-04-11,,, OLDER, !READONLY,,,,, SHARED, 124512,,,, 2.3.3019.1, !VITAL
+"Ole2 OLE2PROX.DLL" = 1, ole2prox.dll,,,, 1995-04-11,,, OLDER, !READONLY,,,,, SHARED, 51712,,,, 2.3.125.142, !VITAL
+"Ole2 STDOLE.TLB" = 1, stdole.tlb,,,, 1995-04-11,,, OLDER, !READONLY,,,,, SHARED, 5472,,,,, !VITAL
+"Ole2 STORAGE.DLL" = 1, storage.dll,,,, 1995-03-02,,, OLDER, !READONLY,,,,, SHARED, 157696,,,, 2.3.125.140, !VITAL
+"Ole2 TYPELIB.DLL" = 1, typelib.dll,,,, 1995-04-12,,, OLDER, !READONLY,,,,, SHARED, 177744,,,, 2.3.3019.1, !VITAL
+
+[Seagate Crystal Reports Programs\@TargetDir]
+	1, category.crr,,,, 1997-08-28,,,, !READONLY,,,,,, 525,,,,, !VITAL
+	1, country.crr,,,, 1997-08-28,,,, !READONLY,,,,,, 22409,,,,, !VITAL
+	1, crsupprt.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 249519,,,,, !VITAL
+	1, crsupreg.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 10256,,,,, !VITAL
+	1, library.crr,,,, 1997-08-28,,,, !READONLY,,,,,, 908,,,,, !VITAL
+	1, subject.crr,,,, 1997-08-28,,,, !READONLY,,,,,, 893,,,,, !VITAL
+	1, chek16en.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 6432,,,,,
+	1, crwchek.exe,,,, 1997-08-28,,,, !READONLY,,,,,, 102144,,,,,
+	1, crwchek.ini,,,, 1997-08-28,,,, !READONLY,,,,,, 15930,,,,,
+	1, dsx.exe,,,, 1997-08-28,,,, !READONLY,,,,,, 203344,,,,,
+	1, crystal.vbx,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, crpe.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, crole2ui.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, crxlate.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, p3conv.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, p3dib.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, p3info.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, p3file.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qelib.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, qeutil.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxddisk.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxdmapi.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxdvim.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfcr.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfdif.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfdoc.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfrec.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfrtf.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfsepv.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxftext.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfwks.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+	1, uxfxls.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Seagate Crystal Reports Programs\@WinCry]
+	1, uf5dts.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 14400,,,,, !VITAL
+	1, uf5store.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 19712,,,,, !VITAL
+	1, uf5total.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 20576,,,,, !VITAL
+	1, uf52000.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 12976,,,,, !VITAL
+	1, ufl2000.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 13424,,,,, !VITAL
+	1, uflbar.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 22704,,,,, !VITAL
+	1, ufldts.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 18240,,,,, !VITAL
+	1, uflexch.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 14464,,,,, !VITAL
+	1, uflfinra.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 26784,,,,, !VITAL
+	1, uflsamp1.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 24592,,,,, !VITAL
+	1, pdixbse.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 266368,,,,, !VITAL
+	1, pdlodbc.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 120449,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\@Winsys]
+	1, crpaige.dll,,,, 1997-08-28,,, OLDER, !READONLY,,,,, SHARED, 356304,,,, 5.0.0.1, !VITAL
+	1, crpe.dll,, crpe.old,, 1997-08-28,,,, !READONLY,,,,, SHARED, 3112128,,,,, !VITAL
+	1, lfbmp60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 10304,,,,,
+	1, lfcmp60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 127200,,,,,
+	1, lfeps60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 10080,,,,,
+	1, lffax60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 160928,,,,,
+	1, lfmac60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 5312,,,,,
+	1, lfmsp60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 5888,,,,,
+	1, lfpct60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 9376,,,,,
+	1, lfpcx60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 10656,,,,,
+	1, lfpng60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 132448,,,,,
+	1, lfpsd60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 7744,,,,,
+	1, lftga60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 7616,,,,,
+	1, lftif60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 39136,,,,,
+	1, lfwmf60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 6368,,,,,
+	1, lfwpg60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 7264,,,,,
+	1, ltfil60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 24576,,,,,
+	1, ltkrn60w.dll,,,, 1996-06-07,,,, !READONLY,,,,, SHARED, 165728,,,,,
+	1, mfcoleui.dll,, mfcoleui.old,, 1995-04-26,,, OLDER, !READONLY,,,,, SHARED, 146976,,,, 2.0.1.0, !VITAL
+	1, pctree16.dll,,,, 1997-08-28,,, OLDER, !READONLY,,,,, SHARED, 131232,,,,, !VITAL
+	1, pg.dll,, pg.old,, 1997-07-03,,,, !READONLY,,,,,, 906240,,,,, !VITAL
+	1, qecr.lic,,,, 1997-08-28,,,, !READONLY,,,,,, 796,,,,, !VITAL
+	1, qecr.lic,,,, 1996-02-16,,,, !READONLY,,,,,, 796,,,,, !VITAL
+	1, crole2ui.dll,,, !COPY,,,,,, REMOVE,,,,, 0,,,,,
+
+[Seagate Crystal Reports Programs\Crystal Dictionaries\@TargetDir]
+	1, crd.exe,,,, 1997-08-28,,,, !READONLY,,,,,, 1283920,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Query Designer\@TargetDir]
+	1, cqw.exe,,,, 1997-08-28,,,, !READONLY,,,,,, 2538192,,,,, !VITAL
+	1, grdkrn16.dll,,,, 1995-08-15,,,, !READONLY,,,,,, 195584,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Report Designer\@TargetDir]
+	1, crrstub.exe,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 9216,,,,, !VITAL
+	1, crw.net,,,, 1997-08-28, !DECOMPRESS,,, !READONLY,,,,,, 50,,,,,
+"CRW.EXE" = 1, crwexe.00,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 1081344,,,,,
+	1, crwexe.01,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 1081344,,,,,
+	1, crwexe.02,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 1081344,,,,,
+	1, crwexe.03,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 1081344,,,,,
+	1, crwexe.04,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 357376,,,,,
+	1, labels.txt,,,, 1997-08-28,,,, !READONLY,,,,,, 5750,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Report Designer\@WinCry]
+	1, crxlate.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 18960,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Crystal Report Designer\@Winsys]
+	1, crrun.exe,, crrun.old,, 1997-08-28,,,, !READONLY,,,,, SHARED, 181760,,,,, !VITAL
+	1, cr1c60en.dll,,,, 1997-08-28,,,, !READONLY,,,,, SHARED, 580432,,,,,
+
+[Seagate Crystal Reports Programs\Distribution Expert\@INI]
+	1, crwdist.ini,, CRWDIST.OLD,, 1997-08-28,,,, !READONLY,,,,,, 4865,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Distribution Expert\@RPTSETUP]
+	1, crexpand.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 35328,,,,,
+	1, rptcui16.dll,,,, 1997-08-28,,,, !READONLY,,,,,, 56448,,,,, !VITAL
+	1, rptfiles.lyt,,,, 1997-08-28,,,, !READONLY,,,,,, 4712,,,,, !VITAL
+	1, rptsetup.lst,,,, 1997-08-28,,,, !READONLY,, setup.lst,,,, 531,,,,, !VITAL
+	1, rptstp16.exe,,,, 1997-08-28, !DECOMPRESS,,, !READONLY,, rptstp16.ex_,,,, 203392,,,,, !VITAL
+	1, setup.ini,,,, 1997-08-28,,,, !READONLY,,,,,, 256,,,,, !VITAL
+
+[Seagate Crystal Reports Programs\Distribution Expert\@TargetDir]
+	1, dexp16.exe,,,, 1997-08-28,,,, !READONLY,,,,,, 163728,,,,, !VITAL
+
+[Work Station Setup\@WKCSETUP]
+	1, wkccui16.dll,,,, 1997-08-07, !DECOMPRESS,,, !READONLY,, wkccui16.dl_,,,, 56448,,,,, !VITAL
+	1, wkcfiles.inf,,,, 1997-08-29, !DECOMPRESS,,, !READONLY,,,,,, 79152,,,,, !VITAL
+	1, wkcsetup.dl_,,,, 1997-02-13, !DECOMPRESS,,, !READONLY,,,,,, 61778,,,,, !VITAL
+	1, wkcstp16.exe,,,, 1997-08-26, !DECOMPRESS,,, !READONLY,, wkcstp16.ex_,,,, 192480,,,,, !VITAL
+	1, wkcsetup.lst,,,, 1997-07-29,,,, !READONLY,, setup.lst,,,, 817,,,,, !VITAL

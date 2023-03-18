@@ -1,0 +1,10 @@
+FORM1.FRM
+C:\WINDOWS\SYSTEM\TRUEGRID.VBX
+WHERE.BAS
+WINHELP.BAS
+ABOUT.FRM
+ProjWinSize=313,447,190,163
+ProjWinShow=2
+IconForm="Form1"
+Title="Mark & Select Records"
+ExeName="MARKGRID.EXE"

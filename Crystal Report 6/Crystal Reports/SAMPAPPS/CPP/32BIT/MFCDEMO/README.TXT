@@ -1,0 +1,11 @@
+This This is a vc++ 4.0 sample application using the crystal reports class library and the crpe api.  It contains  the following print engine functions.
+-subreports.
+-parameter field retrieving and assignment
+-conditional section/area formatting formulas and options.
+-setting section font.  
+-setting the location of a table.
+-logging onto an sql server type database via pelogonserver, with private info, and nthtablelogoninfo.
+-setting seleciton formulas and formulas.
+-modifying and retrieving sql query.
+-assigning stored procedures parameters.
+-discarding saved data.

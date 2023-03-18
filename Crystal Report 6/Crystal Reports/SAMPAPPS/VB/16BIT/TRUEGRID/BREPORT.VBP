@@ -1,0 +1,17 @@
+Form=FORM1.FRM
+VBX=..\..\..\WINDOWS\SYSTEM\TRUEGRID.VBX
+VBX=..\..\..\WINDOWS\SYSTEM\CRYSTAL.VBX
+Reference=*\G{00025E01-0000-0000-C000-000000000046}#2.5#0#C:\WINDOWS\SYSTEM\DAO2516.DLL#Microsoft DAO 2.5 Object Library
+ProjWinSize=260,386,248,215
+ProjWinShow=2
+IconForm="Form1"
+Name="BREPORT"
+HelpContextID="0"
+StartMode=0
+VersionCompatible="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="Crystal Services"

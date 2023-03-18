@@ -1,0 +1,32 @@
+/*----------------------------
+   MDIDEMO.RC resource script
+  ----------------------------*/
+
+#include <windows.h>
+#include "mdidemo.h"
+
+MdiMenuInit MENU 
+BEGIN
+	POPUP "&File"
+	BEGIN
+		MENUITEM "New &Hello", IDM_NEWHELLO
+		MENUITEM SEPARATOR
+		MENUITEM "E&xit", IDM_EXIT
+	END
+
+	POPUP "&Window"
+	BEGIN
+		MENUITEM "&Cascade\tShift+F5", IDM_CASCADE
+		MENUITEM "&Tile\tShift+F4", IDM_TILE
+		MENUITEM "Arrange &Icons", IDM_ARRANGE
+		MENUITEM "Close &All", IDM_CLOSEALL
+	END
+
+END
+
+
+MdiAccel ACCELERATORS
+     {
+     VK_F5, IDM_CASCADE, VIRTKEY, SHIFT
+     VK_F4, IDM_TILE,    VIRTKEY, SHIFT
+     }

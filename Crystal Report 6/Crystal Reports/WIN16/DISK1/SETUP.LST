@@ -1,0 +1,21 @@
+[Params]
+    WndTitle   = Setup
+    WndMess    = Initializing Setup...
+    TmpDirSize = 1200
+    TmpDirName = ~crwinst.t
+    CmdLine    = crwstp16.exe /S %s %s
+    DrvModName = CRSETUP
+
+[Files]
+    crwsetup.ini = crwsetup.ini
+    mscomstf.dl_ = mscomstf.dll
+    msinsstf.dl_ = msinsstf.dll
+    msuilstf.dl_ = msuilstf.dll
+    msshlstf.dl_ = msshlstf.dll
+    msdetstf.dl_ = msdetstf.dll
+    mscuistf.dl_ = mscuistf.dll    
+    crwfiles.inf = crwfiles.inf
+    crodbc16.in_  = crodbc16.inf
+    odbcinst.dl_ = odbcinst.dll
+    crwstp16.ex_ = crwstp16.exe
+    readme.hlp   = readme.hlp 

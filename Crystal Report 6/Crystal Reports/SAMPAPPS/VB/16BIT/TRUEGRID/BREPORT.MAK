@@ -1,0 +1,6 @@
+FORM1.FRM
+TRUEGRID.VBX
+..\CRYSTAL.VBX
+ProjWinSize=260,386,248,215
+ProjWinShow=2
+IconForm="Form1"

@@ -1,0 +1,59 @@
+INCLUDE SYSTEM "ixrow.4gh"
+
+INCLUDE SYSTEM "ixwindow.4gh"
+INCLUDE SYSTEM "ixbutton.4gh"
+INCLUDE SYSTEM "ixtxtbox.4gh"
+INCLUDE SYSTEM "ixsuptbl.4gh"
+INCLUDE SYSTEM "ixsupfld.4gh"
+
+CLASS PopupWin DERIVED FROM ixWindow
+	FUNCTION PopupWin( 
+		geometry ixGeometry : NEW ixGeometry( 
+			top : 0,
+			left : 0,
+			height : 5025,
+			width : 8235
+		),
+		appearance ixAppearance : NEW ixAppearance( 
+			fontName : "System",
+			fontSize : 10,
+			fontBold : TRUE,
+			fontItalic : FALSE,
+			fontUnderline : FALSE,
+			foreColor : NULL,
+			backColor : 16711808
+		),
+		windowStyle SMALLINT : ixWindow::modalPopup,
+		containingWindow ixWindow : NULL,
+		title CHAR(*) : "Popup Test",
+		enabled BOOLEAN : TRUE,
+		helpFile CHAR(*) : NULL,
+		name CHAR(*) : "PopupWin",
+		helpNum INTEGER : 0,
+		source BOOLEAN : TRUE,
+		shown BOOLEAN : TRUE,
+		topicName CHAR(*) : NULL,
+		icon CHAR(*) : NULL
+	) 
+PUBLIC VARIABLE 
+	Button24 ixButton,
+	newtext_tb ixTextBox,
+	SuperTable44 ixSuperTable,
+	SuperField4546 ixSuperField,
+	SuperField4849 ixSuperField,
+	SuperField5152 ixSuperField,
+	SuperField5455 ixSuperField,
+	SuperField5758 ixSuperField,
+	SuperField6061 ixSuperField,
+	SuperField6364 ixSuperField,
+	Button66 ixButton,
+	Button67 ixButton,
+	Button68 ixButton,
+	Button69 ixButton,
+	Button70 ixButton,
+	Button71 ixButton,
+	Button72 ixButton
+
+PUBLIC VARIABLE thisText1 ixString
+
+END CLASS -- PopupWin

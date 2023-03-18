@@ -1,0 +1,727 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""res\\crpeplus.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#include ""afxres.rc""  \t// Standard components\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\crpeplus.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open Print Job...\tCtrl+O",  ID_FILE_OPEN
+        MENUITEM "Close Print Job",             ID_JOBCLOSE
+        MENUITEM "Discard Saved Data",          ID_DISCARDSAVEDDATA
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Report"
+    BEGIN
+        MENUITEM "&Print Preview",              ID_REPORT_PREVIEW
+        MENUITEM "P&rint To Printer",           ID_REPORT_TOPRINTER
+        MENUITEM "&Export...",                  ID_REPORT_EXPORT
+    END
+    POPUP "Form&ula"
+    BEGIN
+        MENUITEM "Set &Formula",                ID_FORMULA_SETFORMULA
+        MENUITEM "Set &Selection Formula",      ID_FORMULA_SETSELECTIONFORMULA
+
+    END
+    POPUP "&Logon"
+    BEGIN
+        MENUITEM "Logon &SQL Server",           ID_LOGON_LOGONSQLSERVER
+        MENUITEM "&Table Logon Info",           ID_LOGON_TABLELOGONINFO
+        MENUITEM "Logon SQLServer with Private Info", 
+                                                ID_LOGONWITHPRIVATEINFO
+    END
+    POPUP "&SQL"
+    BEGIN
+        MENUITEM "&Modify SQL",                 ID_SQLQUERY
+        MENUITEM "Stored Proc Parameters",      ID_PROCPARAMS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "Location"
+    BEGIN
+        MENUITEM "Set Location",                ID_SETLOCATION
+    END
+    POPUP "Format"
+    BEGIN
+        MENUITEM "Section Format",              ID_SECTIONFORMAT
+        MENUITEM "Area Format",                 ID_AREAFORMAT
+    END
+    POPUP "Pararmeter Fields"
+    BEGIN
+        MENUITEM "Set Parameter Field Info",    ID_PARAMETERFIELDS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About crpeplus...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Crystal Reports Class Demo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON1,IDC_STATIC,11,17,18,20
+    LTEXT           "Crystal Reports Class Demo Version 1.0",IDC_STATIC,40,
+                    10,119,8
+    LTEXT           "Copyright © 1995",IDC_STATIC,39,32,119,8
+    DEFPUSHBUTTON   "OK",IDOK,164,18,32,14,WS_GROUP
+    LTEXT           "By Craig Chaplin, Kai Chan",IDC_STATIC,40,21,96,10
+    LTEXT           "Steps to use this sample application:",IDC_STATIC,9,49,
+                    198,9
+    LTEXT           "1. Open a report (*.rpt) that was designed in Crystal Reports.",
+                    IDC_STATIC,20,70,170,19
+    LTEXT           "2. If the report is based on SQL tables, you might be required to logon to your SQL server first.  To logon to server, select the Logon menu, and then select either Logon SQL Server or Table Logon Info option.",
+                    IDC_STATIC,19,95,170,33
+    LTEXT           "3. Crystal Reports can print your report to a window, to the printer,  or export to a file of 11 different formats.  Select the Report menu and then select the output of your choice.",
+                    IDC_STATIC,18,134,170,32
+    GROUPBOX        "",IDC_STATIC,4,60,208,112
+END
+
+IDD_SELFORMULA DIALOG DISCARDABLE  0, 0, 290, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "SET SELECTION FORMULA"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Set",IDSet,53,97,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,184,97,50,14
+    EDITTEXT        IDC_NEWSELECTFORMULA,12,22,261,63,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "Set Selection Formula to:",IDC_STATIC,5,10,277,81
+    PUSHBUTTON      "&OK",IDOK,118,97,51,14
+END
+
+IDD_LOGONSERVER DIALOG DISCARDABLE  0, 0, 215, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "LOGON SQL SERVER"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Logon Server",IDLOGONSERVER,42,111,50,14
+    PUSHBUTTON      "&Done",IDOK,122,111,50,14
+    LTEXT           "Database DLL",IDC_STATIC,21,31,62,8
+    LTEXT           "Server Name",IDC_STATIC,21,44,62,12
+    LTEXT           "Database Name",IDC_STATIC,21,57,62,12
+    LTEXT           "User ID",IDC_STATIC,21,70,62,8
+    LTEXT           "Password",IDC_STATIC,21,84,62,8
+    GROUPBOX        "PELOGONSERVER",IDC_STATIC,9,13,194,92
+    EDITTEXT        IDC_EDIT1,91,29,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,91,42,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,91,55,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,91,68,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,91,81,97,12,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_TABLELOGON DIALOG DISCARDABLE  0, 0, 215, 149
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "SQL TABLE LOGON"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Set",ID_SETLOGON,9,130,50,14
+    PUSHBUTTON      "&Done",IDCANCEL,151,130,50,14
+    LTEXT           "Server Name",-1,23,48,60,12
+    LTEXT           "Database Name",-1,23,61,60,12
+    LTEXT           "User ID",-1,23,74,60,12
+    LTEXT           "Password",-1,23,88,60,12
+    GROUPBOX        "PESETNTHTABLELOCATION",-1,9,13,194,111
+    EDITTEXT        IDC_EDIT1,91,47,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,91,60,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,91,73,97,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,91,86,97,12,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_Tables,92,31,95,53,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Database Table",IDC_TABLE,23,31,60,13
+    CONTROL         "        Propagate Across Tables",IDC_PROPAGATE,"Button",
+                    BS_AUTOCHECKBOX,25,105,135,10
+    PUSHBUTTON      "&Test Logon",IDC_TEST,81,130,50,14
+END
+
+IDD_SETFORMULA DIALOG DISCARDABLE  0, 0, 254, 119
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Formula"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Done",IDOK,172,92,50,14
+    COMBOBOX        IDC_CFNAME,70,15,124,62,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Formula Name",IDC_STATIC,16,15,47,8
+    LTEXT           "Formula Text",IDC_STATIC,16,29,58,8
+    EDITTEXT        IDC_FORMTEXT,18,39,221,45,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "&Set",IDC_SET,47,92,50,14
+END
+
+IDD_SQLQUERY DIALOG DISCARDABLE  0, 0, 313, 188
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SQL QUERY"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Set SQL",IDSet,80,159,50,14
+    PUSHBUTTON      "&Done",IDCANCEL,182,158,50,14
+    GROUPBOX        "SQL Query",IDC_STATIC,7,7,299,140
+    EDITTEXT        IDC_SQLTEXT,17,20,279,118,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Crystal Services Inc\0"
+            VALUE "FileDescription", "CRPEPLUS MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CRPEPLUS\0"
+            VALUE "LegalCopyright", "Copyright © 1995\0"
+            VALUE "OriginalFilename", "CRPEPLUS.EXE\0"
+            VALUE "ProductName", "CRPEPLUS Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 213
+    END
+
+    IDD_SETFORMULA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_SQLQUERY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Crystal Reports Class Demo\n\nCrpepl\n\n\nCrpeplus.Document\nCrpepl Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Crystal Reports Class Demo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_REPORT_PREVIEW       "Print the report to a window"
+    ID_REPORT_TOPRINTER     "Print the report to the printer"
+    ID_FORMULA_SETFORMULA   "Change the content of the report's formulas"
+    ID_FORMULA_SETSELECTIONFORMULA "Modify the selection criteria"
+    ID_LOGON_LOGONSQLSERVER "Logon to SQL Server: MS Server, Oracle, SQLBase, ..."
+    ID_LOGON_TABLELOGONINFO "Set the logon of Info of each table in the report"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SQL_STOREDPROCEDURE  "Change stored procedure parameters"
+    ID_SQLQUERY             "Modify the report's SQL Query"
+    ID_FORMAT_SECTIONFORMAT "Get/Set Section Format"
+    ID_FORMAT_AREAFORMAT    "Get and Set Area Format"
+    ID_PARARMETERFIELDS_SETPARAMETERFIELDINFO "Get/Set Parameter Field Info"
+    ID_JOBCLOSE             "Close the Print Job"
+    ID_DISCARDSAVEDDATA     "Discard Saved Data"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SETLOCATION          "Set Database Location"
+    IDS_WILDCARD            "Any Files"
+    IDS_WILCARDFILTER       "*.*"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SECTIONVISIBLE      "Visible"
+    IDS_SECTIONNEWPAGEBEFORE "New Page Before"
+    IDS_SECTIONNEWPAGEAFTER "New Page After"
+    IDS_SECTIONKEEP         "Keep Together"
+    IDS_SECTIONSUPPRESSBLANK "Suppres Blank Section"
+    IDS_RESETPAGE           "Reset PageN After"
+    IDS_SECTIONBOTTOM       "Print at Bottom of Page"
+    IDS_SECTIONBKGRND       "Background Color"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SECTIONUNDERLAY     "Underlay Section"
+    IDS_SECTIONSHOWAREA     "Show Area"
+    IDS_SECTIONFREEFORM     "Free Form Placement"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_AREAFORMAT           "Get and Set Area format"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HINTNUMCUR          "Please Enter a numerical value.  DO NOT place any chars(i.e.',', '$', etc.) DO NOT enter any chars for """" assignment."
+    IDS_HINTBOOLEAN         "Please Enter TRUE or FALSE.  Any other characters will cause an error. DO NOT enter any chars for """" assignment."
+    IDS_HINTDATE            "Please enter a date in the format: Date(yyyy,mm,dd).  DO NOT enter any chars for """" assignment."
+    IDS_HINTSTRING          "Please Enter A String Value.  The Value must not be longer than 256 chars.  DO NOT enter any chars for """" assignment."
+    IDS_HINTCURRENCY        "Please Enter a value preceeded with a '$' character.  NO SPACES. DO NOT enter any chars for """" assignment."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOGONWITHPRIVATEINFO "Logon SQL Server with Private Info"
+    ID_PROCPARAMS           "Get/Set Stored Procedure Parameters"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETLOCATION DIALOG DISCARDABLE  0, 0, 192, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Location"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,15,5,100,70,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Close ",IDC_BUTTON1,130,5,50,20
+    EDITTEXT        IDC_EDIT1,15,80,105,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Set Location",IDC_BUTTON2,130,30,50,20
+    PUSHBUTTON      "Select File >>",IDC_BUTTON3,130,80,50,15
+    LTEXT           "",IDC_SETLOCATIONSTATUS,15,100,115,10
+END
+
+IDD_CURSORBAR DIALOG DISCARDABLE  0, 0, 382, 38
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Set To Active Report",IDC_ACTIVERPT,10,5,80,15,
+                    BS_MULTILINE
+    PUSHBUTTON      "Open Subreport",IDC_OPENSUB,100,5,80,15,BS_MULTILINE
+    PUSHBUTTON      "Close Subreport",IDC_CLOSESUB,190,5,75,14
+    LTEXT           "",IDC_STATUS,275,10,100,20
+    GROUPBOX        "Active Report",IDC_STATIC,270,0,110,35
+END
+
+IDD_SECTIONFORMAT DIALOG DISCARDABLE  0, 0, 332, 146
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Section Format"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_FORMATOPTIONS,5,116,110,350,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Value",IDC_FORMATVALUE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,120,116,35,15
+    EDITTEXT        IDC_SECTIONFORMULA,115,15,155,50,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Set Conditional Formula",IDC_SETSECTIONFORMULA,275,15,
+                    50,25,BS_CENTER | BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "Set Section Options",IDC_SETSECTIONFORMAT,115,80,80,25
+    PUSHBUTTON      "Close",IDC_CLOSEFORMAT,290,110,35,20
+    LTEXT           "",IDC_STATUSOFSECTION,165,110,115,30,SS_SUNKEN
+    LISTBOX         IDC_SECTIONLIST,5,15,105,85,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Format Option and Value",IDC_STATIC,0,105,160,35
+    LTEXT           "Section Name and Number:",IDC_STATIC,5,5,100,10
+    LTEXT           "Formula Text:",IDC_STATIC,115,5,65,10
+    CONTROL         "PE_FIELDS",IDC_FIELD,"Button",BS_AUTORADIOBUTTON,205,90,
+                    50,10
+    CONTROL         "PE_TEXT",IDC_TEXT,"Button",BS_AUTORADIOBUTTON,205,80,50,
+                    10
+    PUSHBUTTON      "Set Font",IDC_SETFONT,260,80,40,20
+    GROUPBOX        "PESetFont",IDC_GROUPTEXTFIELD,200,70,105,35,WS_GROUP
+END
+
+IDD_AREAFORMAT DIALOG DISCARDABLE  0, 0, 287, 146
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Area Format"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_FORMATOPTIONS,5,116,110,350,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Value",IDC_FORMATVALUE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,120,116,35,15
+    EDITTEXT        IDC_SECTIONFORMULA,115,15,155,50,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Set Conditional Formula",IDC_SETSECTIONFORMULA,150,65,
+                    85,20,BS_CENTER | BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "Set Area Options",IDC_SETSECTIONFORMAT,115,90,75,15
+    PUSHBUTTON      "Close",IDC_CLOSEFORMAT,200,90,65,15
+    LTEXT           "",IDC_STATUSOFSECTION,165,110,115,30,SS_SUNKEN
+    LISTBOX         IDC_SECTIONLIST,5,15,105,85,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Format Option and Value",IDC_STATIC,0,105,160,35
+    LTEXT           "Section Name:",IDC_STATIC,5,5,100,10
+    LTEXT           "Formula Text:",IDC_STATIC,115,5,65,10
+END
+
+IDD_PARAMETERFIELDS DIALOG DISCARDABLE  0, 0, 247, 231
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameter Fields"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,10,15,100,70,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,110,135,120,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,111,100,120,15,ES_AUTOHSCROLL
+    CONTROL         "Current Value Set",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,135,80,15
+    CONTROL         "Default Value Set",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,100,75,15
+    GROUPBOX        "Default Value",IDC_STATIC,15,90,220,30
+    GROUPBOX        "Current Value",IDC_STATIC,15,125,220,30
+    EDITTEXT        IDC_EDIT3,120,70,110,15,ES_AUTOHSCROLL
+    LTEXT           "Static",ID_PARAMETERSUM,120,20,110,40,SS_SUNKEN
+    LTEXT           "Prompt:",IDC_STATIC,120,60,105,10
+    LTEXT           "Parameter Fields:",IDC_STATIC,10,0,100,10
+    LTEXT           "Other Parameter Field Info:",IDC_STATIC,120,10,115,10
+    LTEXT           "",IDC_PARAMETERSTATUS,125,160,115,45,SS_SUNKEN
+    DEFPUSHBUTTON   "Set Parameter Field",IDC_BUTTON1,15,160,45,30,
+                    BS_MULTILINE
+    PUSHBUTTON      "Close",IDC_BUTTON2,70,160,40,30
+    LTEXT           "",IDC_FUNCTIONSTATUS,10,210,230,20,SS_SUNKEN
+END
+
+IDD_STOREDPROC DIALOG DISCARDABLE  0, 0, 207, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Stored Procedure Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Set Stored Proc Parameter",IDC_BUTTON1,125,15,45,30,
+                    BS_MULTILINE
+    PUSHBUTTON      "Close",IDC_BUTTON2,125,55,45,30
+    EDITTEXT        IDC_EDIT1,10,105,105,15,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,10,15,105,75,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Parameters:",IDC_STATIC,10,5,100,10
+    LTEXT           "Value:",IDC_STATIC,10,95,105,10
+    LTEXT           "",IDC_PROCSTATUS,120,90,80,40,SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CURSORBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_SECTIONFORMAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_AREAFORMAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_PARAMETERFIELDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_STOREDPROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\crpeplus.rc2"  // non-Microsoft Visual C++ edited resources
+
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+#include "afxres.rc"  	// Standard components
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

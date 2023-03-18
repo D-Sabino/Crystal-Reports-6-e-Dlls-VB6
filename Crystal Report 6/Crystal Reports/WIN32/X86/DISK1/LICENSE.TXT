@@ -1,0 +1,264 @@
+License Agreement And Limited Warranty
+
+IMPORTANT - READ CAREFULLY
+This License Agreement and Limited Warranty (herein 
+referred to as "Agreement") is a legal agreement between 
+you (either an individual or a single entity) and Seagate 
+Software, Inc. (herein referred to as "Seagate Software") for 
+the Seagate Crystal Reports software product, which 
+includes computer software and associated media, printed 
+materials, and "on-line" or electronic documentation (herein 
+referred to as "Software Product"). By opening the sealed 
+software package and/or by installing, copying or otherwise 
+using the Software Product, you agree to be bound by the 
+terms of this Agreement. If you do not agree to the terms of 
+this Agreement, promptly return the Software Product and 
+accompanying items in resalable condition to the place from 
+which you obtained them for a full refund.
+1.	LIMITED LICENSE.  You are purchasing only the right 
+to use the Software Product as described in the attached 
+Exhibit 1, and are acquiring no rights to the software 
+itself, or the enclosed copy, except the Limited License 
+granted herein.
+2.	COPYRIGHT. All title and copyrights in and to the 
+Software Product (including but not limited to, any 
+images, photographs, animations, video, audio, music, 
+and text incorporated into the Software Product), the 
+accompanying printed materials, and any copies of the 
+Software Product are owned by Seagate Software or its 
+suppliers. The Software Product is protected by 
+copyright laws and international treaty provisions. 
+Therefore, you may not copy the Software Product 
+except that you may either (a) make one copy of the 
+Software Product solely for backup or archival purposes, 
+or (b) install the Software Product on a single computer 
+provided you keep the original solely for backup or 
+archival purposes. You may not copy the printed 
+materials accompanying the Software Product.  You may 
+not alter, remove or destroy any copyright notice, 
+proprietary marketing or confidential legends placed on 
+or with the Software Product.
+3.	OTHER RESTRICTIONS.
+3(a).  Rental. You may not rent or lease the Software 
+Product.
+3(b).  Software Transfer. Unless this is a "Not for 
+Resale" or "Evaluation" product, you may 
+permanently transfer all of your rights under this 
+Agreement, provided that you retain no copies, you 
+transfer all of the Software Product (including all 
+component parts, the media and printed materials, 
+any upgrades, and this Agreement), and the 
+recipient agrees to the terms of this Agreement. If 
+the Software Product is an upgrade, any transfer 
+must include all prior versions of the Software 
+Product.  You may not transfer a "Not for Resale" 
+or "Evaluation" product license.
+3(c).  Export. Any export of the Software Product or its 
+technical data from the United States may be 
+restricted by U.S. export control laws, and 
+accordingly you must comply with such laws 
+before engaging in any such export.
+3(d).  Limitations on Modifications or Reverse 
+Engineering. You shall not cause or permit the 
+reverse engineering, alteration, disassembly, 
+decompilation, translation or adaptation of the 
+Software Product, or take any action inconsistent 
+with Seagate Software's or its suppliers' ownership 
+of the Software Product.
+3(e).  No Separation of Components. The Software 
+Product is licensed as a single product, and neither 
+the software programs comprising the Software 
+Product or any update or upgrade may be separated 
+for use by more than one user at a time.
+3(f).  Termination. Without prejudice to any other rights, 
+Seagate Software may terminate this Agreement if 
+you fail to comply with the terms and conditions of 
+this Agreement. In such event, you must destroy all 
+copies of the Software Product.
+4.	LIMITED WARRANTY.  Unless this is a "Not for 
+Resale" or "Evaluation " product,  Seagate Software 
+warrants the physical disk(s) and physical documentation 
+to be free of defects in materials and workmanship for a 
+period of 60 days from the purchase date. If Seagate 
+Software receives notification within this warranty 
+period of any such defects and such notification is 
+determined to be correct, Seagate Software will replace 
+the disk(s) or documentation.  Seagate Software's entire 
+liability for any breach of this warranty is limited to 
+replacement of defective disk(s) or documentation, and 
+does not include or extend to claims for any other 
+damages.
+SEAGATE SOFTWARE SPECIFICALLY DISCLAIMS 
+ALL OTHER CONDITIONS AND WARRANTIES, 
+EXPRESS, IMPLIED, STATUTORY OR 
+OTHERWISE, INCLUDING BUT NOT LIMITED TO, 
+ANY IMPLIED CONDITION OR WARRANTY OF 
+MERCHANTABILITY OR FITNESS FOR A 
+PARTICULAR PURPOSE, OR SATISFACTORY 
+QUALITY.
+"Not for Resale" and "Evaluation" products are 
+provided "AS IS" without warranty of any kind.  
+Seagate Software does not guarantee results or warrant 
+that these products will be error-free.
+5.	LIMITATION OF LIABILITY. IN NO EVENT SHALL 
+SEAGATE SOFTWARE BE LIABLE FOR COSTS OF 
+PROCUREMENT OF SUBSTITUTE PRODUCTS, 
+LOSS OF PROFITS, DATA OR USE OF THE 
+SOFTWARE PRODUCT, OR SPECIAL, 
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES 
+OR OTHER SIMILAR CLAIMS, HOWEVER 
+CAUSED, AND ON ANY THEORY OF LIABILITY, 
+EVEN IF SEAGATE SOFTWARE HAS BEEN 
+SPECIFICALLY ADVISED OF THE POSSIBILITY 
+OF SUCH DAMAGES. IN NO EVENT WILL 
+SEAGATE SOFTWARE'S LIABILITY FOR ANY 
+DAMAGES TO YOU OR ANY OTHER PERSON 
+EVER EXCEED THE LOWER OF THE SUGGESTED 
+LIST PRICE OR THE ACTUAL PURCHASE PRICE 
+PAID FOR THE SOFTWARE PRODUCT, 
+REGARDLESS OF THE FORM OF THE CLAIM. 
+THESE LIMITATIONS SHALL APPLY 
+NOTWITHSTANDING ANY FAILURE OF 
+ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. 
+ALL THIRD PARTY SUPPLIERS TO SEAGATE 
+SOFTWARE OF ANY PORTION OF THE 
+SOFTWARE PRODUCT MAKE NO WARRANTY 
+AND SHALL HAVE NO LIABILITY TO YOU.
+6.	RUNTIME SOFTWARE. The software files listed in the 
+software file runtime.hlp, provided on your software 
+disk(s), individually, collectively or in any combination, 
+constitute Runtime Software. Unless this is a "Not for 
+Resale" or "Evaluation" product, Seagate Software 
+grants you a Limited Runtime License to reproduce and 
+distribute exact copies of the Runtime Software, and to 
+modify, reproduce and distribute the sample applications 
+made from the original disks in this package (or a set of 
+backup copies made directly from them), if and only if 
+all of the following conditions are satisfied:
+6(a).  you may distribute such copies solely for the 
+purpose of executing specific-purpose application 
+programs written using an authorized copy of 
+Software Product;
+6(b).  you remain solely responsible for support, service, 
+upgrades, and technical or other assistance, 
+required or requested by anyone receiving such 
+copies;
+6(c).  you may not use the name, logo, or trademark of 
+Seagate Software or the Software Product without 
+written permission from Seagate Software;
+6(d).  you may not alter, disassemble, decompile, 
+translate, adapt or reverse-engineer the Runtime 
+Software;
+6(e).  Seagate Software makes no warranty other than the 
+Limited License warranty provided in this 
+agreement to you; and 
+6(f).  you will indemnify Seagate Software against any 
+claims or liabilities arising out of its use, 
+reproduction or distribution, and the use by the 
+recipients or copies made thereunder.
+You may not include the Runtime Software or sample 
+applications in any general-purpose report writing and/or 
+database querying product, or any other product that is 
+generally competitive with Seagate Software product 
+offerings, nor may you use the Software Product to 
+create a product that is generally competitive with 
+Seagate Software product offerings. If you wish to 
+distribute copies of the Runtime Software or sample 
+applications on other terms, you must obtain written 
+permission from Seagate Software.
+"Not for Resale" and "Evaluation" products do not 
+include a Limited Runtime License, and you may not, 
+therefore, distribute Runtime Software or sample 
+applications.
+The Software Product contains software components 
+from Seagate Software suppliers. This Agreement does 
+not grant you the rights to distribute software 
+components from these suppliers, including but not 
+limited to, Microsoft Corporation's "JET Files", unless 
+you have proper authorization from the appropriate 
+supplier.
+7.	GOVERNING LAW. If you acquired this product in 
+Canada, this Agreement is governed by the laws of the 
+Province of British Columbia, Canada, without regard, 
+and each party irrevocably attorns to the exclusive 
+jurisdiction of the courts of the Province or British 
+Columbia. If you acquired this product in the United 
+States or elsewhere other than Canada, this Agreement is 
+governed by the laws of the State of California, without 
+regard to its conflict of laws provision, and each party 
+irrevocably submits to the exclusive jurisdiction of the 
+courts of the State of California.  The parties disclaim the 
+application of the United Nations Convention on the 
+International Sale of Goods.
+8.	MISCELLANEOUS. This document constitutes the 
+entire agreement of the parties regarding the subject 
+matter herein. All rights not expressly granted to you are 
+retained by Seagate Software.  The failure of Seagate 
+Software to enforce any right or claim against you shall 
+not be deemed a waiver of such right or claim or any 
+other right or claim hereunder.  No modification to this 
+Agreement shall have effect unless in writing and signed 
+by the authorized representative of the parties.  If any 
+provision of this Agreement is ruled invalid, such 
+invalidity shall not affect the validity of the remaining 
+portions of this Agreement.
+Restricted Rights Legend
+U.S. GOVERNMENT RESTRICTED RIGHTS. Use, 
+duplication, reproduction, or transfer of this commercial 
+product and accompanying documentation is restricted in 
+accordance with FAR 12.212 and DFARS 227.7202 and by 
+this license agreement. 
+
+Exhibit 1
+
+SINGLE USER. Seagate Software grants you a personal, 
+non-exclusive Limited License to use one copy of the 
+Software Product on a single computer.  You may access the 
+Software Product from a hard disk, over a network, or by 
+any other method, strictly in accordance to the terms hereof. 
+You may use each licensed copy of the Software Product 
+only on a single computer.
+
+MULTIPLE USERS.  For additional users to use the 
+Software Product on a network, you must acquire additional 
+licenses, also referred to as "LAN Paks", which allow 
+additional designated users in numbers and on terms 
+specified by the documentation accompanying the Software 
+Product. You may have as many copies of the Software 
+Product in use on a network as is specifically authorized in 
+the documentation.  
+Except as stated in section 1, Seagate Software grants you a 
+non-exclusive Limited License to use one copy of the 
+Software Product on a single computer for each of and up to 
+the total number of licenses you are acquiring. You may 
+access the Software Product from a hard disk, over a 
+network, or by any other method, strictly in accordance to 
+the terms hereof.  
+Licenses for Seagate Crystal Reports are not concurrent 
+licenses but are named user licenses. That is, if you have 20 
+people who will be using the Crystal Report designer, you 
+will need licenses for all 20 users, even if no more than 5 
+will be using the program at any given time.
+
+UPGRADE SOFTWARE.  Seagate Software grants you a 
+personal, non-exclusive Limited License to use one copy of 
+the Software Product on a single computer provided that a) 
+you have a valid license to and are upgrading an earlier 
+version of the Software Product; or b) you have a valid 
+license to and are upgrading a copy of one of an approved 
+list of third party software products which includes or 
+"bundles" an earlier version of the Software Product; or c) 
+you have a valid license to a copy of one of an approved list 
+of third party general-purpose report writing and/or database 
+querying products which are generally competitive to the 
+Software Product.
+
+EVALUATION SOFTWARE.  Seagate Software grants you 
+a personal, non-exclusive Limited License to use one copy 
+of the Software Product on a single computer for evaluation 
+purposes only, for a period as specified on the Product 
+packaging, not to exceed ninety (90) days.  You are 
+acquiring only the limited right to use a single copy of the 
+Software Product for evaluation purposes only and are 
+acquiring no rights to the software itself.
+	

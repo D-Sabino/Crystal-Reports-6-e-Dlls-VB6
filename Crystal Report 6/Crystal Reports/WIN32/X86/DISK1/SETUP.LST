@@ -1,0 +1,24 @@
+[Params]
+	WndTitle   = Crystal Reports Setup
+	WndMess    = Initializing Setup...
+	TmpDirSize = 1
+	TmpDirName = ~crwinst.t
+	CmdLine    = crwstp32.exe /d %s %s
+	DrvModName = CRWSTP32
+
+[Files]
+	crwfiles.inf    = crwfiles.inf
+	mscomstf.dl_ = mscomstf.dll
+	msdetstf.dl_ = msdetstf.dll
+	msinsstf.dl_ = msinsstf.dll
+	msshlstf.dl_ = msshlstf.dll
+	msuilstf.dl_ = msuilstf.dll
+	mscuistf.dl_ = mscuistf.dll
+	crwstp32.ex_  = crwstp32.exe
+	odbccp32.dl_ = odbccp32.dll
+	crodbc32.in_  = crodbc32.inf
+	msvcrt20.dl_ = msvcrt20.dll
+	odbcint.dl_ = odbcint.dll
+	crwsetup.ini = crwsetup.ini
+	readme.hlp   = readme.hlp
+	readme.cnt   = readme.cnt

@@ -1,0 +1,85 @@
+INCLUDE SYSTEM "ixrow.4gh"
+
+INCLUDE SYSTEM "ixwindow.4gh"
+INCLUDE SYSTEM "ixmenu.4gh"
+INCLUDE SYSTEM "ixtxtbox.4gh"
+INCLUDE SYSTEM "ixlabel.4gh"
+
+INCLUDE "c:\\informix\\classes\\crystal\\incl\\crystal.4gh"
+INCLUDE "about.4gh"
+
+CLASS MainWin DERIVED FROM ixWindow
+	FUNCTION MainWin( 
+		geometry ixGeometry : NEW ixGeometry( 
+			top : 0,
+			left : 0,
+			height : 6840,
+			width : 9360
+		),
+		appearance ixAppearance : NEW ixAppearance( 
+			fontName : "System",
+			fontSize : 10,
+			fontBold : TRUE,
+			fontItalic : FALSE,
+			fontUnderline : FALSE,
+			foreColor : NULL,
+			backColor : 4226943
+		),
+		windowStyle SMALLINT : ixWindow::mainTop,
+		containingWindow ixWindow : NULL,
+		title CHAR(*) : "Crystal NewEra Class Demo",
+		enabled BOOLEAN : TRUE,
+		helpFile CHAR(*) : "c:\\crw45\\developr.hlp",
+		name CHAR(*) : "MainWin",
+		helpNum INTEGER : 0,
+		source BOOLEAN : TRUE,
+		shown BOOLEAN : TRUE,
+		topicName CHAR(*) : NULL,
+		icon CHAR(*) : NULL
+	) 
+PUBLIC VARIABLE 
+	Menu1 ixMenu,
+	OpenPrintJobMenu ixMenu,
+	Menu13 ixMenu,
+	PrintToWindowMenu ixMenu,
+	PrintToPrinterMenu ixMenu,
+	Menu50 ixMenu,
+	Menu11 ixMenu,
+	DbMenu ixMenu,
+	GetLocMenu ixMenu,
+	SetLocMenu ixMenu,
+	Menu103 ixMenu,
+	GetTableLogMenu ixMenu,
+	SetTableLogMenu ixMenu,
+	Menu102 ixMenu,
+	LogonMenu ixMenu,
+	LogOffMenu ixMenu,
+	Menu137 ixMenu,
+	Menu135 ixMenu,
+	Menu136 ixMenu,
+	ReportMenu ixMenu,
+	GetRecSelMenu ixMenu,
+	SetRecSelMenu ixMenu,
+	Menu104 ixMenu,
+	GetGrpSelMenu ixMenu,
+	SetGrpSelMenu ixMenu,
+	Menu105 ixMenu,
+	GetFormulaMenu ixMenu,
+	SetFormulaMenu ixMenu,
+	Menu84 ixMenu,
+	Menu85 ixMenu,
+	TextBox1 ixTextBox,
+	Label1 ixLabel,
+	StatusBar ixLabel,
+	Label2 ixLabel,
+	Label3 ixLabel,
+	Label4 ixLabel,
+	Label5 ixLabel,
+	TextBox2 ixTextBox,
+	TextBox3 ixTextBox,
+	TextBox4 ixTextBox,
+	TextBox5 ixTextBox,
+	TextBox6 ixTextBox,
+	Label138 ixLabel,
+	IndexBox ixTextBox
+END CLASS -- MainWin

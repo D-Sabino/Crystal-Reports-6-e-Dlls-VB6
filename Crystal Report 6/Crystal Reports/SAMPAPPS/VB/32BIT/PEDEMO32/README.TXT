@@ -1,0 +1,1 @@
+VB 5.0 Users.  This project will not be successfully opened in vb 5.0 until the the threed32.ocx is registered.   This custom control is not shipped with vb 5.0.  Please run regthreed32.bat located in the threed32 subdirectory.  This batch file will register the threed32.ocx custom control.

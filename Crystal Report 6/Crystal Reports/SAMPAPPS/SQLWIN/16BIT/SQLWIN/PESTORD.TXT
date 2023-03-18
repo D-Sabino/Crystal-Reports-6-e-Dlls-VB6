@@ -1,0 +1,9 @@
+  2   1  0245  CRLOGONSERVER exported, shared data
+  3   1  02bd  CRSETNTHTABLELOGONINFO exported, shared data
+  4   1  0338  CRGETNTHTABLELOGONINFO exported, shared data
+  5   1  03ab  CRSETNTHTABLELOCATION exported, shared data
+  6   1  03ed  CRGETNTHTABLELOCATION exported, shared data
+  7   1  0439  CRSELECTPRINTER exported, shared data
+  1   1  00bc  WEP exported, shared data
+
+

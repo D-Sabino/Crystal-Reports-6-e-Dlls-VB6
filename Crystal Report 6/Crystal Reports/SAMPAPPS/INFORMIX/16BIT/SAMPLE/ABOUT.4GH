@@ -1,0 +1,39 @@
+INCLUDE SYSTEM "ixrow.4gh"
+
+INCLUDE SYSTEM "ixwindow.4gh"
+INCLUDE SYSTEM "ixlabel.4gh"
+INCLUDE SYSTEM "ixbutton.4gh"
+
+CLASS AboutWin DERIVED FROM ixWindow
+	FUNCTION AboutWin( 
+		geometry ixGeometry : NEW ixGeometry( 
+			top : 0,
+			left : 0,
+			height : 2595,
+			width : 4155
+		),
+		appearance ixAppearance : NEW ixAppearance( 
+			fontName : "System",
+			fontSize : 10,
+			fontBold : TRUE,
+			fontItalic : FALSE,
+			fontUnderline : FALSE,
+			foreColor : NULL,
+			backColor : 32832
+		),
+		windowStyle SMALLINT : ixWindow::modalPopup,
+		containingWindow ixWindow : NULL,
+		title CHAR(*) : "About",
+		enabled BOOLEAN : TRUE,
+		helpFile CHAR(*) : NULL,
+		name CHAR(*) : "AboutWin",
+		helpNum INTEGER : 0,
+		source BOOLEAN : TRUE,
+		shown BOOLEAN : TRUE,
+		topicName CHAR(*) : NULL,
+		icon CHAR(*) : NULL
+	) 
+PUBLIC VARIABLE 
+	Label1 ixLabel,
+	CloseButton ixButton
+END CLASS -- AboutWin
